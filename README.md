@@ -9,22 +9,34 @@ Każda para ma własną stronę, a menu (hamburger) pokazuje kafle od najmłodsz
 | --- | --- |
 | `dane/rodzina.json` | Dane wszystkich par (imiona, lata, rodzice, dzieci). Tu dodajesz nowe osoby. |
 | `zasoby/styl.css`, `zasoby/strona.js` | Wygląd i działanie (menu, powiększanie zdjęć). |
-| `zdjecia/` | Zdjęcia. Kopiowane na stronę jako `zdjecia/…`. |
-| `skany/` | Skany aktów i dokumentów. Kopiowane jako `skany/…`. |
-| `zbuduj.py` | Generator: z danych i wzoru tworzy wszystkie strony w `_site/`. |
-| `.github/workflows/pages.yml` | Po każdym wgraniu zmian na `main` buduje stronę i publikuje na GitHub Pages. |
+| `zdjecia/` | Zdjęcia. Przy budowaniu kopiowane do `docs/zdjecia/`. |
+| `skany/` | Skany aktów i dokumentów. Kopiowane do `docs/skany/`. |
+| `zbuduj.py` | Generator: z danych i wzoru tworzy wszystkie strony w folderze `docs/`. |
+| `docs/` | **Gotowa strona** (HTML). Tego folderu używa GitHub Pages. Nie edytuj ręcznie, bo zostanie nadpisany. |
+
+## Jak zmienić stronę
+
+1. Zmień dane w `dane/rodzina.json` (albo wygląd w `zasoby/`), dodaj zdjęcia do `zdjecia/` lub skany do `skany/`.
+2. Zbuduj stronę lokalnie: `python3 zbuduj.py` (potrzebny tylko Python 3, bez dodatkowych pakietów).
+3. Sprawdź wynik, otwierając `docs/index.html` w przeglądarce.
+4. Zatwierdź i wypchnij razem ze zmianami w `docs/`:
+
+```
+git add -A
+git commit -m "Opis zmiany"
+git push
+```
+
+GitHub Pages odświeży stronę po około minucie.
+
+## Ustawienia GitHub Pages
+
+Settings → Pages → Build and deployment → Source: **Deploy from a branch** → Branch: **main**, folder: **/docs** → Save.
+Adres strony: `https://<login>.github.io/<nazwa-repozytorium>/`.
 
 ## Jak dodać parę
 
-1. Dopisz wpis w `dane/rodzina.json` i wskaż `"rodzice"` u dziecka.
-2. Wgraj zmiany na `main`. Strona zbuduje się i opublikuje sama (około minuty).
-
-Podgląd lokalny: `python3 zbuduj.py`, potem otwórz `_site/index.html`.
-
-## Ustawienia GitHub Pages (jednorazowo)
-
-Settings → Pages → Build and deployment → Source: **GitHub Actions**.
-Adres strony: `https://<login>.github.io/<nazwa-repozytorium>/`.
+Dopisz wpis w `dane/rodzina.json` i wskaż `"rodzice"` u dziecka. Menu i linki uzupełnią się same po zbudowaniu.
 
 ## Uwagi
 

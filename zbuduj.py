@@ -2,7 +2,7 @@
 """Buduje strony „Historii rodziny” z pliku rodzina.json.
 
 Użycie:  python3 zbuduj.py   (dane: dane/rodzina.json, zasoby: zasoby/)
-Wynik:   folder _site/ (index.html = strona dziadków, jedna strona na parę, styl.css, strona.js)
+Wynik:   folder docs/ (index.html = strona dziadków, jedna strona na parę, styl.css, strona.js)
 
 Nowa para = nowy wpis w rodzina.json (z polem "rodzice" u dziecka wskazującym jej "id").
 Teksty opowieści na razie są polami zastępczymi w szablonie poniżej.
@@ -12,7 +12,7 @@ from html import escape as e
 from pathlib import Path
 
 SRC = Path(__file__).resolve().parent
-OUT = SRC / "_site"
+OUT = SRC / "docs"
 data = json.loads((SRC / "dane" / "rodzina.json").read_text(encoding="utf-8"))
 PARY = {p["id"]: p for p in data["pary"]}
 HOME = "zofia-i-bronislaw"
@@ -195,6 +195,7 @@ def fragment(title, body):  # wersja do podglądu w Claude (bez własnego <html>
             f'{FONTS}<link rel="stylesheet" href="styl.css">{body}<script src="strona.js"></script>\n')
 
 OUT.mkdir(exist_ok=True)
+(OUT / ".nojekyll").write_text("", encoding="utf-8")
 for f in ("styl.css", "strona.js"): shutil.copy(SRC / "zasoby" / f, OUT / f)
 for d in ("zdjecia", "skany"):
     if (SRC / d).exists(): shutil.copytree(SRC / d, OUT / d, dirs_exist_ok=True)
