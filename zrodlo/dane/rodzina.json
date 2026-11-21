@@ -617,7 +617,12 @@
             "Płaucza Mała, Wierzbica Górna 46"
           ]
         ],
-        "uwaga": "Ojciec, Mikołaj Murzyński, określony jako nobilis."
+        "uwaga": "Ojciec, Mikołaj Murzyński, określony jako nobilis.",
+        "portret": {
+          "plik": "zdjecia/maria-murzynska-portret-koloryzacja.jpg",
+          "podpis": "Maria Bonisławska z d. Murzyńska. Koloryzacja zdjęcia",
+          "zrodlo": "Zbiory rodzinne. Koloryzacja cyfrowa"
+        }
       },
       "on": {
         "imie": "Eustachy",
@@ -649,7 +654,12 @@
             "Płaucza Mała 124"
           ]
         ],
-        "uwaga": "Data urodzenia według metryki urodzenia (zgodnie z dowodem osobistym i zawiadomieniem szkolnym)."
+        "uwaga": "Data urodzenia według metryki urodzenia (zgodnie z dowodem osobistym i zawiadomieniem szkolnym).",
+        "portret": {
+          "plik": "zdjecia/eustachy-bonislawski-portret-koloryzacja.jpg",
+          "podpis": "Eustachy Bonisławski. Koloryzacja zdjęcia",
+          "zrodlo": "Zbiory rodzinne. Koloryzacja cyfrowa"
+        }
       },
       "dzieci": [
         {
@@ -660,16 +670,16 @@
       "lista_dzieci": [
         {
           "imie": "Anna",
-          "opis": "1 sierpnia 1915 – 19 stycznia 1996; mąż: Ludwik Pichur"
+          "opis": "ur. 1 sierpnia 1915, zm. 19 stycznia 1996; mąż: Ludwik Pichur"
         },
         {
           "imie": "Bronisław",
-          "opis": "1917–1996; żona: Zofia Nowalska",
+          "opis": "ur. 21 czerwca 1917, zm. 1996; żona: Zofia Nowalska",
           "strona": "zofia-i-bronislaw"
         },
         {
           "imie": "Jadwiga",
-          "opis": "15 maja 1921 – 1995; mąż: Wojciech Dereń"
+          "opis": "ur. 15 maja 1921, zm. 1995; mąż: Wojciech Dereń"
         },
         {
           "imie": "Agnieszka",
