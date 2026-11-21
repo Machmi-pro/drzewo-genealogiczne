@@ -170,7 +170,7 @@ def couple_page(p):
     for k in p.get("dzieci", []):
         if not k.get("strona"):
             kid_cards.append(f'<div class="kid"><div class="ph">{PERSON_SVG}Miejsce na zdjęcie</div>'
-                             f'<strong>{e(k["imie"])} {e(k.get("nazwisko", "[nazwisko]"))}</strong><span class="yr">* [data i miejsce] · † [data]</span>'
+                             f'<strong>{e((k["imie"] + " " + k.get("nazwisko", "")).strip())}</strong><span class="yr">* [data i miejsce] · † [data]</span>'
                              f'<span class="note">[Krótka notatka: małżonek, zawód, gdzie mieszkało.]</span></div>')
             continue
         kid_cards.append(f'<a class="kid" href="{url(k["strona"])}"><div class="ph">{PERSON_SVG}Miejsce na zdjęcie</div>'
