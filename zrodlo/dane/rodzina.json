@@ -2293,7 +2293,7 @@
         "ur": "ok. 1819",
         "zm": "",
         "ojciec": "Jan Kołodziejczyk",
-        "matka": "Franciszka Szadkowska (?)",
+        "matka": "Franciszka Szadkowska",
         "rodzice": "jan-kolodziejczyk-i-franciszka",
         "ur_data": "około 1819",
         "fakty": [
@@ -2459,16 +2459,27 @@
       "pokolenie": 5,
       "ona": {
         "imie": "Franciszka",
-        "nazwisko": "Szadkowska (?)",
+        "nazwisko": "Szadkowska",
         "ur": "",
         "zm": "",
-        "uwaga": "Nazwisko z wachlarza, ze znakiem zapytania (niepewne)."
+        "fakty": [
+          [
+            "Zmarła",
+            "przed 1839 rokiem"
+          ]
+        ]
       },
       "on": {
         "imie": "Jan",
         "nazwisko": "Kołodziejczyk",
         "ur": "",
-        "zm": ""
+        "zm": "",
+        "fakty": [
+          [
+            "Zmarł",
+            "przed 1839 rokiem"
+          ]
+        ]
       },
       "dzieci": [
         {
