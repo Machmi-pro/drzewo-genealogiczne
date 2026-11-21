@@ -863,24 +863,20 @@
                   "akapit": "Pierwszą żoną Piotra była Tekla Rosiak, urodzona w Sójkach w parafii Kutno, córka Dionizego i Marianny z Szatkowskich. Pobrali się 2 października 1865 roku w Kutnie (akt nr 47). Tekla zmarła przed 1881 rokiem. Drugą żoną została Marianna z domu Pietrasik, urodzona w Kozubach Średnich w parafii Topola Królewska, córka Mikołaja Pietrasika i Agnieszki z Antczaków. Ślub z Marianną, wówczas z Piotrem wdowcem po Tekli, wzięli 9 października 1881 roku we wsi Czerników w parafii Góra Świętej Małgorzaty (akt nr 41)."
                 },
                 {
-                  "zdjecie": {
-                    "plik": "skany/geneteka-nowalski-piotr-malzenstwa.jpg",
-                    "podpis": "Wyniki wyszukiwania w indeksie Geneteki: małżeństwa Piotra Nowalskiego z Teklą Rosiak (1865, Kutno, akt 47) i z Marianną (1881, Góra św. Małgorzaty, akt 41). W indeksie widać też późniejsze akty z rodziny Nowalskich.",
-                    "zrodlo": "Geneteka, Polskie Towarzystwo Genealogiczne (geneteka.genealodzy.pl), zrzut ekranu",
-                    "url": "https://geneteka.genealodzy.pl",
-                    "szeroko": true
+                  "przypis": {
+                    "etykieta": "Źródło",
+                    "tekst": "Geneteka, Polskie Towarzystwo Genealogiczne: małżeństwa Piotra Nowalskiego (1865, Kutno, akt 47; 1881, Góra św. Małgorzaty, akt 41)",
+                    "url": "https://geneteka.genealodzy.pl"
                   }
                 },
                 {
                   "akapit": "Do 1881 roku rodzina mieszkała w parafii Góra Świętej Małgorzaty (powiat łęczycki), od około 1889 roku w Łodzi na Żubardziu, a w latach 1899–1900 w Łodzi w parafii św. Krzyża."
                 },
                 {
-                  "zdjecie": {
-                    "plik": "skany/tpzk-niecodzienna-wizyta.jpg",
-                    "podpis": "Fragment artykułu o Piotrze Nowalskim jako kierowniku budowy kościoła św. Wawrzyńca w Kutnie (zrzut ekranu).",
-                    "zrodlo": "Towarzystwo Przyjaciół Ziemi Kutnowskiej (TPZK), „Niecodzienna wizyta”",
-                    "url": "https://tpzk.eu/niecodzienna-wizyta-2/",
-                    "szeroko": false
+                  "przypis": {
+                    "etykieta": "Źródło",
+                    "tekst": "Towarzystwo Przyjaciół Ziemi Kutnowskiej (TPZK), „Niecodzienna wizyta”",
+                    "url": "https://tpzk.eu/niecodzienna-wizyta-2/"
                   }
                 }
               ]
@@ -917,6 +913,10 @@
         {
           "imie": "Jakub",
           "opis": "ur. około czerwca 1880 w Piekarach, zm. 28 sierpnia 1881 w Gaju, w wieku 1 roku i 2 miesięcy (przyrodni brat Wawrzyńca)"
+        },
+        {
+          "imie": "Mateusz",
+          "opis": "ślub 1892 w Grochowie z Antoniną Brudnicką, córką Walentego i Marianny z Lewandowskich (akt 7)"
         },
         {
           "grupa": "Dzieci Piotra i Marianny Pietrasik"
