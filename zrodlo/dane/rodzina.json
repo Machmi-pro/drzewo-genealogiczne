@@ -760,6 +760,30 @@
                 },
                 {
                   "zdjecie": {
+                    "plik": "skany/eustachy-swiadectwo-chrztu-budylow.jpg",
+                    "podpis": "Świadectwo chrztu Eustachego (Testimonium Baptismi), parafia Budyłów, wydane 1 maja 192[5], z wpisu w księdze: Płaucza Mała, tom III, s. 46.",
+                    "zrodlo": "Zbiory rodzinne",
+                    "szeroko": false
+                  }
+                },
+                {
+                  "transkrypcja": {
+                    "naglowek": "Odczyt świadectwa chrztu",
+                    "linie": [
+                      "Testimonium Baptismi. Archidiecezja lwowska, powiat Brzeżany, parafia Budyłów.",
+                      "Parafia obrządku łacińskiego, kościół pw. Najświętszej Maryi Panny w Budyłowie; wieś Płaucza Mała, tom III, s. 46.",
+                      "Anno Domini 1884, dnia 29 grudnia urodzony w Płauczy Małej, pod nr 124, i tego samego dnia ochrzczony.",
+                      "Imię: Eustachius. Religia: rzymskokatolicka obrządku łacińskiego. Płeć: chłopiec. Ślubny (legitimus).",
+                      "Rodzice: Franciszek Bonisławski, rolnik, syn [imię nieczytelne] i Marii Rewna; Klara Sarnicka, córka Michała i Franciszki Pichur (odczyt niepewny).",
+                      "Rodzice chrzestni: Szymon Sarnicki, rolnik, oraz [nazwisko niepewne] żona Aleksego, rolnika.",
+                      "Akuszerka: Justyna Lisowska.",
+                      "Wydano w Budyłowie 1 maja 192[5]; podpis proboszcza, pieczęć Urzędu Parafialnego w Budyłowie."
+                    ],
+                    "uwaga": "Pismo jest częściowo trudne do odczytania. W nawiasach kwadratowych podano miejsca niepewne lub nieczytelne."
+                  }
+                },
+                {
+                  "zdjecie": {
                     "plik": "skany/eustachy-dowod-okladka-1939.jpg",
                     "podpis": "Okładka dowodu osobistego, ser. E nr 667050: gmina Płaucza Mała, powiat brzeżański.",
                     "zrodlo": "Zbiory rodzinne",
