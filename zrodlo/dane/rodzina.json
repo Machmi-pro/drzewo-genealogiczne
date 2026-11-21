@@ -13,20 +13,21 @@
       "ona": {
         "imie": "Zofia",
         "nazwisko": "Nowalska",
-        "ur": "1921",
+        "ur": "1920",
         "zm": "2007",
         "ojciec": "Wawrzyniec Nowalski",
         "matka": "Stanisława z d. Adamczyk",
         "rodzice": "wawrzyniec-i-stanislawa",
-        "ur_data": "21.02.1921",
+        "ur_data": "21.01.1920",
         "ur_miejsce": "Łódź",
         "zm_data": "29.11.2007",
         "zm_miejsce": "Łódź",
         "portret": {
           "plik": "zdjecia/zofia-portret-koloryzacja.jpg",
-          "podpis": "Zofia Nowalska, [rok]. Koloryzacja zdjęcia",
+          "podpis": "Zofia Nowalska. Koloryzacja zdjęcia, rok nieznany",
           "zrodlo": "Zbiory rodzinne. Koloryzacja cyfrowa, oryginał czarno-biały"
-        }
+        },
+        "uwaga": "Data urodzenia według aktu zgonu. Na nagrobku, w karcie meldunkowej i we wspomnieniach rodzinnych podawane są inne daty."
       },
       "on": {
         "imie": "Bronisław",
@@ -46,7 +47,8 @@
           "imie": "Ryszard"
         },
         {
-          "imie": "Irena"
+          "imie": "Irena",
+          "nazwisko": "Chmielewska"
         }
       ],
       "dzieci_komplet": true,
@@ -59,12 +61,12 @@
               "tytul": "Zofia Nowalska",
               "elementy": [
                 {
-                  "akapit": "Zofia urodziła się 21 lutego 1921 roku w Łodzi, jako córka Wawrzyńca i Stanisławy Nowalskich. Zachowała się jej szkolna legitymacja na rok 1933/1934, ze zdjęciem. Zofia była wówczas uczennicą siódmej klasy publicznej szkoły powszechnej w Łodzi."
+                  "akapit": "Zofia urodziła się 21 stycznia 1920 roku w Łodzi, jako córka Wawrzyńca i Stanisławy Nowalskich. Zachowała się jej szkolna legitymacja na rok 1933/1934, ze zdjęciem. Zofia była wówczas uczennicą siódmej klasy Publicznej Szkoły Powszechnej nr 31 w Łodzi, która mieściła się przy ulicy Ewangelickiej 18 (obecnie ulica Roosevelta)."
                 },
                 {
                   "zdjecie": {
                     "plik": "skany/zofia-legitymacja-1933-34.jpg",
-                    "podpis": "Legitymacja szkolna Zofii Nowalskiej na rok szkolny 1933/1934. Publiczna szkoła powszechna w Łodzi, klasa 7.",
+                    "podpis": "Legitymacja szkolna Zofii Nowalskiej na rok szkolny 1933/1934. Publiczna Szkoła Powszechna nr 31 w Łodzi, klasa 7.",
                     "zrodlo": "Zbiory rodzinne",
                     "szeroko": true
                   }
@@ -73,20 +75,23 @@
                   "akapit": "Później zdobyła wykształcenie określane jako „mała matura”."
                 },
                 {
+                  "zdjecie": {
+                    "plik": "zdjecia/zofia-grupa-dziewczat-w-mundurach.jpg",
+                    "podpis": "Uczennice Szkoły nr 31 w Łodzi, lata 30. XX wieku. Zofia jest druga od prawej w dolnym rzędzie.",
+                    "zrodlo": "Zbiory rodzinne",
+                    "szeroko": true
+                  }
+                },
+                {
                   "galeria": [
                     {
                       "plik": "zdjecia/zofia-portret-oryginal.jpg",
-                      "podpis": "Zofia Nowalska, portret. [Rok i okoliczności do uzupełnienia.]",
+                      "podpis": "Zofia Nowalska, portret. Rok nieznany.",
                       "zrodlo": "Zbiory rodzinne. Oryginał czarno-biały",
                       "ksztalt": "pion"
-                    },
-                    {
-                      "plik": "zdjecia/zofia-grupa-dziewczat-w-mundurach.jpg",
-                      "podpis": "Grupa dziewcząt w mundurach. [Organizacja, rok i miejsce do uzupełnienia.]",
-                      "zrodlo": "Zbiory rodzinne",
-                      "ksztalt": "poziom"
                     }
-                  ]
+                  ],
+                  "etykieta": "Portrety"
                 }
               ]
             },

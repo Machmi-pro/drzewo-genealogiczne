@@ -93,7 +93,8 @@ def facts(o, fem):
             + row("Zmarła" if fem else "Zmarł", "†", o["zm"], "zm")
             + parent("Ojciec", o["ojciec"], o.get("rodzice"))
             + parent("Matka", o["matka"], o.get("rodzice"))
-            + '</dl>')
+            + '</dl>'
+            + (f'<p class="factnote">{e(o["uwaga"])}</p>' if o.get("uwaga") else ''))
 
 def person(o, fem):
     nm = full(o)
