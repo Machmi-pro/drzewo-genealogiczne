@@ -10,7 +10,7 @@
   // Tytuł w nagłówku: dopasuj szerokość do linii z nazwiskami pod spodem
   var bt=document.querySelector('.brand .bt'),bs=document.querySelector('.brand small');
   function fit(){if(!bt||!bs)return;bt.style.fontSize='20px';var w=bt.getBoundingClientRect().width,t=bs.getBoundingClientRect().width;if(w>0&&t>0)bt.style.fontSize=(20*t/w).toFixed(2)+'px';}
-  fit();window.addEventListener('resize',fit);if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fit);
+  fit();window.addEventListener('resize',fit);window.addEventListener('load',fit);if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fit);
 
   // Powiększanie zdjęć i skanów
   var d=document.getElementById('lightbox');

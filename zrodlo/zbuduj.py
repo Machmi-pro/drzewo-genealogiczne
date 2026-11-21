@@ -20,6 +20,9 @@ GEN = data["pokolenia"]
 SITE = data["rodzina"]
 SUB = data.get("podtytul", "Historia rodziny")
 
+import hashlib as _h
+VCSS = _h.md5(open(SRC / "zasoby" / "styl.css", "rb").read()).hexdigest()[:8]
+VJS = _h.md5(open(SRC / "zasoby" / "strona.js", "rb").read()).hexdigest()[:8]
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400'
@@ -265,12 +268,12 @@ def couple_page(p):
 def doc(title, body):
     return (f'<!doctype html>\n<html lang="pl"><head><meta charset="utf-8">'
             f'<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">'
-            f'<title>{e(title)}</title>{FONTS}<link rel="stylesheet" href="styl.css"></head>'
-            f'<body>{body}<script src="strona.js"></script></body></html>\n')
+            f'<title>{e(title)}</title>{FONTS}<link rel="stylesheet" href="styl.css?v={VCSS}"></head>'
+            f'<body>{body}<script src="strona.js?v={VJS}"></script></body></html>\n')
 
 def fragment(title, body):  # wersja do podglądu w Claude (bez własnego <html>)
     return (f'<title>{e(title)}</title><meta name="claude:viewport-fit-sides" content="cover">'
-            f'{FONTS}<link rel="stylesheet" href="styl.css">{body}<script src="strona.js"></script>\n')
+            f'{FONTS}<link rel="stylesheet" href="styl.css?v={VCSS}">{body}<script src="strona.js?v={VJS}"></script>\n')
 
 OUT.mkdir(exist_ok=True)
 (OUT / ".nojekyll").write_text("", encoding="utf-8")
