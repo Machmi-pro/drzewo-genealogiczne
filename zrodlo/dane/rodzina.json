@@ -1922,13 +1922,16 @@
       ],
       "tresc": [
         {
-          "tytul": "Sebastian Murzyński, żołnierz",
+          "tytul": "Hipoteza: Sebastian Murzyński, żołnierz",
           "historie": [
             {
               "tytul": "Akt zgonu z 1826 roku",
               "elementy": [
                 {
-                  "akapit": "Co wiadomo z aktu zgonu: 2 kwietnia 1826 roku w Płauczy Małej zmarł Sebastian Murzyński, pochowany 4 kwietnia, w wieku 34 lat (czyli urodzony około 1791–1792). W akcie jest zapisany jako „Stephanus legitimo nomine Sebastianus”, czyli Stefan, właściwie Sebastian. Był katolikiem. Przyczyną zgonu była febris frigida, czyli „zimna febra”, najprawdopodobniej malaria, ewentualnie tyfus. Akt opisuje go jako szeregowego (miles) kompanii fizylierów 41 pułku piechoty barona Watleta. Numer domu odczytuję ze skanu jako 37 (odczyt niepewny)."
+                  "akapit": "Poniższy wpis jest hipotezą. Nie wiadomo, czy Sebastian był synem Jana i Katarzyny. Akt zgonu o tym nie mówi."
+                },
+                {
+                  "akapit": "Co wiadomo z aktu zgonu: 2 kwietnia 1826 roku w Płauczy Małej zmarł Sebastian Murzyński, pochowany 4 kwietnia, w wieku 34 lat (czyli urodzony około 1791–1792). W akcie jest zapisany jako „Stephanus legitimo nomine Sebastianus”, czyli Stefan, właściwie Sebastian. Był katolikiem. Przyczyną zgonu była febris frigida, czyli „zimna febra”, najprawdopodobniej malaria, ewentualnie tyfus. Akt opisuje go jako szeregowego (miles) kompanii fizylierów 41 pułku piechoty barona Watleta. Numer domu: 37 (odczyt ze skanu, niepewny)."
                 },
                 {
                   "zdjecie": {
@@ -1962,7 +1965,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "po_dzieciach": true
         }
       ]
     }
