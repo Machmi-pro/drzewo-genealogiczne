@@ -139,6 +139,11 @@ a.kid:hover{border-color:var(--sepia)}
 .kid .go{font-family:var(--mono);font-size:.7rem;color:var(--link);margin-top:auto}
 .kidsnote{margin:0;font-size:.92rem}
 
+.kidlist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.kidlist li{display:flex;flex-wrap:wrap;align-items:baseline;gap:.25rem 1.25rem;padding:.75rem 0;border-bottom:1px solid var(--rule)}
+.kidlist strong{font-family:var(--display);font-weight:500;font-size:1.4rem}
+.kidlist span{font-family:var(--mono);font-size:.8rem;color:var(--muted)}
+
 /* Kolejne strony */
 .next{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
 .next a{display:block;padding:1rem 1.2rem;border:1px solid var(--rule);background:var(--sheet);text-decoration:none;color:var(--ink)}

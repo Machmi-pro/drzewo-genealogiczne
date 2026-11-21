@@ -51,10 +51,12 @@
       ],
       "dzieci": [
         {
-          "imie": "Ryszard"
+          "imie": "Ryszard",
+          "opis": "Urodzony: 4 czerwca 1947"
         },
         {
-          "imie": "Irena"
+          "imie": "Irena",
+          "opis": "Urodzona: 9 kwietnia 1951"
         }
       ],
       "dzieci_komplet": true,
@@ -278,34 +280,13 @@
                 },
                 {
                   "akapit": "Bronisław zmarł w 1996 roku w Łodzi. Zofia zmarła 29 listopada 2007 roku w Łodzi."
-                },
-                {
-                  "galeria": [
-                    {
-                      "podpis": "[Zdjęcie ślubne, miejsce, data]",
-                      "zrodlo": "[Źródło]",
-                      "etykieta": "Miejsce na zdjęcie ślubne"
-                    },
-                    {
-                      "podpis": "Akt małżeństwa",
-                      "zrodlo": "Sygn. [___], nr [___/rrrr]",
-                      "etykieta": "Skan aktu małżeństwa",
-                      "ksztalt": "doc"
-                    },
-                    {
-                      "podpis": "Akt zgonu Zofii",
-                      "zrodlo": "Sygn. [___]",
-                      "etykieta": "Skan aktu zgonu",
-                      "ksztalt": "doc"
-                    }
-                  ],
-                  "etykieta": "Dokumenty"
                 }
               ]
             }
           ]
         }
-      ]
+      ],
+      "dzieci_lista": true
     },
     {
       "id": "wawrzyniec-i-stanislawa",

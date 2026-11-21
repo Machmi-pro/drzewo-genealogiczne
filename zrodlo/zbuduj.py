@@ -81,7 +81,7 @@ def nav(current):
 # --- strona pary --------------------------------------------------------------
 def facts(o, fem):
     def row(label, sym, y, key):
-        d = o.get(key + "_data") or (f'[dd.mm.]{y}' if y else '[data]')
+        d = o.get(key + "_data") or (y if y else '[data]')
         m = o.get(key + "_miejsce") or '[miejscowość]'
         return f'<dt>{label}</dt><dd><span class="sym">{sym}</span>{e(d)}, {e(m)}</dd>'
     def parent(label, name, pid):
@@ -178,7 +178,10 @@ def couple_page(p):
         nxt.append(f'<a class="down" href="{url(k["strona"])}"><span class="label">Ich dziecko: {e(k["imie"])}</span>'
                    f'<strong>{e(couple_name(PARY[k["strona"]]))}</strong></a>')
     kid_cards = []
-    for k in p.get("dzieci", []):
+    if p.get("dzieci_lista"):
+        items = "".join(f'<li><strong>{e(k["imie"])}</strong><span>{e(k["opis"])}</span></li>' for k in p["dzieci"])
+        kids_html = f'<section class="chapter" id="dzieci"><h2>Dzieci</h2><ul class="kidlist">{items}</ul></section>'
+    for k in ([] if p.get("dzieci_lista") else p.get("dzieci", [])):
         if not k.get("strona"):
             kid_cards.append(f'<div class="kid"><div class="ph">{PERSON_SVG}Miejsce na zdjęcie</div>'
                              f'<strong>{e((k["imie"] + " " + k.get("nazwisko", "")).strip())}</strong><span class="yr">* [data i miejsce] · † [data]</span>'
@@ -191,7 +194,7 @@ def couple_page(p):
         kid_cards.append(f'<div class="kid"><div class="ph">{PERSON_SVG}Miejsce na zdjęcie</div>'
                          f'<strong>[Imię i nazwisko dziecka]</strong><span class="yr">* [data i miejsce] · † [data]</span>'
                          f'<span class="note">[Krótka notatka: małżonek, zawód, gdzie mieszkało.]</span></div>')
-    kids_html = (f'<section class="chapter" id="dzieci"><h2>Dzieci</h2>'
+    if not p.get("dzieci_lista"): kids_html = (f'<section class="chapter" id="dzieci"><h2>Dzieci</h2>'
                  f'<div class="kids">{"".join(kid_cards)}</div>'
                  f'<p class="placeholder-text kidsnote">[Tu wypiszesz wszystkie dzieci tej pary, od najstarszego. Karty można dodawać i usuwać.]</p></section>')
     def shared_default():
