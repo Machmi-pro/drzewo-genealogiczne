@@ -582,6 +582,33 @@
               ]
             }
           ]
+        },
+        {
+          "tytul": "Zdjęcia",
+          "historie": [
+            {
+              "tytul": "Stanisława i Wawrzyniec Nowalscy",
+              "elementy": [
+                {
+                  "galeria": [
+                    {
+                      "plik": "zdjecia/stanislawa-nowalska-portret-bluzka.jpg",
+                      "podpis": "Stanisława Nowalska, portret",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "pion"
+                    },
+                    {
+                      "plik": "zdjecia/wawrzyniec-nowalski-portret-marynarka.jpg",
+                      "podpis": "Wawrzyniec Nowalski, portret",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "pion"
+                    }
+                  ],
+                  "etykieta": "Portrety"
+                }
+              ]
+            }
+          ]
         }
       ],
       "lista_dzieci": [
