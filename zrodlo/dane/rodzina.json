@@ -326,11 +326,39 @@
       "on": {
         "imie": "Wawrzyniec",
         "nazwisko": "Nowalski",
-        "ur": "1882",
+        "ur": "1880",
         "zm": "1970",
         "ojciec": "Piotr Nowalski",
         "matka": "Marianna z d. Pietrasik",
-        "rodzice": "piotr-i-marianna"
+        "rodzice": "piotr-i-marianna",
+        "ur_data": "8.08.1880",
+        "ur_miejsce": "Góra Świętej Małgorzaty (pow. łęczycki)",
+        "zm_data": "1970",
+        "zm_miejsce": "",
+        "uwaga": "Data urodzenia według karty pracy przymusowej i legitymacji rencisty.",
+        "fakty": [
+          [
+            "Ślub I",
+            "1905, Marianna Zielińska, Łódź (św. Krzyża)"
+          ],
+          [
+            "Ślub II",
+            "1916, Stanisława Adamczyk, Łódź (św. Stanisława Kostki)"
+          ],
+          [
+            "Zawód",
+            "robotnik, policjant (Policja Państwowa), ławnik"
+          ],
+          [
+            "Mieszkał",
+            "Łódź, ul. Abramowskiego 34"
+          ]
+        ],
+        "portret": {
+          "plik": "zdjecia/wawrzyniec-nowalski-portret.jpg",
+          "podpis": "Wawrzyniec Nowalski",
+          "zrodlo": "Zbiory rodzinne"
+        }
       },
       "dzieci": [
         {
@@ -358,22 +386,193 @@
               ]
             },
             {
-              "szablon": "on"
-            }
-          ]
-        },
-        {
-          "tytul": "Wspólne życie",
-          "historie": [
-            {
-              "tytul": "Wspólna historia",
+              "tytul": "Wawrzyniec Nowalski",
               "elementy": [
                 {
-                  "akapit": "Stanisława i Wawrzyniec Nowalski zawarli ślub w 1916 roku."
+                  "akapit": "W 1905 roku Wawrzyniec Nowalski poślubił Mariannę Zielińską (ślub w Łodzi, w parafii św. Krzyża). Marianna, urodzona około 1883 roku w Sójkach w powiecie kutnowskim, pracowała jako tkaczka. Mieli dwóch synów, Stanisława i Zygmunta. Marianna zmarła 19 lub 20 marca 1913 roku w Łodzi."
                 }
               ]
             }
           ]
+        },
+        {
+          "tytul": "I wojna światowa",
+          "historie": [
+            {
+              "tytul": "Stanisława i Wawrzyniec Nowalscy",
+              "elementy": [
+                {
+                  "akapit": "W 1916 roku Wawrzyniec ożenił się ze Stanisławą Adamczyk (ślub w Łodzi, w parafii św. Stanisława Kostki)."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "zdjecia/stanislawa-i-wawrzyniec-nowalscy.jpg",
+                    "podpis": "Stanisława i Wawrzyniec Nowalscy.",
+                    "zrodlo": "Zbiory rodzinne",
+                    "szeroko": false
+                  }
+                }
+              ]
+            },
+            {
+              "tytul": "Wawrzyniec Nowalski",
+              "elementy": [
+                {
+                  "akapit": "11 listopada 1918 roku był członkiem bojowego oddziału NZR (Narodowy Związek Robotniczy)."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/wawrzyniec-nzr-lista-czlonkow-s30.jpg",
+                    "podpis": "Członkowie Bojowego Oddziału N.Z.R., s. 30. Wawrzyniec Nowalski w prawej kolumnie. Przypis na stronie: „Nie są to nazwiska wszystkie; tylko te, które obecnie dało się ustalić”.",
+                    "zrodlo": "Pieczątka biblioteki: WiMBP im. J. P. w Łodzi",
+                    "szeroko": false
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tytul": "Dwudziestolecie międzywojenne",
+          "historie": [
+            {
+              "tytul": "Wawrzyniec Nowalski",
+              "elementy": [
+                {
+                  "zdjecie": {
+                    "plik": "skany/wawrzyniec-karta-meldunkowa.jpg",
+                    "podpis": "Karta meldunkowa do spisu ludności: Wawrzyniec Nowalski i rodzina, adres Gubernatorska 34.",
+                    "zrodlo": "Archiwum Państwowe w Łodzi",
+                    "szeroko": false
+                  }
+                },
+                {
+                  "akapit": "W 1920 roku Wawrzyniec Nowalski był funkcjonariuszem Policji Państwowej w Łodzi, w VI komisariacie. W urzędowym wykazie wymieniono go wśród policjantów, którzy przekazali do kasy komendy łapówki otrzymane podczas służby. Komenda wyraziła im za to oficjalne uznanie."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/wawrzyniec-policja-wykaz-1920.jpg",
+                    "podpis": "Rozkaz z 18 VIII 1920 r., nr 37, Okręg Łódzki. Poz. 10: Nowalski Wawrzyniec, VI komisariat.",
+                    "zrodlo": "Zbiory rodzinne",
+                    "szeroko": false
+                  }
+                },
+                {
+                  "akapit": "W 1929 roku mieszkał przy ulicy Abramowskiego 24 w Łodzi. Figuruje jako zastępca ławnika Sądu Pracy w Łodzi „z grupy pracowników”."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/wawrzyniec-lodzki-dziennik-wojewodzki-1929-s175.jpg",
+                    "podpis": "„Łódzki Dziennik Wojewódzki” 1929, nr 4, s. 175, poz. 85: lista zastępców ławników Sądu Pracy w Łodzi, z grupy pracowników. Abramowskiego 24.",
+                    "zrodlo": "Zbiory rodzinne",
+                    "szeroko": false
+                  }
+                },
+                {
+                  "akapit": "W 1937 roku znajduje się na liście zastępców ławników Sądu Okręgowego w Łodzi, z grupy pracowników. Jako adres podano Abramowskiego 34."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/wawrzyniec-monitor-polski-1937-s3.jpg",
+                    "podpis": "„Monitor Polski” 1937, nr 15, s. 3, poz. 40: lista zastępców ławników Sądu Okręgowego w Łodzi, z grupy pracowników. Abramowskiego 34.",
+                    "zrodlo": "Zbiory rodzinne",
+                    "szeroko": false
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tytul": "II wojna światowa",
+          "historie": [
+            {
+              "tytul": "Wawrzyniec Nowalski",
+              "elementy": [
+                {
+                  "akapit": "Zaraz po wybuchu wojny udał się do Warszawy, żeby walczyć. Po miesiącu wrócił pieszo do domu. Od swojego pracodawcy dostał informację, że jest na liście osób do wywozu, więc sam zgłosił się do robót. Został robotnikiem przymusowym. Zachowała się jego oryginalna karta pracy, nr 13113."
+                },
+                {
+                  "kolumny": [
+                    {
+                      "zdjecie": {
+                        "plik": "skany/wawrzyniec-karta-pracy-przymusowej-a2162.jpg",
+                        "podpis": "Karta pracy przymusowej, Ausweis-Nr. A 2162.",
+                        "zrodlo": "Kopia z adnotacją: Verkartet, erhalten 1992/93 vom PCK Warschau",
+                        "szeroko": false
+                      }
+                    },
+                    {
+                      "zdjecie": {
+                        "plik": "skany/wawrzyniec-karta-pobytu-robotnika-przymusowego.jpg",
+                        "podpis": "Karta pobytu robotnika przymusowego. Pracodawca: Karl Schaare, Braunschweig, od 4.06.1940. Dopisek: 27.02.1943 do Łodzi.",
+                        "zrodlo": "Kopia z adnotacją: Verkartet, erhalten 1992/93 vom PCK Warschau",
+                        "szeroko": false
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tytul": "Po wojnie",
+          "historie": [
+            {
+              "tytul": "Stanisława i Wawrzyniec Nowalscy",
+              "elementy": [
+                {
+                  "akapit": "Stanisława zmarła 6 sierpnia 1961 roku w Łodzi, a Wawrzyniec w 1970 roku."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/wawrzyniec-legitymacja-rencisty-1964.jpg",
+                    "podpis": "Legitymacja Zjednoczonego Związku Emerytów, Rencistów i Inwalidów w Łodzi, wystawiona 16 XI 1964 r. Adres: Abramowskiego 34.",
+                    "zrodlo": "Zbiory rodzinne",
+                    "szeroko": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lista_dzieci": [
+        {
+          "grupa": "Dzieci Wawrzyńca i Marianny"
+        },
+        {
+          "imie": "Stanisław Nowalski",
+          "opis": "ur. około maja 1907 w Łodzi; zm. 5 lipca 1919, w wieku 12 lat"
+        },
+        {
+          "imie": "Zygmunt Nowalski",
+          "opis": "ur. około marca 1913 w Łodzi, krótko przed śmiercią matki; zm. 9 września 1913, mając 6 miesięcy"
+        },
+        {
+          "grupa": "Dzieci Wawrzyńca i Stanisławy"
+        },
+        {
+          "imie": "NN Nowalska",
+          "opis": "ur. i zm. 22 grudnia 1916 w Łodzi (martwo urodzona)"
+        },
+        {
+          "imie": "NN Nowalska",
+          "opis": "ur. i zm. 24 grudnia 1918 w Łodzi (martwo urodzona)"
+        },
+        {
+          "imie": "Zofia Bonisławska z d. Nowalska",
+          "strona": "zofia-i-bronislaw",
+          "opis": "ur. 21 stycznia 1920 w Łodzi, ul. Gubernatorska"
+        },
+        {
+          "imie": "Krystyna Nowalska",
+          "opis": "ur. 30 marca 1923 w Łodzi, ul. Gubernatorska 44; zmarła tego samego dnia wieczorem, w wieku jednego dnia"
+        },
+        {
+          "imie": "Irena Ożadowicz z d. Nowalska",
+          "opis": "ur. 4 maja 1924. Żona Telesfora Ożadowicza. Podczas II wojny światowej wywieziona na roboty przymusowe do III Rzeszy, pracowała kolejno w leśnictwie i przemyśle w rejonie Halstenbek i Pinneberg (1942–1945)"
         }
       ]
     },
