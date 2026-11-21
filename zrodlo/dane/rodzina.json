@@ -2055,8 +2055,9 @@
                   "zdjecie": {
                     "plik": "skany/jozef-stronski-akt-zgonu-1776.jpg",
                     "podpis": "Księga zgonów, s. 36–37, wpis z 18 października 1776 roku: Josephus Stronski, wdowiec, około 60 lat, pochowany w Horodyszczach.",
-                    "zrodlo": "Archiwum Główne Akt Dawnych",
-                    "szeroko": true
+                    "zrodlo": "Archiwum Główne Akt Dawnych, Szukaj w Archiwach",
+                    "szeroko": true,
+                    "url": "https://www.szukajwarchiwach.gov.pl/skan/-/skan/8ddd6a52784e315525c11132496be5839bd3e469e51e6e41c130c80f53e77d25"
                   }
                 },
                 {
