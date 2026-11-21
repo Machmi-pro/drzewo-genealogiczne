@@ -1453,6 +1453,37 @@
           "tytul": "Agnieszka i Michał",
           "historie": [
             {
+              "tytul": "Agnieszka Bonisławska",
+              "elementy": [
+                {
+                  "akapit": "Zachowało się świadectwo ukończenia niepełnej szkoły średniej, wydane Agnieszce Bonisławskiej w czerwcu 1941 roku."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/agnieszka-bonislawska-swiadectwo-1941.jpg",
+                    "podpis": "Zaświadczenie Ludowego Komisariatu Oświaty URSR dla Agnieszki Bonisławskiej, córki Eustachego, ur. 1923, nr 4, czerwiec 1941 r.",
+                    "zrodlo": "Zbiory rodzinne",
+                    "szeroko": false
+                  }
+                },
+                {
+                  "transkrypcja": {
+                    "naglowek": "Odczyt zaświadczenia",
+                    "linie": [
+                      "URSR, Ludowy Komisariat Oświaty. Zaświadczenie nr 4.",
+                      "Wydano Agnieszce Eustachówna Bonisławskiej, ur. w roku 1923 (ostatnia cyfra niepewna), uczennicy Prościanieckiej niepełnej szkoły średniej we wsi Prościaniec Wielki (odczyt niepewny), rejonu załoźieckiego, obwodu tarnopolskiego.",
+                      "Ukończyła pełny kurs szkoły. Sprawowanie: bardzo dobre.",
+                      "Bardzo dobre: język ukraiński, literatura ukraińska (wpis słabo widoczny), język rosyjski, literatura rosyjska, język polski, literatura polska, algebra, geometria, przyrodoznawstwo, konstytucja ZSRS i URSR, kreślenie, kultura fizyczna.",
+                      "Dobre: historia, geografia, fizyka, chemia, język obcy (niemiecki).",
+                      "Rubryki arytmetyki, rysunków i śpiewu są puste.",
+                      "Czerwca 1941 r. Podpisy: dyrektor szkoły (nieczytelny) i nauczyciele (nazwiska niepewne). Pieczęć okrągła, napis w alfabecie ukraińskim, z nazwą obwodu tarnopolskiego i rejonu załoźieckiego."
+                    ],
+                    "uwaga": "Pismo ręczne jest częściowo trudne do odczytania, a skan ma załamania. Miejsca niepewne zaznaczono w opisie."
+                  }
+                }
+              ]
+            },
+            {
               "tytul": "Rodzina",
               "elementy": [
                 {
