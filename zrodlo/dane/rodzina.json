@@ -1071,7 +1071,22 @@
         "zm": "1894",
         "ojciec": "Andrzej Żukowski",
         "matka": "Scholastyka z d. Rojewska",
-        "rodzice": "andrzej-zukowski-i-scholastyka"
+        "rodzice": "andrzej-zukowski-i-scholastyka",
+        "ur_data": "24 lub 25 listopada 1847",
+        "ur_miejsce": "Wymysłów (parafia Chojnata)",
+        "zm_data": "31.01.1894",
+        "zm_miejsce": "Marianka",
+        "uwaga": "Marianna (Marcjanna). To był jej drugi związek.",
+        "fakty": [
+          [
+            "Ślub I",
+            "Franciszek Gładkowski, 1870, Osuchów (zmarł przed 1875 rokiem)"
+          ],
+          [
+            "Ślub II",
+            "Stanisław Józef Adamczyk, 1875, Lutkówka"
+          ]
+        ]
       },
       "on": {
         "imie": "Stanisław Józef",
@@ -1080,7 +1095,25 @@
         "zm": "1919",
         "ojciec": "Andrzej Adamczyk",
         "matka": "Wiktoria z d. Kołodziejczyk",
-        "rodzice": "andrzej-adamczyk-i-wiktoria"
+        "rodzice": "andrzej-adamczyk-i-wiktoria",
+        "ur_data": "30.03.1853",
+        "ur_miejsce": "Władysławów (parafia Mszczonów)",
+        "zm_data": "23.01.1919",
+        "zm_miejsce": "Marianka (parafia Lutkówka), jako wdowiec",
+        "fakty": [
+          [
+            "Ślub I",
+            "Marianna (Marcjanna) Żukowska, 1875, Lutkówka"
+          ],
+          [
+            "Ślub II",
+            "Florentyna Stefankiewicz, 1.01.1895, Mszczonów. Florentyna miała wówczas 21 lat, urodzona w Rudzie, zamieszkała w Grudzinach, córka zmarłego Grzegorza Stefankiewicza i żyjącej Teodozji z domu Nowak"
+          ],
+          [
+            "Mieszkał",
+            "Lutkówka / Marianka, powiat błoński"
+          ]
+        ]
       },
       "dzieci": [
         {
@@ -1121,6 +1154,21 @@
         {
           "imie": "Konstancja Adamczyk",
           "opis": "zm. 1891"
+        }
+      ],
+      "tresc": [
+        {
+          "tytul": "Miejsce zamieszkania",
+          "historie": [
+            {
+              "tytul": "Marianka i Piekary",
+              "elementy": [
+                {
+                  "akapit": "Uwaga rodziny: dzieci Stanisława Józefa konsekwentnie podawały w Łodzi jako swoje strony rodzinne „Piekary”. To realna wieś, do 1954 roku siedziba osobnej gminy (dziś gmina Mszczonów), około 5 km od Lutkówki. Rodzina mieszkała więc w Mariance, administracyjnie w gminie Piekary, a do chrztu jeżdżono do kościoła parafialnego w Lutkówce."
+                }
+              ]
+            }
+          ]
         }
       ]
     },
