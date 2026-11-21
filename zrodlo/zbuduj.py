@@ -71,7 +71,7 @@ def nav(current):
         tiles = []
         for pid in items:
             p = PARY[pid]
-            s = {"her": "linia Babci", "his": "linia Dziadka"}.get(side.get(pid), "")
+            s = {"her": "linia Zofii", "his": "linia Bronisława"}.get(side.get(pid), "")
             cls = "tile " + (side.get(pid) or "main") + (" cur" if pid == current else "")
             ac = ' aria-current="page"' if pid == current else ""
             href = home() if pid == HOME else f"{pid}.html"
@@ -264,7 +264,7 @@ def _ver_img(html):
 # --- zapis -------------------------------------------------------------------
 def doc(title, body):
     return (f'<!doctype html>\n<html lang="pl"><head><meta charset="utf-8">'
-            f'<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">'
+            f'<meta name="format-detection" content="telephone=no"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">'
             f'<title>{e(title)}</title>{FONTS}<link rel="stylesheet" href="styl.css?v={VCSS}"></head>'
             f'<body>{body}<script src="strona.js?v={VJS}"></script></body></html>\n')
 

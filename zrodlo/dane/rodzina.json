@@ -1,12 +1,12 @@
 {
   "rodzina": "Drzewo genealogiczne Bonisławskich",
   "pokolenia": {
-    "1": "Dziadkowie",
-    "2": "Pradziadkowie",
-    "3": "Prapradziadkowie",
-    "4": "Praprapradziadkowie",
-    "1.5": "Rodzeństwo dziadków",
-    "5": "Prapraprapradziadkowie"
+    "1": "Pokolenie 1",
+    "2": "Pokolenie 2",
+    "3": "Pokolenie 3",
+    "4": "Pokolenie 4",
+    "1.5": "Rodzeństwo Zofii i Bronisława",
+    "5": "Pokolenie 5"
   },
   "pary": [
     {
@@ -1718,9 +1718,9 @@
       "on": {
         "imie": "Tomasz",
         "nazwisko": "Murzyński",
-        "ur": "ok. 1812/13",
+        "ur": "ok. 1812",
         "zm": "1887",
-        "ur_data": "około 1812/13",
+        "ur_data": "około 1812",
         "zm_data": "17.02.1887",
         "zm_miejsce": "dom 94",
         "fakty": [
