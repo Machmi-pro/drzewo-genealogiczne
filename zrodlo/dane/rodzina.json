@@ -300,13 +300,13 @@
         "matka": "Marianna z d. Żukowska",
         "rodzice": "stanislaw-i-marianna",
         "ur_data": "29.04.1885",
-        "ur_miejsce": "Lutkówka",
+        "ur_miejsce": "parafia Lutkówka, pow. błoński",
         "zm_data": "6.08.1961",
         "zm_miejsce": "Łódź",
         "fakty": [
           [
             "Ślub",
-            "1916, z Wawrzyńcem Nowalskim"
+            "23.09.1916, Łódź (św. Stanisława Kostki), z Wawrzyńcem Nowalskim"
           ],
           [
             "Zawód",
@@ -321,7 +321,8 @@
           "plik": "zdjecia/stanislawa-adamczyk-portret.jpg",
           "podpis": "Stanisława Adamczyk. Koloryzacja zdjęcia",
           "zrodlo": "Zbiory rodzinne. Koloryzacja cyfrowa, oryginał czarno-biały"
-        }
+        },
+        "uwaga": "Data urodzenia według karty meldunkowej, miejsce urodzenia według aktu ślubu."
       },
       "on": {
         "imie": "Wawrzyniec",
@@ -343,7 +344,7 @@
           ],
           [
             "Ślub II",
-            "1916, Stanisława Adamczyk, Łódź (św. Stanisława Kostki)"
+            "23.09.1916, Stanisława Adamczyk, Łódź (św. Stanisława Kostki)"
           ],
           [
             "Zawód",
@@ -402,7 +403,16 @@
               "tytul": "Stanisława i Wawrzyniec Nowalscy",
               "elementy": [
                 {
-                  "akapit": "W 1916 roku Wawrzyniec ożenił się ze Stanisławą Adamczyk (ślub w Łodzi, w parafii św. Stanisława Kostki)."
+                  "akapit": "23 września 1916 roku, o godzinie piątej po południu, w parafii św. Stanisława Kostki w Łodzi zawarto związek małżeński Wawrzyńca Nowalskiego i Stanisławy Adamczyk. Według aktu Wawrzyniec był wdowcem po Marjannie z Zielińskich, robotnikiem, miał trzydzieści sześć lat i mieszkał w Łodzi przy ulicy Wólczańskiej. Stanisława, panna, robotnica, miała trzydzieści jeden lat, urodziła się w parafii Lutkówka w powiecie błońskim i mieszkała w Łodzi przy ulicy Gubernatorskiej. Zapowiedzi ogłoszono 3, 10 i 17 września."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/akt-slubu-nowalski-adamczyk-1916.jpg",
+                    "podpis": "Akt ślubu nr 53, parafia św. Stanisława Kostki w Łodzi, 23 IX 1916 r. (prawa strona rozkładu).",
+                    "zrodlo": "Archiwum Państwowe w Łodzi. Dostęp: Polskie Towarzystwo Genealogiczne, skanoteka.genealodzy.pl",
+                    "url": "https://skanoteka.genealodzy.pl",
+                    "szeroko": false
+                  }
                 },
                 {
                   "zdjecie": {
@@ -424,8 +434,9 @@
                   "zdjecie": {
                     "plik": "skany/wawrzyniec-nzr-lista-czlonkow-s30.jpg",
                     "podpis": "Członkowie Bojowego Oddziału N.Z.R., s. 30. Wawrzyniec Nowalski w prawej kolumnie. Przypis na stronie: „Nie są to nazwiska wszystkie; tylko te, które obecnie dało się ustalić”.",
-                    "zrodlo": "Pieczątka biblioteki: WiMBP im. J. P. w Łodzi",
-                    "szeroko": false
+                    "zrodlo": "Biblioteka Cyfrowa Wojewódzkiej Biblioteki Publicznej w Łodzi (publikacja z listą członków Bojowego Oddziału N.Z.R.); na skanie pieczątka WiMBP im. J. P. w Łodzi",
+                    "szeroko": false,
+                    "url": "https://bc.wbp.lodz.pl/dlibra/show-content/publication/edition/68090?id=68090"
                   }
                 }
               ]
@@ -452,9 +463,10 @@
                 {
                   "zdjecie": {
                     "plik": "skany/wawrzyniec-policja-wykaz-1920.jpg",
-                    "podpis": "Rozkaz z 18 VIII 1920 r., nr 37, Okręg Łódzki. Poz. 10: Nowalski Wawrzyniec, VI komisariat.",
-                    "zrodlo": "Zbiory rodzinne",
-                    "szeroko": false
+                    "podpis": "„Gazeta Policji Państwowej” nr 35, Warszawa, 28 sierpnia 1920 r., s. 7. Okręg Łódzki, rozkaz z 18 VIII 1920 r., nr 37. Poz. 10: Nowalski Wawrzyniec, VI komisariat.",
+                    "zrodlo": "Jagiellońska Biblioteka Cyfrowa, „Gazeta Policji Państwowej” 1920, nr 35",
+                    "szeroko": false,
+                    "url": "https://jbc.bj.uj.edu.pl/Content/398269/PDF/NDIGCZAS001740_1920_035.pdf"
                   }
                 },
                 {
@@ -528,7 +540,7 @@
                 {
                   "zdjecie": {
                     "plik": "skany/wawrzyniec-legitymacja-rencisty-1964.jpg",
-                    "podpis": "Legitymacja Zjednoczonego Związku Emerytów, Rencistów i Inwalidów w Łodzi, wystawiona 16 XI 1964 r. Adres: Abramowskiego 34.",
+                    "podpis": "Legitymacja Zjednoczonego Związku Emerytów, Rencistów i Inwalidów w Łodzi, wystawiona 16 XI 1964 r. Adres: Abramowskiego 34. Imię na legitymacji (pierwotnie Franciszek) jest ręcznie poprawione na Wawrzyniec.",
                     "zrodlo": "Zbiory rodzinne",
                     "szeroko": true
                   }
