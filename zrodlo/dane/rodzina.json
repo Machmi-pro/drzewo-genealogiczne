@@ -804,9 +804,10 @@
         "fakty": [
           [
             "Ślub",
-            "9.10.1881, wieś Czerników (parafia Góra Świętej Małgorzaty), z Piotrem Nowalskim"
+            "9.10.1881, Czerników, parafia Góra św. Małgorzaty (akt nr 41), z Piotrem Nowalskim"
           ]
-        ]
+        ],
+        "uwaga": "W indeksie Geneteki nazwisko Marianny zapisano jako Pietrzak."
       },
       "on": {
         "imie": "Piotr",
@@ -830,11 +831,11 @@
           ],
           [
             "Ślub I",
-            "1865, Kutno, Tekla Rosiak"
+            "2.10.1865, Kutno (akt nr 47), Tekla Rosiak, ur. w Sójkach (parafia Kutno)"
           ],
           [
             "Ślub II",
-            "9.10.1881, Marianna Pietrasik"
+            "9.10.1881, Czerników, parafia Góra św. Małgorzaty (akt nr 41), Marianna Pietrasik"
           ],
           [
             "Pochowany",
@@ -859,7 +860,16 @@
                   "akapit": "Piotr, syn Jakuba i Katarzyny, był powstańcem styczniowym 1863 roku. Pracował jako wyrobnik, czyli poddańczek. Tak nazywano robotnika najemnego przed uwłaszczeniem w 1864 roku. Później był kierownikiem placu budowy kościoła Wniebowzięcia Najświętszej Maryi Panny w Łodzi, zwanego kościołem staromiejskim, który budowano w latach 1887–1897. Według Towarzystwa Przyjaciół Ziemi Kutnowskiej Piotr Nowalski był także kierownikiem budowy kościoła św. Wawrzyńca w Kutnie. Informacje o Piotrze podaje jego prawnuk, Ryszard Bonisławski, który jest współautorem „Spacerownika” i współpracuje z Towarzystwem."
                 },
                 {
-                  "akapit": "Pierwszą żoną Piotra była Tekla Rosiak, córka Dionizego i Marianny z Szatkowskich. Pobrali się w 1865 roku w Kutnie. Tekla zmarła przed 1881 rokiem. Drugą żoną została Marianna z domu Pietrasik, urodzona w Kozubach Średnich w parafii Topola Królewska, córka Mikołaja Pietrasika i Agnieszki z Antczaków. Ślub z Marianną wzięli 9 października 1881 roku we wsi Czerników w parafii Góra Świętej Małgorzaty."
+                  "akapit": "Pierwszą żoną Piotra była Tekla Rosiak, urodzona w Sójkach w parafii Kutno, córka Dionizego i Marianny z Szatkowskich. Pobrali się 2 października 1865 roku w Kutnie (akt nr 47). Tekla zmarła przed 1881 rokiem. Drugą żoną została Marianna z domu Pietrasik, urodzona w Kozubach Średnich w parafii Topola Królewska, córka Mikołaja Pietrasika i Agnieszki z Antczaków. Ślub z Marianną, wówczas z Piotrem wdowcem po Tekli, wzięli 9 października 1881 roku we wsi Czerników w parafii Góra Świętej Małgorzaty (akt nr 41)."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/geneteka-nowalski-piotr-malzenstwa.jpg",
+                    "podpis": "Wyniki wyszukiwania w indeksie Geneteki: małżeństwa Piotra Nowalskiego z Teklą Rosiak (1865, Kutno, akt 47) i z Marianną (1881, Góra św. Małgorzaty, akt 41). W indeksie widać też późniejsze akty z rodziny Nowalskich.",
+                    "zrodlo": "Geneteka, Polskie Towarzystwo Genealogiczne (geneteka.genealodzy.pl), zrzut ekranu",
+                    "url": "https://geneteka.genealodzy.pl",
+                    "szeroko": true
+                  }
                 },
                 {
                   "akapit": "Do 1881 roku rodzina mieszkała w parafii Góra Świętej Małgorzaty (powiat łęczycki), od około 1889 roku w Łodzi na Żubardziu, a w latach 1899–1900 w Łodzi w parafii św. Krzyża."
@@ -918,15 +928,15 @@
         },
         {
           "imie": "Andrzej",
-          "opis": "ur. 31 grudnia 1884 w Kutnie; ślub 1906 w Łodzi z Bronisławą Jędrzejczak (ur. 1889, Kębliny); dzieci: Apolonia Sabina (1913 – 2010, Belleville, Francja) i Czesław Roman (ur. 1920)"
+          "opis": "ur. 31 grudnia 1884 w Kutnie; ślub 1906 w Łodzi (parafia św. Krzyża, akt 242) z Bronisławą Jędrzejczak (ur. 1889, Kębliny); dzieci: Apolonia Sabina (1913 – 2010, Belleville, Francja) i Czesław Roman (ur. 1920)"
         },
         {
           "imie": "Stanisława",
-          "opis": "ur. około 1887–1888; ślub 1906 w Łodzi z Michałem Leśniakiem; owdowiała w 1930; ślub 15 sierpnia 1930 w Rudzie Pabianickiej z Wacławem Adamczykiem"
+          "opis": "ur. około 1887–1888; ślub 1906 w Łodzi (parafia św. Krzyża, akt 130) z Michałem Leśniakiem; owdowiała w 1930; ślub 15 sierpnia 1930 w Rudzie Pabianickiej z Wacławem Adamczykiem"
         },
         {
           "imie": "Weronika",
-          "opis": "ślub 1906 w Łodzi ze Stefanem Orskim; zm. 1919 w Łodzi"
+          "opis": "ślub 1906 w Łodzi (parafia św. Krzyża, akt 831) ze Stefanem Orskim; zm. 1919 w Łodzi"
         },
         {
           "imie": "Stanisław",
