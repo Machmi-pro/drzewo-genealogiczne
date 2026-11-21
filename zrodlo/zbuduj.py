@@ -253,6 +253,14 @@ def couple_page(p):
   <button class="close" type="button" id="lb-close">Zamknij</button></div></dialog>'''
     return f'{title} · {SITE}', nav(pid) + body
 
+import re as _re
+def _ver_img(html):
+    def rep(m):
+        f = OUT / m.group(2)
+        v = _h.md5(f.read_bytes()).hexdigest()[:8] if f.exists() else ""
+        return f'{m.group(1)}="{m.group(2)}?v={v}"' if v else m.group(0)
+    return _re.sub(r'(src)="((?:skany|zdjecia)/[^"?]+)"', rep, html)
+
 # --- zapis -------------------------------------------------------------------
 def doc(title, body):
     return (f'<!doctype html>\n<html lang="pl"><head><meta charset="utf-8">'
@@ -271,7 +279,7 @@ for f in OUT.glob("*.html"): f.unlink()
 for p in data["pary"]:
     t, b = couple_page(p)
     name = "index.html" if p["id"] == HOME else f'{p["id"]}.html'
-    (OUT / name).write_text(doc(t, b), encoding="utf-8")
+    (OUT / name).write_text(_ver_img(doc(t, b)), encoding="utf-8")
     if p["id"] == HOME and len(sys.argv) > 1:
         Path(sys.argv[1]).write_text(fragment(SITE, b), encoding="utf-8")
 print("Zbudowano", len(data["pary"]), "stron w", OUT)
