@@ -1946,7 +1946,7 @@
         "fakty": [
           [
             "Ojciec",
-            "Józef Stroński, nobilis, zm. 18.10.1776, Horodyszcze"
+            "Józef Stroński, nobilis, zm. 18.10.1776, Horodyszcze; wdowiec, wiek około 60 lat (według aktu zgonu)"
           ],
           [
             "Ślub",
@@ -2036,6 +2036,38 @@
                       "Obecni szlachetni (nobiles): Basilio Thierzyński (?), Laurentio Lisowski oraz Jacobo Murzyński z Płauczy (de Plaucza). Zdanie przechodzi na początek s. 18."
                     ],
                     "uwaga": "Odczyt łaciny z ręcznego pisma jest częściowo niepewny. Imiona i nazwiska świadków zaznaczono znakiem zapytania tam, gdzie odczyt jest niepewny. Wpis nie podaje nazwy kościoła, w którym zawarto ślub, ani pokrewieństwa świadków z młodą parą."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tytul": "Akt zgonu Józefa Strońskiego",
+          "historie": [
+            {
+              "tytul": "Wpis z 1776 roku",
+              "elementy": [
+                {
+                  "akapit": "Zachował się wpis o śmierci Józefa Strońskiego, ojca Katarzyny, z października 1776 roku. Józef był wdowcem i miał około 60 lat."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/jozef-stronski-akt-zgonu-1776.jpg",
+                    "podpis": "Księga zgonów, s. 36–37, wpis z 18 października 1776 roku: Josephus Stronski, wdowiec, około 60 lat, pochowany w Horodyszczach.",
+                    "zrodlo": "Archiwum Główne Akt Dawnych",
+                    "szeroko": true
+                  }
+                },
+                {
+                  "transkrypcja": {
+                    "naglowek": "Odczyt wpisu",
+                    "linie": [
+                      "Strona 37, sekcja „8ber 1776” (październik), wpis z dnia 18.",
+                      "Josephus Stronski viduus, annor. circit 60 (Józef Stroński, wdowiec, około 60 lat), zaopatrzony sakramentami (sacramenti munitus), oddał duszę Bogu (animam Deo reddidit).",
+                      "Pochowany (sepultus) w „cemet…” (prawdopodobnie na cmentarzu, odczyt niepewny) „ad meridie de Horodyszcze”, czyli w Horodyszczach."
+                    ],
+                    "uwaga": "Odczyt łaciny z ręcznego pisma jest częściowo niepewny, zwłaszcza zapis miejsca pochówku. Wpis nie podaje, czy dzień 18 jest dniem śmierci czy pogrzebu, i nie nazywa Józefa szlachcicem."
                   }
                 }
               ]
