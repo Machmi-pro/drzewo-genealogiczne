@@ -1365,23 +1365,83 @@
           [
             "Ślub",
             "Michał Bonisławski"
+          ],
+          [
+            "Wiek",
+            "94 lata"
           ]
-        ]
+        ],
+        "ur_miejsce": "Płaucza Mała",
+        "zm_miejsce": "Wierzbica Górna",
+        "portret": {
+          "plik": "zdjecia/agnieszka-bonislawska-portret.jpg",
+          "podpis": "Agnieszka Bonisławska",
+          "zrodlo": "Zbiory rodzinne"
+        }
       },
       "on": {
         "imie": "Michał",
         "nazwisko": "Bonisławski",
-        "ur": "",
-        "zm": "",
+        "ur": "1912",
+        "zm": "1998",
         "fakty": [
           [
             "Ślub",
             "Agnieszka Bonisławska"
+          ],
+          [
+            "Wiek",
+            "85 lat"
           ]
         ],
-        "uwaga": "Michał nosił to samo nazwisko co żona, ale pochodził z innej linii przodków."
+        "uwaga": "Michał nosił to samo nazwisko co żona, ale pochodził z innej linii przodków.",
+        "ur_data": "17.09.1912",
+        "zm_data": "28.08.1998",
+        "ur_miejsce": "Płaucza Mała",
+        "zm_miejsce": "Wierzbica Górna",
+        "ojciec": "Daniel Bonisławski",
+        "matka": "Gliceria z d. Baraban"
       },
-      "dzieci": []
+      "dzieci": [],
+      "tresc": [
+        {
+          "tytul": "Agnieszka i Michał",
+          "historie": [
+            {
+              "tytul": "Rodzina",
+              "elementy": [
+                {
+                  "akapit": "Agnieszka i Michał Bonisławscy urodzili się w Płauczy Małej, a zmarli w Wierzbicy Górnej. Agnieszka żyła 94 lata, a Michał 85. Nie mieli dzieci."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "zdjecia/agnieszka-i-michal-bonislawscy.jpg",
+                    "podpis": "Agnieszka i Michał Bonisławscy.",
+                    "zrodlo": "Zbiory rodzinne",
+                    "szeroko": false
+                  }
+                }
+              ]
+            },
+            {
+              "tytul": "Matka Michała",
+              "elementy": [
+                {
+                  "akapit": "Ojcem Michała był Daniel Bonisławski, a matką Gliceria z domu Baraban. Gliceria, wdowa po Danielu, córka Piotra Baraban i Zofii Rad, była Ukrainką. Zaświadczenie parafialne z Płauczy Małej z 6 kwietnia 1945 roku wpisuje ją jako osobę wyznania rzymskokatolickiego i narodowości polskiej. Dzięki temu dokumentowi mogła po wojnie wyjechać z Ukrainy."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/gliceria-bonislawska-poswiadczenie-1945.jpg",
+                    "podpis": "Poświadczenie Urzędu Parafialnego obrządku łacińskiego w Płauczy Małej k. Zborowa, powiat Brzeżany, z 6 IV 1945 r.: Gliceria Bonisławska, wdowa po Danielu, córka Piotra Baraban i Zofii Rad, urodzona w Płauczy Małej, woj. Tarnopol, wyznania rzymskokatolickiego, narodowości polskiej. Wiek zapisany jako 66 lat (pierwsza cyfra jest poprawiana). Podpis księdza nieczytelny.",
+                    "zrodlo": "Zbiory rodzinne",
+                    "szeroko": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "podtytul": "Bonisławscy • Murzyńscy • Nowalscy • Adamczyk"
