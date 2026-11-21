@@ -870,6 +870,13 @@
                   }
                 },
                 {
+                  "przypis": {
+                    "etykieta": "Źródło",
+                    "tekst": "Geneteka, Polskie Towarzystwo Genealogiczne: dzieci Piotra i Tekli Rosiak (urodzenie Franciszki 1875, Kutno, akt 175; zgony: Mateusz 1879, Łęki Kościelne, akt 49; Jakub 1881, Góra św. Małgorzaty, akt 141; Franciszka 1895, Bedlno, akt 27; małżeństwo Mateusza 1892, Grochów, akt 7)",
+                    "url": "https://geneteka.genealodzy.pl"
+                  }
+                },
+                {
                   "akapit": "Do 1881 roku rodzina mieszkała w parafii Góra Świętej Małgorzaty (powiat łęczycki), od około 1889 roku w Łodzi na Żubardziu, a w latach 1899–1900 w Łodzi w parafii św. Krzyża."
                 },
                 {
@@ -909,6 +916,14 @@
       "lista_dzieci": [
         {
           "grupa": "Dzieci Piotra i Tekli Rosiak"
+        },
+        {
+          "imie": "Franciszka",
+          "opis": "ur. 1875 w Sójkach, parafia Kutno (akt 175; w indeksie nazwisko Nowaliński); zm. 1895 w Drzewoszkach Małych, parafia Bedlno, pow. kutnowski (akt 27). Według indeksów oba wpisy dotyczą tej samej osoby, bo zgadzają się imię i rodzice."
+        },
+        {
+          "imie": "Mateusz",
+          "opis": "zm. 1879, parafia Łęki Kościelne (akt 49)"
         },
         {
           "imie": "Jakub",
