@@ -40,9 +40,10 @@
         "ur_miejsce": "Płaucza Mała",
         "portret": {
           "plik": "zdjecia/bronislaw-portret-przy-samochodzie-koloryzacja.jpg",
-          "podpis": "Bronisław Bonisławski. Koloryzacja zdjęcia, rok nieznany",
+          "podpis": "Bronisław Bonisławski. Koloryzacja zdjęcia z czasu wojny, rok nieznany",
           "zrodlo": "Zbiory rodzinne. Koloryzacja cyfrowa, oryginał czarno-biały"
-        }
+        },
+        "zm_miejsce": "Łódź"
       },
       "rozdzialy": [
         "Przed wojną",
@@ -124,27 +125,10 @@
                 {
                   "zdjecie": {
                     "plik": "skany/bronislaw-kronika-1938-skarb-monet.jpg",
-                    "podpis": "Notatka o skarbie z Płauczy Małej, Kronika, s. 348 (za „Wiekiem Nowym”, Lwów, 19 XI 1938).",
-                    "zrodlo": "Biblioteka cyfrowa. [Tytuł czasopisma i adres do uzupełnienia]",
+                    "podpis": "Notatka o skarbie z Płauczy Małej w czasopiśmie („Kronika”, s. 348), za „Wiekiem Nowym”, Lwów, 19 XI 1938.",
+                    "zrodlo": "Zbiory rodzinne. Czasopismo nie jest zdigitalizowane, zachowało się tylko zdjęcie strony.",
                     "szeroko": false
                   }
-                },
-                {
-                  "galeria": [
-                    {
-                      "plik": "zdjecia/bronislaw-portret-koloryzacja.jpg",
-                      "podpis": "Bronisław Bonisławski, portret. Koloryzacja zdjęcia, rok nieznany.",
-                      "zrodlo": "Zbiory rodzinne",
-                      "ksztalt": "kw"
-                    },
-                    {
-                      "plik": "zdjecia/bronislaw-portret-maly.jpg",
-                      "podpis": "Portret mężczyzny. [Kto i kiedy: do potwierdzenia.]",
-                      "zrodlo": "Zbiory rodzinne",
-                      "ksztalt": "pion"
-                    }
-                  ],
-                  "etykieta": "Portrety"
                 }
               ]
             }
@@ -179,43 +163,54 @@
                 {
                   "galeria": [
                     {
+                      "plik": "zdjecia/bronislaw-portret-koloryzacja.jpg",
+                      "podpis": "Bronisław Bonisławski, portret. Koloryzacja zdjęcia z czasu wojny, rok nieznany.",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "kw"
+                    },
+                    {
+                      "plik": "zdjecia/bronislaw-przy-wozie-koloryzacja.jpg",
+                      "podpis": "Bronisław Bonisławski. Koloryzacja zdjęcia z czasu wojny. [Miejsce i rok do uzupełnienia.]",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "pion"
+                    }
+                  ],
+                  "etykieta": "Zdjęcia z czasu wojny"
+                },
+                {
+                  "galeria": [
+                    {
+                      "plik": "zdjecia/bronislaw-blaszka-kat.jpg",
+                      "podpis": "Nieśmiertelnik Bronisława Bonisławskiego. Napis: „Bronisław Bonisławski KAT”.",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "poziom"
+                    },
+                    {
+                      "plik": "zdjecia/bronislaw-blaszka-36-brzezany-1917.jpg",
+                      "podpis": "Nieśmiertelnik Bronisława Bonisławskiego. Napis: „36 Brzeżany 1917”.",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "poziom"
+                    },
+                    {
                       "plik": "zdjecia/bronislaw-blaszka-stalag-1a-58236.jpg",
                       "podpis": "Blaszka jeniecka z napisem „Stalag IA 58236”.",
                       "zrodlo": "Zbiory rodzinne",
                       "ksztalt": "poziom"
                     },
                     {
-                      "plik": "zdjecia/bronislaw-blaszka-kat.jpg",
-                      "podpis": "Blaszka z napisem „Bronisław Bonisławski KAT”.",
-                      "zrodlo": "Zbiory rodzinne",
-                      "ksztalt": "poziom"
-                    },
-                    {
-                      "plik": "zdjecia/bronislaw-blaszka-36-brzezany-1917.jpg",
-                      "podpis": "Blaszka z napisem „36 Brzeżany 1917”.",
-                      "zrodlo": "Zbiory rodzinne",
-                      "ksztalt": "poziom"
-                    },
-                    {
                       "plik": "zdjecia/bronislaw-orzel-naszywka.jpg",
-                      "podpis": "Haftowany orzeł wojskowy.",
+                      "podpis": "Orzeł, pozostała część munduru Bronisława.",
                       "zrodlo": "Zbiory rodzinne",
                       "ksztalt": "pion"
                     },
                     {
                       "plik": "zdjecia/bronislaw-guziki-orzel-usa.jpg",
-                      "podpis": "Dwa guziki z orłem Stanów Zjednoczonych.",
+                      "podpis": "Guziki, pozostała część munduru Bronisława. Orzeł Stanów Zjednoczonych.",
                       "zrodlo": "Zbiory rodzinne",
                       "ksztalt": "poziom"
-                    },
-                    {
-                      "plik": "zdjecia/bronislaw-przy-wozie-koloryzacja.jpg",
-                      "podpis": "Bronisław Bonisławski. Koloryzacja zdjęcia. [Miejsce i rok do uzupełnienia.]",
-                      "zrodlo": "Zbiory rodzinne",
-                      "ksztalt": "pion"
                     }
                   ],
-                  "etykieta": "Pamiątki i zdjęcia"
+                  "etykieta": "Nieśmiertelnik i części munduru"
                 }
               ]
             }
@@ -233,6 +228,9 @@
                 },
                 {
                   "akapit": "Zofia poślubiła Bronisława Bonisławskiego. Mieli dwoje dzieci, Ryszarda i Irenę. Zofia mieszkała w Łodzi przy ulicy Abramowskiego 34."
+                },
+                {
+                  "akapit": "Bronisław zmarł w 1996 roku w Łodzi."
                 },
                 {
                   "akapit": "Zmarła 29 listopada 2007 roku w Łodzi."
@@ -257,6 +255,17 @@
                       "ksztalt": "doc"
                     }
                   ]
+                },
+                {
+                  "galeria": [
+                    {
+                      "plik": "zdjecia/bronislaw-portret-maly.jpg",
+                      "podpis": "Bronisław Bonisławski po wojnie. Rok nieznany.",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "pion"
+                    }
+                  ],
+                  "etykieta": "Zdjęcia"
                 }
               ]
             }
