@@ -2429,7 +2429,17 @@
         "ur": "",
         "zm": "",
         "ojciec": "Antoni Badełek",
-        "matka": "Marianna"
+        "matka": "Marianna",
+        "fakty": [
+          [
+            "Ślub",
+            "Franciszek Adamczyk"
+          ],
+          [
+            "Zmarła",
+            "przed 1839 rokiem"
+          ]
+        ]
       },
       "on": {
         "imie": "Franciszek",
@@ -2437,7 +2447,25 @@
         "ur": "",
         "zm": "",
         "ojciec": "Antoni Adamczyk",
-        "matka": "Urszula"
+        "matka": "Urszula",
+        "fakty": [
+          [
+            "Zawód",
+            "komornik (bezrolny, wynajmujący kąt u gospodarza) / gospodarz"
+          ],
+          [
+            "Mieszkał",
+            "gmina Wiskicka, powiat sochaczewski"
+          ],
+          [
+            "Zmarł",
+            "przed 1839 rokiem"
+          ],
+          [
+            "Ślub",
+            "Ewa Badełek"
+          ]
+        ]
       },
       "dzieci": [
         {
@@ -2447,8 +2475,24 @@
       ],
       "lista_dzieci": [
         {
-          "imie": "Andrzej",
-          "opis": "",
+          "imie": "Katarzyna",
+          "opis": "ur. 10 lipca 1811, Sokule"
+        },
+        {
+          "imie": "Maciej",
+          "opis": "ur. 21 lutego 1814, Tomaszew. Ślub w 1848 roku w Mszczonowie z Zuzanną Krüger. Zm. 1879, Mszczonów"
+        },
+        {
+          "imie": "Marianna",
+          "opis": "ślub z Piotrem Kurowskim (1836, Osuchów). Zm. 1866, Mszczonów, jako Marianna Kurowska"
+        },
+        {
+          "imie": "Brygida",
+          "opis": "zm. 1844, Osuchów (jako Brygida Buczek, nazwisko po mężu)"
+        },
+        {
+          "imie": "Andrzej (Jędrzej)",
+          "opis": "ur. 27 listopada 1820, Sokule",
           "strona": "andrzej-adamczyk-i-wiktoria"
         }
       ],
