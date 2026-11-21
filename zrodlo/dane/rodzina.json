@@ -1017,7 +1017,7 @@
         "ojciec": "Michał Sarnicki",
         "matka": "Franciszka z d. Pichur",
         "ur_data": "około 1844",
-        "zm_miejsce": "dom nr 124",
+        "zm_miejsce": "Płaucza Mała, dom nr 124",
         "fakty": [
           [
             "Ślub",
@@ -1034,8 +1034,8 @@
         "ojciec": "Stanisław Bonisławski",
         "matka": "Marta z d. Rewna",
         "ur_data": "23/26.06.1834",
-        "ur_miejsce": "dom nr 10",
-        "zm_miejsce": "dom nr 124",
+        "ur_miejsce": "Płaucza Mała, dom nr 10",
+        "zm_miejsce": "Płaucza Mała, dom nr 124",
         "fakty": [
           [
             "Ślub",
@@ -1069,6 +1069,13 @@
                 },
                 {
                   "akapit": "Michał Sarnicki zmarł 15 lub 17 kwietnia 1874 roku w domu nr 22, mając 70 lat. Jako przyczynę podano starość (senectus). Był wdowcem po Franciszce Pichur i rolnikiem. Pochował go ks. Jan Fijałkowski, administrator."
+                },
+                {
+                  "przypis": {
+                    "etykieta": "Źródło",
+                    "tekst": "Geneteka, Polskie Towarzystwo Genealogiczne, parafia Budyłów (Płaucza Mała): urodzenia dzieci Franciszka i Klary z lat 1872–1887, małżeństwa 1887 (akt 1) i 1897 (akt 3 i akt 4), zgony dzieci z lat 1875–1890",
+                    "url": "https://geneteka.genealodzy.pl"
+                  }
                 }
               ]
             }
@@ -1078,19 +1085,19 @@
       "lista_dzieci": [
         {
           "imie": "Jan",
-          "opis": "zm. 5/7 lutego 1890 w domu nr 10, w wieku 22¾ roku; przyczyna: tyfus"
+          "opis": "zm. 5/7 lutego 1890 w Płauczy Małej, w domu nr 10, w wieku 22¾ roku; przyczyna: tyfus"
         },
         {
           "imie": "Anna",
-          "opis": "zm. 12/14 lutego 1890 w domu nr 10, w wieku 20¾ roku; przyczyna: tyfus"
+          "opis": "zm. 12/14 lutego 1890 w Płauczy Małej, w domu nr 10, w wieku 20¾ roku; przyczyna: tyfus"
         },
         {
           "imie": "Szymon",
-          "opis": "ur. 1872, dom nr 10; żona: Maria Lissowska (dom nr 14), córka Marcina Lisowskiego (szlachcica, nobilis) i Magdaleny Czosnowicz; ślub 18 lipca 1897, akt nr 4, parafia Budyłów (Szymon: kawaler, 25 lat, dom nr 124; Maria: panna, 21 lat). Zgodę na ślub Marii uzyskano drogą sądową (Kozowa, 12 lipca 1897, nr 4450), bo oboje rodzice już nie żyli: ojciec Marcin zmarł 26/28 lutego 1896 w domu nr 14, w wieku 51 lat, na gastritis, a matka Magdalena zmarła wcześniej"
+          "opis": "ur. 1872, Płaucza Mała, dom nr 10; żona: Maria Lissowska (dom nr 14), córka Marcina Lisowskiego (szlachcica, nobilis) i Magdaleny Czosnowicz; ślub 18 lipca 1897, akt nr 4, parafia Budyłów (Szymon: kawaler, 25 lat, dom nr 124; Maria: panna, 21 lat). Zgodę na ślub Marii uzyskano drogą sądową (Kozowa, 12 lipca 1897, nr 4450), bo oboje rodzice już nie żyli: ojciec Marcin zmarł 26/28 lutego 1896 w domu nr 14, w wieku 51 lat, na gastritis, a matka Magdalena zmarła wcześniej"
         },
         {
           "imie": "Maria",
-          "opis": "ur. 1874, dom nr 124; zm. 1875, dom nr 124"
+          "opis": "ur. 1874, Płaucza Mała, dom nr 124; zm. 1875"
         },
         {
           "imie": "Tekla",
@@ -1098,24 +1105,24 @@
         },
         {
           "imie": "Maria",
-          "opis": "ur. 1876, dom nr 124; mąż: Antoni Czepiżak, rolnik, kawaler, 29 lat, dom nr 121/16 (Płaucza Wielka), syn Grzegorza Czepiżaka i Barbary Marczowskiej; ślub 15 czerwca 1897, akt nr 65, parafia Budyłów (Maria: panna, 21 lat, dom nr 124/10). Ojciec, Franciszek Bonisławski, wyraził zgodę na ślub córki w akcie, podpisując się znakiem krzyża"
+          "opis": "ur. 1876, Płaucza Mała, dom nr 124; mąż: Antoni Czepiżak, rolnik, kawaler, 29 lat, dom nr 121/16 (Płaucza Wielka), syn Grzegorza Czepiżaka i Barbary Marczowskiej; ślub 15 czerwca 1897, akt nr 65, parafia Budyłów (Maria: panna, 21 lat, dom nr 124/10). Ojciec, Franciszek Bonisławski, wyraził zgodę na ślub córki w akcie, podpisując się znakiem krzyża"
         },
         {
           "imie": "Michał",
-          "opis": "ur. 24 lipca 1879, dom nr 124"
+          "opis": "ur. 24 lipca 1879, Płaucza Mała, dom nr 124 (akt 8)"
         },
         {
           "imie": "Zofia",
-          "opis": "ur. 3 maja 1882, dom nr 124; zm. 1883, dom nr 124"
+          "opis": "ur. 3 maja 1882, Płaucza Mała, dom nr 124 (akt 3); zm. 1883 (akt 24)"
         },
         {
           "imie": "Eustachy",
-          "opis": "ur. 29 grudnia 1884, dom nr 124; żona: Maria Murzyńska (ur. 17.10.1892, zm. 12.05.1972), córka Mikołaja Murzyńskiego i Justyny Drewnickiej",
+          "opis": "ur. 29 grudnia 1884, Płaucza Mała, dom nr 124; żona: Maria Murzyńska (ur. 17.10.1892, zm. 12.05.1972), córka Mikołaja Murzyńskiego i Justyny Drewnickiej",
           "strona": "eustachy-i-maria"
         },
         {
           "imie": "Paweł",
-          "opis": "ur. 1887, dom nr 124; zm. 1887, dom nr 124"
+          "opis": "ur. 1887, Płaucza Mała, dom nr 124 (akt 3); zm. 1887 (akt 4)"
         }
       ]
     },
