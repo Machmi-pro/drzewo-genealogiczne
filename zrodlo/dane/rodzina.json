@@ -598,7 +598,26 @@
         "zm": "1972",
         "ojciec": "Mikołaj Murzyński",
         "matka": "Justyna z d. Drewnicka",
-        "rodzice": "mikolaj-i-justyna"
+        "rodzice": "mikolaj-i-justyna",
+        "ur_data": "17.10.1892",
+        "ur_miejsce": "Płaucza Mała, dom nr 129",
+        "zm_data": "12.05.1972",
+        "zm_miejsce": "Wierzbica Górna",
+        "fakty": [
+          [
+            "Ślub",
+            "Eustachy Bonisławski"
+          ],
+          [
+            "Zawód",
+            "robotnica"
+          ],
+          [
+            "Mieszkała",
+            "Płaucza Mała, Wierzbica Górna 46"
+          ]
+        ],
+        "uwaga": "Ojciec, Mikołaj Murzyński, określony jako nobilis."
       },
       "on": {
         "imie": "Eustachy",
@@ -607,12 +626,115 @@
         "zm": "1939",
         "ojciec": "Franciszek Bonisławski",
         "matka": "Klara z d. Sarnicka",
-        "rodzice": "franciszek-i-klara"
+        "rodzice": "franciszek-i-klara",
+        "ur_data": "29.12.1884",
+        "ur_miejsce": "Płaucza Mała, dom nr 124",
+        "zm_data": "wrzesień 1939",
+        "zm_miejsce": "Płaucza Mała",
+        "fakty": [
+          [
+            "Przyczyna śmierci",
+            "pobicie"
+          ],
+          [
+            "Ślub",
+            "Maria Murzyńska"
+          ],
+          [
+            "Zawód",
+            "kierował pocztą i był sekretarzem gminy"
+          ],
+          [
+            "Mieszkał",
+            "Płaucza Mała 124"
+          ]
+        ],
+        "uwaga": "Data urodzenia (29 grudnia) według dowodu osobistego z 1939 roku i zawiadomienia szkolnego z 1898 roku."
       },
       "dzieci": [
         {
           "imie": "Bronisław Bonisławski (dziadek)",
           "strona": "zofia-i-bronislaw"
+        }
+      ],
+      "lista_dzieci": [
+        {
+          "imie": "Anna",
+          "opis": "1 sierpnia 1915 – 19 stycznia 1996; mąż: Ludwik Pichur"
+        },
+        {
+          "imie": "Bronisław",
+          "opis": "1917–1996; żona: Zofia Nowalska",
+          "strona": "zofia-i-bronislaw"
+        },
+        {
+          "imie": "Jadwiga",
+          "opis": "15 maja 1921 – 1995; mąż: Wojciech Dereń"
+        },
+        {
+          "imie": "Agnieszka",
+          "opis": "ur. 22 stycznia 1923, zm. 3 lipca 2017; mąż: Michał Bonisławski"
+        },
+        {
+          "imie": "Maria",
+          "opis": "ur. 6 lipca 1925, zm. 27 maja 2011; mąż: Władysław Cisowski"
+        }
+      ],
+      "tresc": [
+        {
+          "tytul": "Dokumenty",
+          "historie": [
+            {
+              "tytul": "Eustachy Bonisławski",
+              "elementy": [
+                {
+                  "akapit": "Eustachy Bonisławski kierował pocztą i był sekretarzem gminy. W dowodzie osobistym wydanym 19 sierpnia 1939 roku jako zawód wpisano: urzędnik samorządu gminnego."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/eustachy-dowod-okladka-1939.jpg",
+                    "podpis": "Okładka dowodu osobistego, ser. E nr 667050: gmina Płaucza Mała, powiat brzeżański.",
+                    "zrodlo": "Zbiory rodzinne",
+                    "szeroko": false
+                  }
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/eustachy-dowod-1939.jpg",
+                    "podpis": "Dowód osobisty Eustachego Bonisławskiego, nr D-57/39, wydany 19 VIII 1939 r. Data urodzenia: 29 XII 1884 r., miejsce urodzenia: Płaucza Mała, pow. Brzeżany.",
+                    "zrodlo": "Zbiory rodzinne",
+                    "szeroko": true
+                  }
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/zawiadomienie-szkolne-1898.jpg",
+                    "podpis": "Zawiadomienie szkolne z 1 II 1898 r., szkoła w Płauczy Małej, klasa IV, rok szkolny 1897/8. Uczeń: Stanisław Bonisławski, ur. 29 grudnia 1884 w Płauczy Małej. Podpis ojca: Franciszek Bonisławski.",
+                    "zrodlo": "Zbiory rodzinne",
+                    "szeroko": false
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tytul": "Zdjęcie rodzinne",
+          "historie": [
+            {
+              "tytul": "Rodzina",
+              "elementy": [
+                {
+                  "zdjecie": {
+                    "plik": "zdjecia/zdjecie-rodzinne-bonislawscy.jpg",
+                    "podpis": "Zdjęcie rodzinne.",
+                    "zrodlo": "Zbiory rodzinne",
+                    "szeroko": false
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
