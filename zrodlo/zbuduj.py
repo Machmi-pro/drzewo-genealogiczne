@@ -55,7 +55,9 @@ def expand(level):
 for lvl in range(1, 10): expand(lvl)
 
 def full(o): return f'{o["imie"]} {o["nazwisko"]}'
-def couple_name(p): return f'{p["ona"]["imie"]} i {p["on"]["imie"]}'
+def couple_name(p):
+    a, b = p["ona"]["imie"], p["on"]["imie"]
+    return f"{a} i {b}" if a and b else (a or b)
 def years(o):
     if not o.get("ur") and not o.get("zm"): return ""
     return f'{o.get("ur") or "?"}–{o.get("zm") or "?"}'
@@ -110,7 +112,8 @@ def facts(o, fem):
             + (f'<p class="factnote">{e(o["uwaga"])}</p>' if o.get("uwaga") else ''))
 
 def person(o, fem):
-    nm = full(o)
+    if not o.get("imie"): return ""
+    nm = full(o).strip()
     pt = o.get("portret")
     if pt:
         cap = pt.get("podpis", nm)

@@ -2662,13 +2662,18 @@
         "imie": "Franciszka",
         "nazwisko": "Zarębska",
         "ur": "",
-        "zm": ""
+        "zm": "",
+        "ojciec": "Stanisław",
+        "matka": "Elżbieta Dolot",
+        "rodzice": "stanislaw-i-elzbieta"
       },
       "on": {
         "imie": "Szczepan",
         "nazwisko": "Kowalczyk",
         "ur": "",
-        "zm": ""
+        "zm": "",
+        "ojciec": "Stanisław",
+        "rodzice": "stanislaw-ojciec-szczepana"
       },
       "dzieci": [
         {
@@ -2869,6 +2874,100 @@
           "imie": "Agata",
           "opis": "",
           "strona": "maciej-zukowski-i-agata"
+        }
+      ],
+      "tresc": [
+        {
+          "tytul": "O danych",
+          "historie": [
+            {
+              "tytul": "Wachlarz przodków",
+              "elementy": [
+                {
+                  "przypis": {
+                    "etykieta": "Źródło",
+                    "tekst": "Wachlarz przodków Zofii Nowalskiej (zrzut z drzewa genealogicznego rodziny). Strona zawiera tylko imiona, nazwiska i lata widoczne na wachlarzu."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stanislaw-i-elzbieta",
+      "pokolenie": 6,
+      "ona": {
+        "imie": "Elżbieta",
+        "nazwisko": "Dolot",
+        "ur": "",
+        "zm": ""
+      },
+      "on": {
+        "imie": "Stanisław",
+        "nazwisko": "",
+        "ur": "",
+        "zm": ""
+      },
+      "dzieci": [
+        {
+          "imie": "Franciszka Zarębska",
+          "strona": "szczepan-kowalczyk-i-franciszka"
+        }
+      ],
+      "lista_dzieci": [
+        {
+          "imie": "Franciszka",
+          "opis": "",
+          "strona": "szczepan-kowalczyk-i-franciszka"
+        }
+      ],
+      "tresc": [
+        {
+          "tytul": "O danych",
+          "historie": [
+            {
+              "tytul": "Wachlarz przodków",
+              "elementy": [
+                {
+                  "przypis": {
+                    "etykieta": "Źródło",
+                    "tekst": "Wachlarz przodków Zofii Nowalskiej (zrzut z drzewa genealogicznego rodziny). Strona zawiera tylko imiona, nazwiska i lata widoczne na wachlarzu."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stanislaw-ojciec-szczepana",
+      "pokolenie": 6,
+      "ona": {
+        "imie": "",
+        "nazwisko": "",
+        "ur": "",
+        "zm": ""
+      },
+      "on": {
+        "imie": "Stanisław",
+        "nazwisko": "",
+        "ur": "",
+        "zm": ""
+      },
+      "dzieci": [
+        {
+          "imie": "Szczepan Kowalczyk",
+          "strona": "szczepan-kowalczyk-i-franciszka"
+        }
+      ],
+      "lista_dzieci": [
+        {
+          "imie": "Szczepan",
+          "opis": "",
+          "strona": "szczepan-kowalczyk-i-franciszka"
         }
       ],
       "tresc": [
