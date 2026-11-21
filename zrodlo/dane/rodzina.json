@@ -357,8 +357,8 @@
         ],
         "portret": {
           "plik": "zdjecia/wawrzyniec-nowalski-portret.jpg",
-          "podpis": "Wawrzyniec Nowalski",
-          "zrodlo": "Zbiory rodzinne"
+          "podpis": "Wawrzyniec Nowalski. Koloryzacja zdjęcia",
+          "zrodlo": "Zbiory rodzinne. Koloryzacja cyfrowa, oryginał czarno-biały"
         }
       },
       "dzieci": [
@@ -403,7 +403,7 @@
               "tytul": "Stanisława i Wawrzyniec Nowalscy",
               "elementy": [
                 {
-                  "akapit": "23 września 1916 roku, o godzinie piątej po południu, w parafii św. Stanisława Kostki w Łodzi zawarto związek małżeński Wawrzyńca Nowalskiego i Stanisławy Adamczyk. Według aktu Wawrzyniec był wdowcem po Marjannie z Zielińskich, robotnikiem, miał trzydzieści sześć lat i mieszkał w Łodzi przy ulicy Wólczańskiej. Stanisława, panna, robotnica, miała trzydzieści jeden lat, urodziła się w parafii Lutkówka w powiecie błońskim i mieszkała w Łodzi przy ulicy Gubernatorskiej. Zapowiedzi ogłoszono 3, 10 i 17 września."
+                  "akapit": "23 września 1916 roku, o godzinie piątej po południu, w parafii św. Stanisława Kostki w Łodzi zawarto związek małżeński Wawrzyńca Nowalskiego i Stanisławy Adamczyk. Według aktu Wawrzyniec był wdowcem po Marjannie z Zielińskich, robotnikiem, miał trzydzieści sześć lat i mieszkał w Łodzi przy ulicy Wólczańskiej. Stanisława, panna, robotnica, miała trzydzieści jeden lat, urodziła się w parafii Lutkówka w powiecie błońskim i mieszkała w Łodzi przy ulicy Gubernatorskiej (w 1925 roku ulica Gubernatorska w Łodzi zmieniła nazwę na ulicę Edwarda Abramowskiego). Zapowiedzi ogłoszono 3, 10 i 17 września."
                 },
                 {
                   "zdjecie": {
@@ -576,7 +576,7 @@
         {
           "imie": "Zofia Bonisławska z d. Nowalska",
           "strona": "zofia-i-bronislaw",
-          "opis": "ur. 21 stycznia 1920 w Łodzi, ul. Gubernatorska"
+          "opis": "ur. 21 stycznia 1920 w Łodzi, ul. Gubernatorska (obecnie Abramowskiego)"
         },
         {
           "imie": "Krystyna Nowalska",
