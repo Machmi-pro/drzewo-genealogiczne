@@ -4,7 +4,8 @@
     "1": "Dziadkowie",
     "2": "Pradziadkowie",
     "3": "Prapradziadkowie",
-    "4": "Praprapradziadkowie"
+    "4": "Praprapradziadkowie",
+    "1.5": "Rodzeństwo dziadków"
   },
   "pary": [
     {
@@ -679,6 +680,10 @@
         {
           "imie": "Bronisław Bonisławski (dziadek)",
           "strona": "zofia-i-bronislaw"
+        },
+        {
+          "imie": "Agnieszka Bonisławska",
+          "strona": "agnieszka-i-michal"
         }
       ],
       "lista_dzieci": [
@@ -697,7 +702,8 @@
         },
         {
           "imie": "Agnieszka",
-          "opis": "ur. 22 stycznia 1923, zm. 3 lipca 2017; mąż: Michał Bonisławski"
+          "opis": "ur. 22 stycznia 1923, zm. 3 lipca 2017; mąż: Michał Bonisławski",
+          "strona": "agnieszka-i-michal"
         },
         {
           "imie": "Maria",
@@ -1340,6 +1346,42 @@
           ]
         }
       ]
+    },
+    {
+      "id": "agnieszka-i-michal",
+      "pokolenie": 1.5,
+      "linia": "his",
+      "ona": {
+        "imie": "Agnieszka",
+        "nazwisko": "Bonisławska",
+        "ur": "1923",
+        "zm": "2017",
+        "ur_data": "22.01.1923",
+        "zm_data": "3.07.2017",
+        "rodzice": "eustachy-i-maria",
+        "ojciec": "Eustachy Bonisławski",
+        "matka": "Maria z d. Murzyńska",
+        "fakty": [
+          [
+            "Ślub",
+            "Michał Bonisławski"
+          ]
+        ]
+      },
+      "on": {
+        "imie": "Michał",
+        "nazwisko": "Bonisławski",
+        "ur": "",
+        "zm": "",
+        "fakty": [
+          [
+            "Ślub",
+            "Agnieszka Bonisławska"
+          ]
+        ],
+        "uwaga": "Michał nosił to samo nazwisko co żona, ale pochodził z innej linii przodków."
+      },
+      "dzieci": []
     }
   ],
   "podtytul": "Bonisławscy • Murzyńscy • Nowalscy • Adamczyk"

@@ -41,6 +41,10 @@ for p in data["pary"]:
     if p["pokolenie"] == 1:
         side[p["id"]] = None
         order.append(p["id"])
+for p in data["pary"]:
+    if p.get("linia") and p["id"] not in side:
+        side[p["id"]] = p["linia"]
+        order.append(p["id"])
 def expand(level):
     for pid in [i for i in order if PARY[i]["pokolenie"] == level]:
         p = PARY[pid]
@@ -53,16 +57,16 @@ for lvl in range(1, 10): expand(lvl)
 def full(o): return f'{o["imie"]} {o["nazwisko"]}'
 def couple_name(p): return f'{p["ona"]["imie"]} i {p["on"]["imie"]}'
 def years(o):
-    if not o["ur"] and not o["zm"]: return ""
-    return f'{o["ur"] or "?"}–{o["zm"] or "?"}'
+    if not o.get("ur") and not o.get("zm"): return ""
+    return f'{o.get("ur") or "?"}–{o.get("zm") or "?"}'
 
 # --- menu (hamburger + wysuwana szuflada z kaflami, od najmłodszego pokolenia) ---
 def home(): return "index.html"
 def url(pid): return home() if pid == HOME else f"{pid}.html"
 def nav(current):
     tiers = []
-    for g in sorted(GEN, key=int):
-        items = [pid for pid in order if PARY[pid]["pokolenie"] == int(g)]
+    for g in sorted(GEN, key=float):
+        items = [pid for pid in order if PARY[pid]["pokolenie"] == float(g)]
         if not items: continue
         tiles = []
         for pid in items:
@@ -92,15 +96,16 @@ def facts(o, fem):
         if m is None: m = ""
         return f'<dt>{label}</dt><dd><span class="sym">{sym}</span>{e(d)}{", " + e(m) if m else ""}</dd>'
     def parent(label, name, pid):
+        if not name: return ""
         if pid in PARY:
             return f'<dt>{label}</dt><dd><a href="{pid}.html">{e(name)}</a></dd>'
         return f'<dt>{label}</dt><dd>{e(name)}</dd>'
     return ('<dl class="facts">'
-            + row("Urodzona" if fem else "Urodzony", "*", o["ur"], "ur")
-            + row("Zmarła" if fem else "Zmarł", "†", o["zm"], "zm")
+            + row("Urodzona" if fem else "Urodzony", "*", o.get("ur"), "ur")
+            + row("Zmarła" if fem else "Zmarł", "†", o.get("zm"), "zm")
             + "".join(f'<dt>{e(a)}</dt><dd>{e(b)}</dd>' for a, b in o.get("fakty", []))
-            + parent("Ojciec", o["ojciec"], o.get("rodzice"))
-            + parent("Matka", o["matka"], o.get("rodzice"))
+            + parent("Ojciec", o.get("ojciec"), o.get("rodzice"))
+            + parent("Matka", o.get("matka"), o.get("rodzice"))
             + '</dl>'
             + (f'<p class="factnote">{e(o["uwaga"])}</p>' if o.get("uwaga") else ''))
 
@@ -185,7 +190,7 @@ def couple_page(p):
         o = p[who]; rp = o.get("rodzice")
         if rp in PARY:
             nxt.append(f'<a href="{rp}.html"><span class="label">Rodzice: {e(full(o))}</span><strong>{e(couple_name(PARY[rp]))}</strong></a>')
-        else:
+        elif o.get("ojciec") and o.get("matka"):
             nxt.append(f'<span class="none"><span class="label">Rodzice: {e(full(o))}</span>{e(o["ojciec"])} i {e(o["matka"])}</span>')
     for k in [k for k in p.get("dzieci", []) if k.get("strona")]:
         nxt.append(f'<a class="down" href="{url(k["strona"])}"><span class="label">Ich dziecko: {e(k["imie"])}</span>'
