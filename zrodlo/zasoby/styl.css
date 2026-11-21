@@ -28,8 +28,8 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .site .wrap{display:flex;align-items:center;gap:1rem;padding-block:.55rem}
 .brand{font-family:var(--display);font-size:1.2rem;color:var(--ink);text-decoration:none}
 .brand small{display:block;font-family:var(--mono);font-size:.65rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-.burger{display:flex;align-items:center;gap:.6rem;background:none;border:1px solid var(--rule);color:var(--ink);padding:.5rem .8rem;cursor:pointer;font-family:var(--mono);font-size:.78rem;letter-spacing:.06em;text-transform:uppercase}
-.burger:hover{border-color:var(--sepia)}
+.burger{display:flex;align-items:center;gap:.6rem;background:none;border:0;color:var(--ink);padding:.5rem .4rem;cursor:pointer}
+.burger:hover .bars,.burger:hover .bars::before,.burger:hover .bars::after{background:var(--sepia)}
 .bars,.bars::before,.bars::after{display:block;width:1.15rem;height:2px;background:var(--ink);position:relative}
 .bars::before,.bars::after{content:"";position:absolute;left:0}
 .bars::before{top:-6px}.bars::after{top:6px}

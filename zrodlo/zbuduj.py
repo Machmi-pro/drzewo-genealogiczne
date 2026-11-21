@@ -214,7 +214,7 @@ def couple_page(p):
   <header class="title">
     <div class="series">Historia rodziny · {e(GEN[str(gen)])}</div>
     <h1>{e(title)}</h1>
-    <p class="sub">{e(p.get("podtytul", "[Krótki podtytuł]"))}</p>
+    {f'<p class="sub">{e(p["podtytul"])}</p>' if p.get("podtytul") else ""}
   </header>
   <section class="pair" aria-label="{e(title)}">{person(p["ona"], True)}{person(p["on"], False)}</section>
   {chapters_html}
