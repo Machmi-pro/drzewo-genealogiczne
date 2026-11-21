@@ -102,10 +102,12 @@ def facts(o, fem):
         if pid in PARY:
             return f'<dt>{label}</dt><dd><a href="{pid}.html">{e(name)}</a></dd>'
         return f'<dt>{label}</dt><dd>{e(name)}</dd>'
+    r_ur = row("Urodzona" if fem else "Urodzony", "*", o.get("ur"), "ur")
+    r_zm = row("Zmarła" if fem else "Zmarł", "†", o.get("zm"), "zm")
+    dup = ({"urodzona", "urodzony"} if r_ur else set()) | ({"zmarła", "zmarł"} if r_zm else set())
     return ('<dl class="facts">'
-            + row("Urodzona" if fem else "Urodzony", "*", o.get("ur"), "ur")
-            + row("Zmarła" if fem else "Zmarł", "†", o.get("zm"), "zm")
-            + "".join(f'<dt>{e(a)}</dt><dd>{e(b)}</dd>' for a, b in o.get("fakty", []))
+            + r_ur + r_zm
+            + "".join(f'<dt>{e(a)}</dt><dd>{e(b)}</dd>' for a, b in o.get("fakty", []) if a.strip().lower() not in dup)
             + parent("Ojciec", o.get("ojciec"), o.get("rodzice"))
             + parent("Matka", o.get("matka"), o.get("rodzice"))
             + '</dl>'
