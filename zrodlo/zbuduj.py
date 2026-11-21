@@ -86,15 +86,15 @@ def nav(current):
 # --- strona pary --------------------------------------------------------------
 def facts(o, fem):
     def row(label, sym, y, key):
-        if o.get("puste_pomin") and not (o.get(key + "_data") or y): return ""
+        if not (o.get(key + "_data") or y): return ""
         d = o.get(key + "_data") or (y if y else '[data]')
         m = o.get(key + "_miejsce")
-        if m is None: m = "" if o.get("puste_pomin") else '[miejscowość]'
+        if m is None: m = ""
         return f'<dt>{label}</dt><dd><span class="sym">{sym}</span>{e(d)}{", " + e(m) if m else ""}</dd>'
     def parent(label, name, pid):
         if pid in PARY:
             return f'<dt>{label}</dt><dd><a href="{pid}.html">{e(name)}</a></dd>'
-        return f'<dt>{label}</dt><dd><a href="#" class="todo">{e(name)}</a><span class="later">strona wkrótce</span></dd>'
+        return f'<dt>{label}</dt><dd>{e(name)}</dd>'
     return ('<dl class="facts">'
             + row("Urodzona" if fem else "Urodzony", "*", o["ur"], "ur")
             + row("Zmarła" if fem else "Zmarł", "†", o["zm"], "zm")
@@ -186,11 +186,11 @@ def couple_page(p):
         if rp in PARY:
             nxt.append(f'<a href="{rp}.html"><span class="label">Rodzice: {e(full(o))}</span><strong>{e(couple_name(PARY[rp]))}</strong></a>')
         else:
-            nxt.append(f'<span class="none"><span class="label">Rodzice: {e(full(o))}</span>{e(o["ojciec"])} i {e(o["matka"])} · strona wkrótce</span>')
+            nxt.append(f'<span class="none"><span class="label">Rodzice: {e(full(o))}</span>{e(o["ojciec"])} i {e(o["matka"])}</span>')
     for k in [k for k in p.get("dzieci", []) if k.get("strona")]:
         nxt.append(f'<a class="down" href="{url(k["strona"])}"><span class="label">Ich dziecko: {e(k["imie"])}</span>'
                    f'<strong>{e(couple_name(PARY[k["strona"]]))}</strong></a>')
-    kid_cards = []
+    kids_html = ""
     if p.get("lista_dzieci"):
         parts = []
         for k in p["lista_dzieci"]:
@@ -204,22 +204,9 @@ def couple_page(p):
     elif p.get("dzieci_lista"):
         items = "".join(f'<li><strong>{e(k["imie"])}</strong> <span>{e(k["opis"])}</span></li>' for k in p["dzieci"])
         kids_html = f'<section class="chapter" id="dzieci"><h2>Dzieci</h2><ul class="kidlist">{items}</ul></section>'
-    for k in ([] if (p.get("dzieci_lista") or p.get("lista_dzieci")) else p.get("dzieci", [])):
-        if not k.get("strona"):
-            kid_cards.append(f'<div class="kid"><div class="ph">{PERSON_SVG}Miejsce na zdjęcie</div>'
-                             f'<strong>{e((k["imie"] + " " + k.get("nazwisko", "")).strip())}</strong><span class="yr">* [data i miejsce] · † [data]</span>'
-                             f'<span class="note">[Krótka notatka: małżonek, zawód, gdzie mieszkało.]</span></div>')
-            continue
-        kid_cards.append(f'<a class="kid" href="{url(k["strona"])}"><div class="ph">{PERSON_SVG}Miejsce na zdjęcie</div>'
-                         f'<strong>{e(k["imie"])}</strong><span class="yr">* [data] · † [data]</span>'
-                         f'<span class="go">Strona rodziny dziecka →</span></a>')
-    for n in range(0 if p.get("dzieci_komplet") else max(0, 3 - len(kid_cards))):
-        kid_cards.append(f'<div class="kid"><div class="ph">{PERSON_SVG}Miejsce na zdjęcie</div>'
-                         f'<strong>[Imię i nazwisko dziecka]</strong><span class="yr">* [data i miejsce] · † [data]</span>'
-                         f'<span class="note">[Krótka notatka: małżonek, zawód, gdzie mieszkało.]</span></div>')
-    if not (p.get("dzieci_lista") or p.get("lista_dzieci")): kids_html = (f'<section class="chapter" id="dzieci"><h2>Dzieci</h2>'
-                 f'<div class="kids">{"".join(kid_cards)}</div>'
-                 f'<p class="placeholder-text kidsnote">[Tu wypiszesz wszystkie dzieci tej pary, od najstarszego. Karty można dodawać i usuwać.]</p></section>')
+    elif p.get("dzieci"):
+        items = "".join('<li><strong>' + (f'<a href="{url(k["strona"])}">{e(k["imie"])}</a>' if k.get("strona") else e(k["imie"])) + '</strong></li>' for k in p["dzieci"])
+        kids_html = f'<section class="chapter" id="dzieci"><h2>Dzieci</h2><ul class="kidlist">{items}</ul></section>'
     def shared_default():
         return f'''<article class="story"><h3>Wspólna historia</h3>
       <p class="placeholder-text">[Jak i gdzie się poznali. Tekst zastępczy, do podmiany.]</p>
@@ -230,10 +217,7 @@ def couple_page(p):
       <p class="placeholder-text">[Dalsze lata: gdzie zamieszkali, praca, dzieci, ważne wydarzenia.]</p>
       {gallery([("[Podpis zdjęcia]", "[rok]", "Zdjęcie", ""), ("[Podpis zdjęcia]", "[rok]", "Zdjęcie", ""), ("Akt zgonu", "Sygn. [___]", "Skan aktu<br>zgonu", "doc")])}
     </article>'''
-    tresc = p.get("tresc") or [
-        {"tytul": ch1, "historie": [{"szablon": "ona"}, {"szablon": "on"}]},
-        {"tytul": ch2, "historie": [{"szablon": "wspolna"}]},
-    ]
+    tresc = p.get("tresc") or []
     chap = []
     for c in tresc:
         parts = []
