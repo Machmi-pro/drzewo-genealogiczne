@@ -6,7 +6,9 @@
     "3": "Pokolenie 3",
     "4": "Pokolenie 4",
     "1.5": "Rodzeństwo Zofii i Bronisława",
-    "5": "Pokolenie 5"
+    "5": "Pokolenie 5",
+    "6": "Pokolenie 6",
+    "7": "Pokolenie 7"
   },
   "pary": [
     {
@@ -1748,7 +1750,10 @@
             "Przyczyna śmierci",
             "astma / niewydolność serca"
           ]
-        ]
+        ],
+        "ojciec": "Stefan Murzyński",
+        "matka": "Józefa z d. Szczaurska",
+        "rodzice": "stefan-i-jozefa"
       },
       "dzieci": [
         {
@@ -1772,6 +1777,192 @@
           "imie": "Franciszek",
           "opis": "data narodzin nieustalona, dom 94",
           "strona": "franciszek-i-fewronia"
+        }
+      ]
+    },
+    {
+      "id": "stefan-i-jozefa",
+      "pokolenie": 6,
+      "ona": {
+        "imie": "Józefa",
+        "nazwisko": "Szczaurska",
+        "ur": "",
+        "zm": "",
+        "fakty": [
+          [
+            "Ślub",
+            "Stefan Murzyński"
+          ]
+        ]
+      },
+      "on": {
+        "imie": "Stefan",
+        "nazwisko": "Murzyński",
+        "ur": "1786",
+        "zm": "",
+        "ur_data": "2.11.1786",
+        "ur_miejsce": "dom 36",
+        "ojciec": "Jan Murzyński",
+        "matka": "Katarzyna z d. Strońska",
+        "rodzice": "jan-i-katarzyna",
+        "fakty": [
+          [
+            "Ślub",
+            "Józefa Szczaurska"
+          ],
+          [
+            "Dom",
+            "37"
+          ]
+        ]
+      },
+      "dzieci": [
+        {
+          "imie": "Tomasz Murzyński",
+          "strona": "tomasz-i-antonina"
+        }
+      ],
+      "lista_dzieci": [
+        {
+          "imie": "Tomasz",
+          "opis": "ur. około 1812, dom 37",
+          "strona": "tomasz-i-antonina"
+        },
+        {
+          "imie": "Helena",
+          "opis": "ur. 9 maja 1822, dom 37"
+        },
+        {
+          "imie": "Rozalia",
+          "opis": "ur. około 1825; zm. 1828 w Płauczy Małej (2½ roku)"
+        },
+        {
+          "imie": "Kajetan",
+          "opis": "zm. 9 stycznia 1829, pochowany 11 stycznia 1829, dom 37 (5 miesięcy)"
+        },
+        {
+          "imie": "Jan",
+          "opis": "zm. 25 października 1829, pochowany 27 października 1829, dom 37 (1 dzień)"
+        }
+      ],
+      "tresc": []
+    },
+    {
+      "id": "jan-i-katarzyna",
+      "pokolenie": 7,
+      "ona": {
+        "imie": "Katarzyna",
+        "nazwisko": "Strońska",
+        "ur": "",
+        "zm": "",
+        "ojciec": "Józef Stroński (nobilis)",
+        "fakty": [
+          [
+            "Ojciec",
+            "Józef Stroński, nobilis, zm. 18.10.1776, Horodyszcze"
+          ],
+          [
+            "Ślub",
+            "Jan Murzyński, 3.11.1776, Horodyszcze"
+          ]
+        ]
+      },
+      "on": {
+        "imie": "Jan",
+        "nazwisko": "Murzyński",
+        "ur": "",
+        "zm": "",
+        "fakty": [
+          [
+            "Określenie",
+            "nobilis (senior)"
+          ],
+          [
+            "Ślub",
+            "Katarzyna Strońska, 3.11.1776, Horodyszcze"
+          ]
+        ]
+      },
+      "dzieci": [
+        {
+          "imie": "Stefan Murzyński",
+          "strona": "stefan-i-jozefa"
+        }
+      ],
+      "lista_dzieci": [
+        {
+          "imie": "Tekla",
+          "opis": "ur. 1777"
+        },
+        {
+          "imie": "Franciszka",
+          "opis": "ur. 1780"
+        },
+        {
+          "imie": "Jan (junior)",
+          "opis": "ur. 25 czerwca 1782, dom 56"
+        },
+        {
+          "imie": "Stefan",
+          "opis": "ur. 2 listopada 1786, dom 36",
+          "strona": "stefan-i-jozefa"
+        },
+        {
+          "imie": "Józef",
+          "opis": "ur. 25 stycznia 1789, dom 36"
+        },
+        {
+          "imie": "Apolonia",
+          "opis": "ur. 13 lutego 1791, dom 36"
+        },
+        {
+          "imie": "Sebastian",
+          "opis": "ur. około 1791–1792 (wiek wyliczony z aktu zgonu); przynależność do tej rodziny jest hipotezą, zob. niżej"
+        }
+      ],
+      "tresc": [
+        {
+          "tytul": "Sebastian Murzyński, żołnierz",
+          "historie": [
+            {
+              "tytul": "Akt zgonu z 1826 roku",
+              "elementy": [
+                {
+                  "akapit": "Co wiadomo z aktu zgonu: 2 kwietnia 1826 roku w Płauczy Małej zmarł Sebastian Murzyński, pochowany 4 kwietnia, w wieku 34 lat (czyli urodzony około 1791–1792). W akcie jest zapisany jako „Stephanus legitimo nomine Sebastianus”, czyli Stefan, właściwie Sebastian. Był katolikiem. Przyczyną zgonu była febris frigida, czyli „zimna febra”, najprawdopodobniej malaria, ewentualnie tyfus. Akt opisuje go jako szeregowego (miles) kompanii fizylierów 41 pułku piechoty barona Watleta. Numer domu odczytuję ze skanu jako 37 (odczyt niepewny)."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/sebastian-murzynski-akt-zgonu-1826.jpg",
+                    "podpis": "Księga zmarłych, parafia Płaucza Mała, rok 1826, s. 88. Wpis z 2 kwietnia 1826 r.: Sebastian Murzyński, szeregowy 41 pułku piechoty. Sygn. 618-2/112.",
+                    "zrodlo": "Centralne Państwowe Archiwum Historyczne Ukrainy we Lwowie (archium.tsdial.archives.gov.ua), sygn. 618-2/112",
+                    "url": "https://archium.tsdial.archives.gov.ua/static/files/419/419453.jpg",
+                    "szeroko": true
+                  }
+                },
+                {
+                  "akapit": "Hipoteza: Sebastian mógł być synem Jana i Katarzyny, bo zgadzają się nazwisko, parafia i przybliżone daty. Nie ma na to dowodu w akcie zgonu, więc nie jest to ustalony fakt."
+                },
+                {
+                  "akapit": "Interpretacja rodziny: akt zapisuje jego służbę wojskową tak dokładnie, a imię wyjaśnia słowami „legitimo nomine”, co według rodziny świadczy o szacunku księdza i wsi dla tego, co robił. To przypuszczenie, a nie informacja z dokumentu."
+                }
+              ]
+            },
+            {
+              "tytul": "Tło historyczne",
+              "elementy": [
+                {
+                  "akapit": "Informacje poniżej pochodzą z literatury, nie z dokumentów rodzinnych. Według biografii w słowniku Wurzbacha (Biographisches Lexikon des Kaiserthums Oesterreich, t. 53) feldmarszałek-porucznik Wenzel Freiherr von Watlet otrzymał od cesarza w 1823 roku pułk piechoty nr 41. Wcześniej służył w innych oddziałach, m.in. odznaczył się w 1809 roku pod Eckmühl i Aspern, a pod Marengo (1800) został ranny. Pułku nr 41 dotyczy w tym źródle tylko nadanie z 1823 roku."
+                },
+                {
+                  "przypis": {
+                    "etykieta": "Źródło",
+                    "tekst": "Wurzbach, Biographisches Lexikon des Kaiserthums Oesterreich, t. 53, hasło „Watlet, Wenzel Freiherr von”",
+                    "url": "https://austria-forum.org/web-books/wurzbach53de1886kfu/000157"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     }
