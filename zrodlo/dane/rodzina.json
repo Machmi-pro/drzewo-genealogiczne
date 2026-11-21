@@ -3,7 +3,8 @@
   "pokolenia": {
     "1": "Dziadkowie",
     "2": "Pradziadkowie",
-    "3": "Prapradziadkowie"
+    "3": "Prapradziadkowie",
+    "4": "Praprapradziadkowie"
   },
   "pary": [
     {
@@ -1024,7 +1025,8 @@
             "Franciszek Bonisławski"
           ]
         ],
-        "zm_data": "1909"
+        "zm_data": "1909",
+        "rodzice": "michal-i-franciszka"
       },
       "on": {
         "imie": "Franciszek",
@@ -1052,34 +1054,6 @@
         {
           "imie": "Eustachy Bonisławski",
           "strona": "eustachy-i-maria"
-        }
-      ],
-      "tresc": [
-        {
-          "tytul": "Przodkowie Klary",
-          "historie": [
-            {
-              "tytul": "Rodzina Sarnickich i Pichurów",
-              "elementy": [
-                {
-                  "akapit": "Ojciec Klary, Michał Sarnicki, urodził się w 1801 roku w Kozłowie jako syn Macieja Sarnickiego i Reginy Guli. Potwierdza to akt ślubu z 1829 roku, w którym Michał miał 28 lat i mieszkał w domu nr 22 w Płauczy Małej. Poślubił wtedy Franciszkę Pichur, liczącą 20 lat, córkę Mateusza Pichura i Agnieszki Konarskiej."
-                },
-                {
-                  "akapit": "Mateusz Pichur, ojciec Franciszki, urodził się i został ochrzczony 1 września 1782 roku w Płauczy Małej jako syn Tomasza Pichura i Zofii. Chrzestnymi byli Kazimierz Bolesławski oraz Ewa, żona Jana Rzeźnika."
-                },
-                {
-                  "akapit": "Michał Sarnicki zmarł 15 lub 17 kwietnia 1874 roku w domu nr 22, mając 70 lat. Jako przyczynę podano starość (senectus). Był wdowcem po Franciszce Pichur i rolnikiem. Pochował go ks. Jan Fijałkowski, administrator."
-                },
-                {
-                  "przypis": {
-                    "etykieta": "Źródło",
-                    "tekst": "Geneteka, Polskie Towarzystwo Genealogiczne, parafia Budyłów (Płaucza Mała): urodzenia dzieci Franciszka i Klary z lat 1872–1887, małżeństwa 1887 (akt 1) i 1897 (akt 3 i akt 4), zgony dzieci z lat 1875–1890",
-                    "url": "https://geneteka.genealodzy.pl"
-                  }
-                }
-              ]
-            }
-          ]
         }
       ],
       "lista_dzieci": [
@@ -1123,6 +1097,25 @@
         {
           "imie": "Paweł",
           "opis": "ur. 1887, Płaucza Mała, dom nr 124 (akt 3); zm. 1887 (akt 4)"
+        }
+      ],
+      "tresc": [
+        {
+          "tytul": "Źródła",
+          "historie": [
+            {
+              "tytul": "Akta parafialne",
+              "elementy": [
+                {
+                  "przypis": {
+                    "etykieta": "Źródło",
+                    "tekst": "Geneteka, Polskie Towarzystwo Genealogiczne, parafia Budyłów (Płaucza Mała): urodzenia dzieci Franciszka i Klary z lat 1872–1887, małżeństwa 1887 (akt 1) i 1897 (akt 3 i akt 4), zgony dzieci z lat 1875–1890",
+                    "url": "https://geneteka.genealodzy.pl"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1275,6 +1268,76 @@
         {
           "imie": "Franciszek",
           "opis": "ur. 3 lutego 1913, zm. 18 maja 1966"
+        }
+      ]
+    },
+    {
+      "id": "michal-i-franciszka",
+      "pokolenie": 4,
+      "ona": {
+        "imie": "Franciszka",
+        "nazwisko": "Pichur",
+        "ur": "",
+        "zm": "",
+        "ojciec": "Mateusz Pichur",
+        "matka": "Agnieszka z d. Konarska",
+        "fakty": [
+          [
+            "Ślub",
+            "1829, Michał Sarnicki"
+          ]
+        ]
+      },
+      "on": {
+        "imie": "Michał",
+        "nazwisko": "Sarnicki",
+        "ur": "1801",
+        "zm": "1874",
+        "ur_miejsce": "Kozłów",
+        "zm_data": "15/17.04.1874",
+        "zm_miejsce": "dom nr 22",
+        "ojciec": "Maciej Sarnicki",
+        "matka": "Regina z d. Gula",
+        "fakty": [
+          [
+            "Ślub",
+            "1829, Franciszka Pichur"
+          ],
+          [
+            "Zawód",
+            "rolnik"
+          ],
+          [
+            "Mieszkał",
+            "Płaucza Mała, dom nr 22"
+          ]
+        ]
+      },
+      "dzieci": [
+        {
+          "imie": "Klara Sarnicka",
+          "strona": "franciszek-i-klara"
+        }
+      ],
+      "tresc": [
+        {
+          "tytul": "Rodzina Sarnickich i Pichurów",
+          "historie": [
+            {
+              "tytul": "Michał i Franciszka",
+              "elementy": [
+                {
+                  "akapit": "Michał Sarnicki, urodził się w 1801 roku w Kozłowie jako syn Macieja Sarnickiego i Reginy Guli. Potwierdza to akt ślubu z 1829 roku, w którym Michał miał 28 lat i mieszkał w domu nr 22 w Płauczy Małej. Poślubił wtedy Franciszkę Pichur, liczącą 20 lat, córkę Mateusza Pichura i Agnieszki Konarskiej. Ich córką była Klara."
+                },
+                {
+                  "akapit": "Mateusz Pichur, ojciec Franciszki, urodził się i został ochrzczony 1 września 1782 roku w Płauczy Małej jako syn Tomasza Pichura i Zofii. Chrzestnymi byli Kazimierz Bolesławski oraz Ewa, żona Jana Rzeźnika."
+                },
+                {
+                  "akapit": "Michał Sarnicki zmarł 15 lub 17 kwietnia 1874 roku w domu nr 22, mając 70 lat. Jako przyczynę podano starość (senectus). Był wdowcem po Franciszce Pichur i rolnikiem. Pochował go ks. Jan Fijałkowski, administrator."
+                }
+              ]
+            }
+          ]
         }
       ]
     }
