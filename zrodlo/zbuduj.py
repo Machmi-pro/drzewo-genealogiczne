@@ -131,6 +131,13 @@ def gallery(items, label="Dokumenty i zdjęcia"):
     return f'<div class="label">{label}</div><div class="gallery">' + "".join(out) + '</div>'
 
 def element(el):
+    if "etykieta_tekst" in el: return f'<div class="label">{e(el["etykieta_tekst"])}</div>'
+    if "kolumny" in el: return '<div class="twocol">' + "".join(element(x) for x in el["kolumny"]) + '</div>'
+    if "transkrypcja" in el:
+        t = el["transkrypcja"]
+        return (f'<blockquote class="trans"><div class="label">{e(t.get("naglowek", "Transkrypcja"))}</div>'
+                + "".join(f'<div class="tl">{e(l)}</div>' for l in t["linie"])
+                + (f'<p class="tnote">{e(t["uwaga"])}</p>' if t.get("uwaga") else "") + '</blockquote>')
     if "akapit" in el: return f'<p>{e(el["akapit"])}</p>'
     if "tekst_zastepczy" in el: return f'<p class="placeholder-text">{e(el["tekst_zastepczy"])}</p>'
     if "zdjecie" in el:
@@ -198,8 +205,8 @@ def couple_page(p):
       {gallery([("[Podpis zdjęcia]", "[rok]", "Zdjęcie", ""), ("[Podpis zdjęcia]", "[rok]", "Zdjęcie", ""), ("Akt zgonu", "Sygn. [___]", "Skan aktu<br>zgonu", "doc")])}
     </article>'''
     tresc = p.get("tresc") or [
-        {"tytul": ch1, "lata": "[lata]", "historie": [{"szablon": "ona"}, {"szablon": "on"}]},
-        {"tytul": ch2, "lata": "[lata]", "historie": [{"szablon": "wspolna"}]},
+        {"tytul": ch1, "historie": [{"szablon": "ona"}, {"szablon": "on"}]},
+        {"tytul": ch2, "historie": [{"szablon": "wspolna"}]},
     ]
     chap = []
     for c in tresc:
@@ -210,7 +217,7 @@ def couple_page(p):
             elif sz == "on": parts.append(story(p["on"], False))
             elif sz == "wspolna": parts.append(shared_default())
             else: parts.append(custom_story(h))
-        chap.append(f'<section class="chapter"><h2>{e(c["tytul"])}</h2><div class="years">{e(c.get("lata", "[lata]"))}</div>{"".join(parts)}</section>')
+        chap.append(f'<section class="chapter"><h2>{e(c["tytul"])}</h2>{f'<div class="years">{e(c["lata"])}</div>' if c.get("lata") else ""}{"".join(parts)}</section>')
     chapters_html = "".join(chap)
     body = f'''
 <div class="wrap page">
