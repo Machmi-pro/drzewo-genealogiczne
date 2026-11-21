@@ -5,7 +5,8 @@
     "2": "Pradziadkowie",
     "3": "Prapradziadkowie",
     "4": "Praprapradziadkowie",
-    "1.5": "Rodzeństwo dziadków"
+    "1.5": "Rodzeństwo dziadków",
+    "5": "Prapraprapradziadkowie"
   },
   "pary": [
     {
@@ -1152,7 +1153,8 @@
             "Wierzbica Górna, w wieku 87 lat"
           ]
         ],
-        "uwaga": "Data i miejsce śmierci według zestawienia grobów na cmentarzu w Wierzbicy Górnej."
+        "uwaga": "Data i miejsce śmierci według zestawienia grobów na cmentarzu w Wierzbicy Górnej.",
+        "rodzice": "ignacy-i-maria"
       },
       "on": {
         "imie": "Mikołaj",
@@ -1175,7 +1177,8 @@
             "Dom",
             "Płaucza Mała, nr 129"
           ]
-        ]
+        ],
+        "rodzice": "franciszek-i-fewronia"
       },
       "dzieci": [
         {
@@ -1440,6 +1443,235 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "ignacy-i-maria",
+      "pokolenie": 4,
+      "ona": {
+        "imie": "Maria",
+        "nazwisko": "Didyk",
+        "ur": "",
+        "zm": "",
+        "fakty": [
+          [
+            "Ślub",
+            "Ignacy Drewnicki"
+          ]
+        ]
+      },
+      "on": {
+        "imie": "Ignacy",
+        "nazwisko": "Drewnicki",
+        "ur": "",
+        "zm": "",
+        "fakty": [
+          [
+            "Ślub",
+            "Maria Didyk"
+          ]
+        ]
+      },
+      "dzieci": [
+        {
+          "imie": "Justyna Drewnicka",
+          "strona": "mikolaj-i-justyna"
+        }
+      ],
+      "lista_dzieci": [
+        {
+          "imie": "Justyna",
+          "opis": "ur. 1872, zm. 15 października 1959; mąż: Mikołaj Murzyński",
+          "strona": "mikolaj-i-justyna"
+        }
+      ],
+      "tresc": [
+        {
+          "tytul": "Wzmianka w gazecie",
+          "historie": [
+            {
+              "tytul": "Ignacy Drewnicki",
+              "elementy": [
+                {
+                  "akapit": "„Głos Brzeżański” z 1 października 1933 roku odnotował pożar w Płauczy Małej, który wybuchł 24 września wskutek zbrodniczego podpalenia z zemsty. Spłonęły zabudowania Piotra i Ignacego Drewnickich, Rusinów. Szkodę oszacowano na około 2500 zł. Dochodzenie prowadził miejscowy Posterunek Policji Państwowej."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/glos-brzezanski-1933-zbrodnicze-podpalenie.jpg",
+                    "podpis": "Notatka „Zbrodnicze podpalenie”.",
+                    "zrodlo": "„Głos Brzeżański”, rok II, nr 10 z 1 października 1933 r., s. 13",
+                    "url": "https://jbc.bj.uj.edu.pl/Content/958132/NDIGCZAS097516_1933_010.pdf",
+                    "szeroko": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "franciszek-i-fewronia",
+      "pokolenie": 4,
+      "ona": {
+        "imie": "Fewronia",
+        "nazwisko": "Małaczyńska",
+        "ur": "",
+        "zm": "",
+        "ojciec": "Szymon Małaczyński",
+        "matka": "Maria z d. Mudrakowska",
+        "fakty": [
+          [
+            "Ślub",
+            "Franciszek Murzyński"
+          ],
+          [
+            "Dom",
+            "94, później 125"
+          ]
+        ]
+      },
+      "on": {
+        "imie": "Franciszek",
+        "nazwisko": "Murzyński",
+        "ur": "",
+        "zm": "",
+        "ojciec": "Tomasz Murzyński",
+        "matka": "Antonina z d. Szczawirska",
+        "rodzice": "tomasz-i-antonina",
+        "fakty": [
+          [
+            "Określenie",
+            "agricola, nobilis"
+          ],
+          [
+            "Ślub",
+            "Fewronia Małaczyńska"
+          ],
+          [
+            "Dom",
+            "94, później 125"
+          ]
+        ]
+      },
+      "dzieci": [
+        {
+          "imie": "Mikołaj Murzyński",
+          "strona": "mikolaj-i-justyna"
+        }
+      ],
+      "lista_dzieci": [
+        {
+          "imie": "Władysław",
+          "opis": "ur. 27 września 1874, dom 94"
+        },
+        {
+          "imie": "Józef",
+          "opis": "ur. 7 maja 1879, dom 94; zm. 14 grudnia 1882, pochowany 16 grudnia 1882, dom 94 (3 lata, angina)"
+        },
+        {
+          "imie": "Jan",
+          "opis": "ur. i ochrzczony 13 sierpnia 1882, dom 125"
+        },
+        {
+          "imie": "Stanisław",
+          "opis": "ur. 5 października 1896, dom 94"
+        },
+        {
+          "imie": "Mikołaj",
+          "opis": "data narodzin nieustalona",
+          "strona": "mikolaj-i-justyna"
+        }
+      ]
+    },
+    {
+      "id": "tomasz-i-antonina",
+      "pokolenie": 5,
+      "ona": {
+        "imie": "Antonina",
+        "nazwisko": "Szczawirska",
+        "ur": "ok. 1818",
+        "zm": "1884",
+        "zm_data": "13.12.1884",
+        "ur_data": "około 1818",
+        "zm_miejsce": "dom 94",
+        "fakty": [
+          [
+            "Ślub",
+            "Tomasz Murzyński, ok. 1842–1852"
+          ],
+          [
+            "Pochowana",
+            "15.12.1884"
+          ],
+          [
+            "Wiek",
+            "66 lat"
+          ],
+          [
+            "Przyczyna śmierci",
+            "gruźlica"
+          ]
+        ]
+      },
+      "on": {
+        "imie": "Tomasz",
+        "nazwisko": "Murzyński",
+        "ur": "ok. 1812/13",
+        "zm": "1887",
+        "ur_data": "około 1812/13",
+        "zm_data": "17.02.1887",
+        "zm_miejsce": "dom 94",
+        "fakty": [
+          [
+            "Określenie",
+            "nobilis"
+          ],
+          [
+            "Ślub I",
+            "1835, dom 37, Apolonia Żółkiewicz, córka Marcina, organisty, i Marii Wę[lańskiej]"
+          ],
+          [
+            "Ślub II",
+            "ok. 1842–1852, Antonina Szczawirska"
+          ],
+          [
+            "Pochowany",
+            "19.02.1887"
+          ],
+          [
+            "Wiek",
+            "74 lata"
+          ],
+          [
+            "Przyczyna śmierci",
+            "astma / niewydolność serca"
+          ]
+        ]
+      },
+      "dzieci": [
+        {
+          "imie": "Franciszek Murzyński",
+          "strona": "franciszek-i-fewronia"
+        }
+      ],
+      "lista_dzieci": [
+        {
+          "grupa": "Dzieci Tomasza i Antoniny Szczawirskiej"
+        },
+        {
+          "imie": "Michał",
+          "opis": "ur. 19 września 1844, dom 37"
+        },
+        {
+          "imie": "Apolonia",
+          "opis": "ur. około 1853; 16 listopada 1873 poślubiła Jana Hafta, kowala, dom 94"
+        },
+        {
+          "imie": "Franciszek",
+          "opis": "data narodzin nieustalona, dom 94",
+          "strona": "franciszek-i-fewronia"
         }
       ]
     }
