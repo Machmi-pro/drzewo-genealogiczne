@@ -129,6 +129,17 @@
                     "zrodlo": "Zbiory rodzinne. Czasopismo nie jest zdigitalizowane, zachowało się tylko zdjęcie strony.",
                     "szeroko": false
                   }
+                },
+                {
+                  "galeria": [
+                    {
+                      "plik": "zdjecia/bronislaw-portret-koloryzacja.jpg",
+                      "podpis": "Bronisław Bonisławski, portret. Koloryzacja zdjęcia, lata 30. XX wieku.",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "kw"
+                    }
+                  ],
+                  "etykieta": "Zdjęcia"
                 }
               ]
             }
@@ -162,12 +173,6 @@
                 },
                 {
                   "galeria": [
-                    {
-                      "plik": "zdjecia/bronislaw-portret-koloryzacja.jpg",
-                      "podpis": "Bronisław Bonisławski, portret. Koloryzacja zdjęcia z czasu wojny, rok nieznany.",
-                      "zrodlo": "Zbiory rodzinne",
-                      "ksztalt": "kw"
-                    },
                     {
                       "plik": "zdjecia/bronislaw-przy-wozie-koloryzacja.jpg",
                       "podpis": "Bronisław Bonisławski. Koloryzacja zdjęcia z czasu wojny. [Miejsce i rok do uzupełnienia.]",
