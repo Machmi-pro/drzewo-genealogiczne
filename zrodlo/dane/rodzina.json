@@ -933,7 +933,8 @@
             "Pochowany",
             "Łódź, cmentarz św. Anny na Zarzewiu (grób rodzinny Bonisławskich i Nowalskich)"
           ]
-        ]
+        ],
+        "rodzice": "jakub-i-katarzyna"
       },
       "dzieci": [
         {
@@ -1969,6 +1970,232 @@
           "po_dzieciach": true
         }
       ]
+    },
+    {
+      "id": "jakub-i-katarzyna",
+      "pokolenie": 4,
+      "ona": {
+        "imie": "Katarzyna",
+        "nazwisko": "Kowalczyk",
+        "ur": "",
+        "zm": "",
+        "ojciec": "Szczepan Kowalczyk",
+        "matka": "Franciszka z d. Zarębska",
+        "fakty": [
+          [
+            "Ślub",
+            "Jakub Nowalski, 4.02.1844, Kutno"
+          ],
+          [
+            "Rodzice",
+            "parobkowie w Sójkach"
+          ]
+        ]
+      },
+      "on": {
+        "imie": "Jakub",
+        "nazwisko": "Nowalski",
+        "ur": "",
+        "zm": "",
+        "ur_data": "między rokiem 1815 a 1821",
+        "ur_miejsce": "Sójki",
+        "ojciec": "Jan Nowalski",
+        "matka": "Marianna (z d. Figlewska lub Szymańska)",
+        "rodzice": "jan-i-marianna",
+        "uwaga": "Nazwisko panieńskie matki Jakuba zapisano niespójnie: w akcie ślubu Jana z 1820 roku jako Marianna Figlewska, a w akcie ślubu samego Jakuba z 1844 roku jako Marianna Szymańska. Rozbieżność jest niewyjaśniona.",
+        "fakty": [
+          [
+            "Zawód",
+            "parobek (najemny robotnik rolny) w Sójkach"
+          ],
+          [
+            "Ślub",
+            "Katarzyna Kowalczyk, 4.02.1844, Kutno. Świadkowie: Franciszek Lawendowski i Jędrzej Kubicki"
+          ],
+          [
+            "Mieszkał",
+            "Sójki, parafia Kutno"
+          ]
+        ]
+      },
+      "dzieci": [
+        {
+          "imie": "Piotr Nowalski",
+          "strona": "piotr-i-marianna"
+        }
+      ],
+      "lista_dzieci": [
+        {
+          "imie": "Jan",
+          "opis": "zm. 1850, Kutno"
+        },
+        {
+          "imie": "Piotr",
+          "opis": "zwany też Piotr Paweł",
+          "strona": "piotr-i-marianna"
+        }
+      ],
+      "tresc": []
+    },
+    {
+      "id": "jan-i-marianna",
+      "pokolenie": 5,
+      "ona": {
+        "imie": "Marianna",
+        "nazwisko": "Figlewska",
+        "ur": "",
+        "zm": "",
+        "ojciec": "Andrzej Figlewski",
+        "matka": "Małgorzata Figlewska",
+        "uwaga": "Pierwsza żona Jana. Zmarła przed 1831 rokiem.",
+        "fakty": [
+          [
+            "Ślub",
+            "Jan Nowalski, 23.01.1820, Kutno"
+          ]
+        ]
+      },
+      "on": {
+        "imie": "Jan",
+        "nazwisko": "Nowalski",
+        "ur": "",
+        "zm": "",
+        "ur_data": "około 1796 do 1798",
+        "ur_miejsce": "Sójki",
+        "ojciec": "Wojciech Nowalski",
+        "matka": "Kunegunda",
+        "rodzice": "wojciech-i-kunegunda",
+        "fakty": [
+          [
+            "Zawód",
+            "wyrobnik (robotnik najemny, bez własnej ziemi)"
+          ],
+          [
+            "Ślub I",
+            "Marianna Figlewska, córka Andrzeja i Małgorzaty, 23.01.1820, Kutno. Zmarła przed 1831 r."
+          ],
+          [
+            "Ślub II",
+            "Julianna Markowska, córka Karola i Marianny Markowskich, ur. w Strzelcach, 29.10.1831, Kutno. Zmarła 9.12.1844, Sójki"
+          ],
+          [
+            "Ślub III",
+            "Magdalena Dziedziczak, wdowa po Bartłomieju Dziedziczaku, córka Józefa i Barbary, 8.02.1846, Kutno"
+          ],
+          [
+            "Mieszkał",
+            "Sójki, parafia Kutno (przez całe życie, jak wynika z aktów)"
+          ]
+        ]
+      },
+      "dzieci": [
+        {
+          "imie": "Jakub Nowalski",
+          "strona": "jakub-i-katarzyna"
+        }
+      ],
+      "lista_dzieci": [
+        {
+          "grupa": "Dzieci Jana i Marianny Figlewskiej"
+        },
+        {
+          "imie": "Franciszka",
+          "opis": "ur. 1821, Kutno; w 1844 wyszła za Franciszka Wojtczaka; zm. 1844, Strzelce"
+        },
+        {
+          "imie": "Teresa",
+          "opis": "ur. 1827, Sójki; zm. 1828, Kutno"
+        },
+        {
+          "imie": "Joanna",
+          "opis": "ur. 1829, Sójki; zm. 1831, Kutno"
+        },
+        {
+          "imie": "Jadwiga",
+          "opis": "zm. 1831, Kutno; akt urodzenia nieodnaleziony"
+        },
+        {
+          "imie": "Jakub",
+          "opis": "ur. między rokiem 1815 a 1821, Sójki",
+          "strona": "jakub-i-katarzyna"
+        },
+        {
+          "grupa": "Dziecko Jana i Julianny Markowskiej"
+        },
+        {
+          "imie": "Marianna",
+          "opis": "ur. 1840, Sójki (w akcie matka zapisana jako Justyna Marczewska; rozbieżność niewyjaśniona)"
+        }
+      ],
+      "tresc": []
+    },
+    {
+      "id": "wojciech-i-kunegunda",
+      "pokolenie": 6,
+      "ona": {
+        "imie": "Kunegunda",
+        "nazwisko": "Skrocka",
+        "ur": "",
+        "zm": "",
+        "ur_data": "prawdopodobnie około 1771 do 1774 (dwa niezależne szacunki wieku z różnych aktów są zbliżone)",
+        "zm_data": "7.11.1831",
+        "zm_miejsce": "Sójki",
+        "uwaga": "Akt zgonu (akt 319, parafia Kutno) podaje wiek około 60 lat i stan: mężatka. Zgon zgłosił syn Jan. Akt określa ją jako „córkę rodziców niewiadomych”, więc nazwisko panieńskie „Skrocka” pochodzi z innego dokumentu, nie z aktu zgonu.",
+        "fakty": [
+          [
+            "Ślub",
+            "Wojciech Nowalski"
+          ]
+        ]
+      },
+      "on": {
+        "imie": "Wojciech",
+        "nazwisko": "Nowalski",
+        "ur": "",
+        "zm": "",
+        "ur_data": "około 1778",
+        "uwaga": "Żył jeszcze w listopadzie 1831 roku (Kunegunda zmarła jako zamężna). Jego akt zgonu nie został jeszcze odnaleziony.",
+        "fakty": [
+          [
+            "Zawód",
+            "włościanin (chłop posiadający ziemię)"
+          ],
+          [
+            "Mieszkał",
+            "najpierw Wieszczyce (parafia Strzelce), od około 1817–1818 Sójki (parafia Kutno), gdzie mieszkał do końca"
+          ]
+        ]
+      },
+      "dzieci": [
+        {
+          "imie": "Jan Nowalski",
+          "strona": "jan-i-marianna"
+        }
+      ],
+      "lista_dzieci": [
+        {
+          "imie": "Marianna",
+          "opis": "ur. około 1805; zm. 11 lutego 1824, panna, w wieku 19 lat, Sójki, dom nr 4"
+        },
+        {
+          "imie": "Jan",
+          "opis": "ur. około 1796 do 1798, Sójki",
+          "strona": "jan-i-marianna"
+        },
+        {
+          "imie": "Helena",
+          "opis": "ur. 26 lutego 1814, Wieszczyce, dom nr 6; zm. 1815, tamże"
+        },
+        {
+          "imie": "Grzegorz",
+          "opis": "ur. 16 kwietnia 1816, Wieszczyce, dom nr 5"
+        },
+        {
+          "imie": "Jerzy",
+          "opis": "ur. około 1818; zm. 13 kwietnia 1824, w wieku 6 lat, Sójki, dom nr 4"
+        }
+      ],
+      "tresc": []
     }
   ],
   "podtytul": "Bonisławscy • Murzyńscy • Nowalscy • Adamczyk"
