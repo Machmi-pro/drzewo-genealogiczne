@@ -1375,8 +1375,8 @@
         "zm_miejsce": "Wierzbica Górna",
         "portret": {
           "plik": "zdjecia/agnieszka-bonislawska-portret.jpg",
-          "podpis": "Agnieszka Bonisławska",
-          "zrodlo": "Zbiory rodzinne"
+          "podpis": "Agnieszka Bonisławska. Koloryzacja zdjęcia",
+          "zrodlo": "Zbiory rodzinne. Koloryzacja cyfrowa"
         }
       },
       "on": {
@@ -1416,8 +1416,8 @@
                 {
                   "zdjecie": {
                     "plik": "zdjecia/agnieszka-i-michal-bonislawscy.jpg",
-                    "podpis": "Agnieszka i Michał Bonisławscy.",
-                    "zrodlo": "Zbiory rodzinne",
+                    "podpis": "Agnieszka i Michał Bonisławscy. Koloryzacja zdjęcia",
+                    "zrodlo": "Zbiory rodzinne. Koloryzacja cyfrowa",
                     "szeroko": false
                   }
                 }
@@ -1432,7 +1432,7 @@
                 {
                   "zdjecie": {
                     "plik": "skany/gliceria-bonislawska-poswiadczenie-1945.jpg",
-                    "podpis": "Poświadczenie Urzędu Parafialnego obrządku łacińskiego w Płauczy Małej k. Zborowa, powiat Brzeżany, z 6 IV 1945 r.: Gliceria Bonisławska, wdowa po Danielu, córka Piotra Baraban i Zofii Rad, urodzona w Płauczy Małej, woj. Tarnopol, wyznania rzymskokatolickiego, narodowości polskiej. Wiek zapisany jako 66 lat (pierwsza cyfra jest poprawiana). Podpis księdza nieczytelny.",
+                    "podpis": "Poświadczenie Urzędu Parafialnego obrządku łacińskiego w Płauczy Małej k. Zborowa, powiat Brzeżany, z 6 IV 1945 r. (u góry dopisek „Dla użytku kościelnego”, odczyt niepewny): Gliceria Bonisławska, wdowa po Danielu, córka Piotra Baraban i Zofii Rad, urodzona w Płauczy Małej, woj. Tarnopol, wyznania rzymskokatolickiego, narodowości polskiej. Wiek zapisany jako 66 lat (pierwsza cyfra jest poprawiana). Podpis księdza nieczytelny. Pieczęć parafii w Płauczy Małej.",
                     "zrodlo": "Zbiory rodzinne",
                     "szeroko": true
                   }
