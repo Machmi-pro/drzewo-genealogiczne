@@ -1,0 +1,199 @@
+{
+  "rodzina": "Drzewo genealogiczne Bonisławskich",
+  "pokolenia": {
+    "1": "Dziadkowie",
+    "2": "Pradziadkowie",
+    "3": "Prapradziadkowie"
+  },
+  "pary": [
+    {
+      "id": "zofia-i-bronislaw",
+      "pokolenie": 1,
+      "podtytul": "[Krótki podtytuł, np. „Dwie drogi, jedna rodzina”]",
+      "ona": {
+        "imie": "Zofia",
+        "nazwisko": "Nowalska",
+        "ur": "1920",
+        "zm": "2007",
+        "ojciec": "Wawrzyniec Nowalski",
+        "matka": "Stanisława z d. Adamczyk",
+        "rodzice": "wawrzyniec-i-stanislawa"
+      },
+      "on": {
+        "imie": "Bronisław",
+        "nazwisko": "Bonisławski",
+        "ur": "1917",
+        "zm": "1996",
+        "ojciec": "Eustachy Bonisławski",
+        "matka": "Maria z d. Murzyńska",
+        "rodzice": "eustachy-i-maria"
+      },
+      "rozdzialy": [
+        "Przed wojną",
+        "Po wojnie"
+      ],
+      "dzieci": []
+    },
+    {
+      "id": "wawrzyniec-i-stanislawa",
+      "pokolenie": 2,
+      "ona": {
+        "imie": "Stanisława",
+        "nazwisko": "Adamczyk",
+        "ur": "1883",
+        "zm": "",
+        "ojciec": "Stanisław Józef Adamczyk",
+        "matka": "Marianna z d. Żukowska",
+        "rodzice": "stanislaw-i-marianna"
+      },
+      "on": {
+        "imie": "Wawrzyniec",
+        "nazwisko": "Nowalski",
+        "ur": "1882",
+        "zm": "1970",
+        "ojciec": "Piotr Nowalski",
+        "matka": "Marianna z d. Pietrasik",
+        "rodzice": "piotr-i-marianna"
+      },
+      "dzieci": [
+        {
+          "imie": "Zofia Nowalska (babcia)",
+          "strona": "zofia-i-bronislaw"
+        }
+      ]
+    },
+    {
+      "id": "eustachy-i-maria",
+      "pokolenie": 2,
+      "ona": {
+        "imie": "Maria",
+        "nazwisko": "Murzyńska",
+        "ur": "1892",
+        "zm": "1972",
+        "ojciec": "Mikołaj Murzyński",
+        "matka": "Justyna z d. Drewnicka",
+        "rodzice": "mikolaj-i-justyna"
+      },
+      "on": {
+        "imie": "Eustachy",
+        "nazwisko": "Bonisławski",
+        "ur": "1884",
+        "zm": "1939",
+        "ojciec": "Franciszek Bonisławski",
+        "matka": "Klara z d. Sarnicka",
+        "rodzice": "franciszek-i-klara"
+      },
+      "dzieci": [
+        {
+          "imie": "Bronisław Bonisławski (dziadek)",
+          "strona": "zofia-i-bronislaw"
+        }
+      ]
+    },
+    {
+      "id": "piotr-i-marianna",
+      "pokolenie": 3,
+      "ona": {
+        "imie": "Marianna",
+        "nazwisko": "Pietrasik",
+        "ur": "",
+        "zm": "",
+        "ojciec": "Mikołaj Pietrasik",
+        "matka": "Agnieszka z d. Antczak"
+      },
+      "on": {
+        "imie": "Piotr",
+        "nazwisko": "Nowalski",
+        "ur": "1845",
+        "zm": "1907",
+        "ojciec": "Jakub Nowalski",
+        "matka": "Katarzyna z d. Kowalczyk"
+      },
+      "dzieci": [
+        {
+          "imie": "Wawrzyniec Nowalski",
+          "strona": "wawrzyniec-i-stanislawa"
+        }
+      ]
+    },
+    {
+      "id": "stanislaw-i-marianna",
+      "pokolenie": 3,
+      "ona": {
+        "imie": "Marianna",
+        "nazwisko": "Żukowska",
+        "ur": "1847",
+        "zm": "1894",
+        "ojciec": "Andrzej Żukowski",
+        "matka": "Scholastyka z d. Rojewska"
+      },
+      "on": {
+        "imie": "Stanisław Józef",
+        "nazwisko": "Adamczyk",
+        "ur": "1853",
+        "zm": "1919",
+        "ojciec": "Andrzej Adamczyk",
+        "matka": "Wiktoria z d. Kołodziejczyk"
+      },
+      "dzieci": [
+        {
+          "imie": "Stanisława Adamczyk",
+          "strona": "wawrzyniec-i-stanislawa"
+        }
+      ]
+    },
+    {
+      "id": "franciszek-i-klara",
+      "pokolenie": 3,
+      "ona": {
+        "imie": "Klara",
+        "nazwisko": "Sarnicka",
+        "ur": "1844",
+        "zm": "1909",
+        "ojciec": "Michał Sarnicki",
+        "matka": "Franciszka z d. Pichur"
+      },
+      "on": {
+        "imie": "Franciszek",
+        "nazwisko": "Bonisławski",
+        "ur": "1834",
+        "zm": "1909",
+        "ojciec": "Stanisław Bonisławski",
+        "matka": "Marta z d. Rewna"
+      },
+      "dzieci": [
+        {
+          "imie": "Eustachy Bonisławski",
+          "strona": "eustachy-i-maria"
+        }
+      ]
+    },
+    {
+      "id": "mikolaj-i-justyna",
+      "pokolenie": 3,
+      "ona": {
+        "imie": "Justyna",
+        "nazwisko": "Drewnicka",
+        "ur": "1872",
+        "zm": "1959",
+        "ojciec": "Ignacy Drewnicki",
+        "matka": "Maria Didyk"
+      },
+      "on": {
+        "imie": "Mikołaj",
+        "nazwisko": "Murzyński",
+        "ur": "",
+        "zm": "",
+        "ojciec": "Franciszek Murzyński",
+        "matka": "Fewronia z d. Małeczyńska"
+      },
+      "dzieci": [
+        {
+          "imie": "Maria Murzyńska",
+          "strona": "eustachy-i-maria"
+        }
+      ]
+    }
+  ],
+  "podtytul": "Bonisławscy • Murzyńscy • Nowalscy • Adamczyk"
+}
