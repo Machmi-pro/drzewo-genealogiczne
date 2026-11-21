@@ -2290,20 +2290,48 @@
       "ona": {
         "imie": "Wiktoria",
         "nazwisko": "Kołodziejczyk",
-        "ur": "",
+        "ur": "ok. 1819",
         "zm": "",
         "ojciec": "Jan Kołodziejczyk",
         "matka": "Franciszka Szadkowska (?)",
-        "rodzice": "jan-kolodziejczyk-i-franciszka"
+        "rodzice": "jan-kolodziejczyk-i-franciszka",
+        "ur_data": "około 1819",
+        "fakty": [
+          [
+            "Ślub",
+            "Andrzej Adamczyk"
+          ],
+          [
+            "Rodzice",
+            "oboje zmarli przed 1839 rokiem"
+          ]
+        ]
       },
       "on": {
         "imie": "Andrzej",
         "nazwisko": "Adamczyk",
         "ur": "1820",
-        "zm": "",
+        "zm": "1887",
         "ojciec": "Franciszek Adamczyk",
         "matka": "Ewa Badełek",
-        "rodzice": "franciszek-adamczyk-i-ewa"
+        "rodzice": "franciszek-adamczyk-i-ewa",
+        "ur_data": "27.11.1820",
+        "ur_miejsce": "Sokuły",
+        "zm_miejsce": "Mszczonów",
+        "fakty": [
+          [
+            "Ślub",
+            "Wiktoria Kołodziejczyk"
+          ],
+          [
+            "Zawód",
+            "gospodarz (posiadacz własnego gospodarstwa)"
+          ],
+          [
+            "Mieszkał",
+            "Władysławów, parafia Mszczonów"
+          ]
+        ]
       },
       "dzieci": [
         {
@@ -2314,7 +2342,7 @@
       "lista_dzieci": [
         {
           "imie": "Stanisław Józef",
-          "opis": "",
+          "opis": "ur. 1853",
           "strona": "stanislaw-i-marianna"
         }
       ],
