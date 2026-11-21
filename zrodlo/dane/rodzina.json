@@ -649,7 +649,7 @@
             "Płaucza Mała 124"
           ]
         ],
-        "uwaga": "Data urodzenia (29 grudnia) według dowodu osobistego z 1939 roku i zawiadomienia szkolnego z 1898 roku."
+        "uwaga": "Data urodzenia według metryki urodzenia (zgodnie z dowodem osobistym i zawiadomieniem szkolnym)."
       },
       "dzieci": [
         {
@@ -689,6 +689,15 @@
               "elementy": [
                 {
                   "akapit": "Eustachy Bonisławski kierował pocztą i był sekretarzem gminy. W dowodzie osobistym wydanym 19 sierpnia 1939 roku jako zawód wpisano: urzędnik samorządu gminnego."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/eustachy-metryka-urodzenia-1884.jpg",
+                    "podpis": "Metryka urodzenia Eustachego (Eustachius), Płaucza Mała, dom nr 124, urodzony i ochrzczony 29 grudnia 1884 r. Rodzice: Franciscus Bonisławski i Clara Sarnicka. Liber natorum 1884, s. 9.",
+                    "zrodlo": "Archiwum Główne Akt Dawnych, zespół 301, sygn. 1610, Liber natorum 1884, Płaucza Mała, skan 0145",
+                    "url": "https://agadd.home.net.pl/metrykalia/301/sygn.%201610/pages/PL_1_301_1610_0145.htm",
+                    "szeroko": false
+                  }
                 },
                 {
                   "zdjecie": {
