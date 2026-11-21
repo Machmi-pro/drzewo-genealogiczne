@@ -13,8 +13,8 @@
     document.querySelectorAll('button.zoom').forEach(function(b){
       b.addEventListener('click',function(){
         var img=b.querySelector('img'),box=document.getElementById('lb-img');
-        if(img){box.innerHTML='';var c=img.cloneNode();c.style.width='100%';box.appendChild(c);}
-        else{box.innerHTML=b.querySelector('.ph').innerHTML;}
+        if(img){box.innerHTML='';box.className='foto';var c=img.cloneNode();c.removeAttribute('loading');c.removeAttribute('class');box.appendChild(c);}
+        else{box.className='ph';box.innerHTML=b.querySelector('.ph').innerHTML;}
         document.getElementById('lb-cap').textContent=b.dataset.cap||'';
         document.getElementById('lb-src').textContent=b.dataset.src||'';
         if(d.showModal)d.showModal();

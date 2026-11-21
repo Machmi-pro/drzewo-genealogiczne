@@ -13,11 +13,20 @@
       "ona": {
         "imie": "Zofia",
         "nazwisko": "Nowalska",
-        "ur": "1920",
+        "ur": "1921",
         "zm": "2007",
         "ojciec": "Wawrzyniec Nowalski",
         "matka": "Stanisława z d. Adamczyk",
-        "rodzice": "wawrzyniec-i-stanislawa"
+        "rodzice": "wawrzyniec-i-stanislawa",
+        "ur_data": "21.02.1921",
+        "ur_miejsce": "Łódź",
+        "zm_data": "29.11.2007",
+        "zm_miejsce": "Łódź",
+        "portret": {
+          "plik": "zdjecia/zofia-portret-koloryzacja.jpg",
+          "podpis": "Zofia Nowalska, [rok]. Koloryzacja zdjęcia",
+          "zrodlo": "Zbiory rodzinne. Koloryzacja cyfrowa, oryginał czarno-biały"
+        }
       },
       "on": {
         "imie": "Bronisław",
@@ -32,7 +41,124 @@
         "Przed wojną",
         "Po wojnie"
       ],
-      "dzieci": []
+      "dzieci": [
+        {
+          "imie": "Ryszard"
+        },
+        {
+          "imie": "Irena"
+        }
+      ],
+      "dzieci_komplet": true,
+      "tresc": [
+        {
+          "tytul": "Przed wojną",
+          "lata": "[lata]",
+          "historie": [
+            {
+              "tytul": "Zofia Nowalska",
+              "elementy": [
+                {
+                  "akapit": "Zofia urodziła się 21 lutego 1921 roku w Łodzi, jako córka Wawrzyńca i Stanisławy Nowalskich. Zachowała się jej szkolna legitymacja na rok 1933/1934, ze zdjęciem. Zofia była wówczas uczennicą siódmej klasy publicznej szkoły powszechnej w Łodzi."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/zofia-legitymacja-1933-34.jpg",
+                    "podpis": "Legitymacja szkolna Zofii Nowalskiej na rok szkolny 1933/1934. Publiczna szkoła powszechna w Łodzi, klasa 7.",
+                    "zrodlo": "Zbiory rodzinne",
+                    "szeroko": true
+                  }
+                },
+                {
+                  "akapit": "Później zdobyła wykształcenie określane jako „mała matura”."
+                },
+                {
+                  "galeria": [
+                    {
+                      "plik": "zdjecia/zofia-portret-oryginal.jpg",
+                      "podpis": "Zofia Nowalska, portret. [Rok i okoliczności do uzupełnienia.]",
+                      "zrodlo": "Zbiory rodzinne. Oryginał czarno-biały",
+                      "ksztalt": "pion"
+                    },
+                    {
+                      "plik": "zdjecia/zofia-grupa-dziewczat-w-mundurach.jpg",
+                      "podpis": "Grupa dziewcząt w mundurach. [Organizacja, rok i miejsce do uzupełnienia.]",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "poziom"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "szablon": "on"
+            }
+          ]
+        },
+        {
+          "tytul": "W czasie wojny",
+          "lata": "1939–1945",
+          "historie": [
+            {
+              "tytul": "Zofia Nowalska",
+              "elementy": [
+                {
+                  "akapit": "W czasie II wojny światowej opiekowała się schorowaną matką i pracowała jako krawcowa, szyjąc gorsety. Według rodzinnych wspomnień uczyła też matematyki na tajnych kompletach, które odbywały się w mieszkaniu sąsiadki przy ulicy Abramowskiego. Codzienną pracę i opiekę nad matką łączyła więc z pomaganiem innym w nauce."
+                }
+              ]
+            },
+            {
+              "tytul": "Bronisław Bonisławski",
+              "elementy": [
+                {
+                  "tekst_zastepczy": "[Historia Bronisława z czasu wojny. Do uzupełnienia.]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tytul": "Po wojnie",
+          "lata": "[lata]",
+          "historie": [
+            {
+              "tytul": "Wspólna historia",
+              "elementy": [
+                {
+                  "tekst_zastepczy": "[Jak i gdzie się poznali. Do uzupełnienia.]"
+                },
+                {
+                  "akapit": "Zofia poślubiła Bronisława Bonisławskiego. Mieli dwoje dzieci, Ryszarda i Irenę. Zofia mieszkała w Łodzi przy ulicy Abramowskiego 34."
+                },
+                {
+                  "akapit": "Zmarła 29 listopada 2007 roku w Łodzi."
+                },
+                {
+                  "galeria": [
+                    {
+                      "podpis": "[Zdjęcie ślubne, miejsce, data]",
+                      "zrodlo": "[Źródło]",
+                      "etykieta": "Miejsce na zdjęcie ślubne"
+                    },
+                    {
+                      "podpis": "Akt małżeństwa",
+                      "zrodlo": "Sygn. [___], nr [___/rrrr]",
+                      "etykieta": "Skan aktu małżeństwa",
+                      "ksztalt": "doc"
+                    },
+                    {
+                      "podpis": "Akt zgonu Zofii",
+                      "zrodlo": "Sygn. [___]",
+                      "etykieta": "Skan aktu zgonu",
+                      "ksztalt": "doc"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "wawrzyniec-i-stanislawa",

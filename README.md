@@ -42,6 +42,18 @@ Adres strony: `https://<login>.github.io/<nazwa-repozytorium>/`.
 
 Dopisz wpis w `zrodlo/dane/rodzina.json` i wskaż `"rodzice"` u dziecka. Menu i linki uzupełnią się same po zbudowaniu.
 
+## Jak dodać historię osoby lub pary (jak u Zofii)
+
+Wzorem jest wpis `zofia-i-bronislaw` w `zrodlo/dane/rodzina.json`. Kolejne osoby dodaje się tak samo:
+
+1. **Zdjęcia i skany**: wrzuć pliki do `zdjecia/` i `skany/` (najlepiej do 1600 px dłuższego boku, nazwy bez spacji, np. `jan-portret.jpg`).
+2. **Dane osoby** (`"ona"` lub `"on"`): `ur_data`, `ur_miejsce`, `zm_data`, `zm_miejsce` oraz opcjonalnie `portret` (`plik`, `podpis`, `zrodlo`) dla głównego zdjęcia.
+3. **Treść** w polu `"tresc"`: lista rozdziałów (`tytul`, `lata`), a w nich historie (`tytul`, `elementy`). Elementy mogą być: `akapit`, `tekst_zastepczy`, `zdjecie` (`plik`, `podpis`, `zrodlo`, opcjonalnie `szeroko`) i `galeria` (lista zdjęć lub skanów z podpisami). Podpis i źródło pokazują się pod zdjęciem i w powiększeniu.
+4. **Dzieci**: lista `"dzieci"`; `"dzieci_komplet": true` wyłącza puste karty do uzupełnienia.
+5. Zbuduj (`python3 zrodlo/zbuduj.py`) i wypchnij zmiany.
+
+Pary bez pola `"tresc"` dostają szablon z polami do uzupełnienia.
+
 ## Uwagi
 
 - Teksty w nawiasach `[…]` to pola do uzupełnienia, w tym daty i miejsca.

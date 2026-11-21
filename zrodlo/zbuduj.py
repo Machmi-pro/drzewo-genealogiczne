@@ -80,36 +80,64 @@ def nav(current):
 
 # --- strona pary --------------------------------------------------------------
 def facts(o, fem):
-    def row(label, sym, y):
-        d = f'[dd.mm.]{y}' if y else '[data]'
-        return f'<dt>{label}</dt><dd><span class="sym">{sym}</span>{d}, [miejscowość]</dd>'
+    def row(label, sym, y, key):
+        d = o.get(key + "_data") or (f'[dd.mm.]{y}' if y else '[data]')
+        m = o.get(key + "_miejsce") or '[miejscowość]'
+        return f'<dt>{label}</dt><dd><span class="sym">{sym}</span>{e(d)}, {e(m)}</dd>'
     def parent(label, name, pid):
         if pid in PARY:
             return f'<dt>{label}</dt><dd><a href="{pid}.html">{e(name)}</a></dd>'
         return f'<dt>{label}</dt><dd><a href="#" class="todo">{e(name)}</a><span class="later">strona wkrótce</span></dd>'
     return ('<dl class="facts">'
-            + row("Urodzona" if fem else "Urodzony", "*", o["ur"])
-            + row("Zmarła" if fem else "Zmarł", "†", o["zm"])
+            + row("Urodzona" if fem else "Urodzony", "*", o["ur"], "ur")
+            + row("Zmarła" if fem else "Zmarł", "†", o["zm"], "zm")
             + parent("Ojciec", o["ojciec"], o.get("rodzice"))
             + parent("Matka", o["matka"], o.get("rodzice"))
             + '</dl>')
 
 def person(o, fem):
     nm = full(o)
+    pt = o.get("portret")
+    if pt:
+        cap = pt.get("podpis", nm)
+        inner = (f'<div class="portrait"><img src="{e(pt["plik"])}" alt="{e(cap)}"></div>')
+        data = f'data-cap="{e(cap)}" data-src="{e(pt.get("zrodlo", ""))}"'
+    else:
+        inner = f'<div class="portrait"><div class="ph">{PERSON_SVG}Miejsce na zdjęcie<br>portret 3:4</div></div>'
+        data = f'data-cap="{e(nm)}, [rok zdjęcia]" data-src="[Źródło: album rodzinny]"'
     return (f'<article class="person"><figure>'
-            f'<button class="zoom" type="button" data-cap="{e(nm)}, [rok zdjęcia]" data-src="[Źródło: album rodzinny]" aria-label="Powiększ zdjęcie: {e(nm)}">'
-            f'<div class="portrait"><div class="ph">{PERSON_SVG}Miejsce na zdjęcie<br>portret 3:4</div></div></button>'
+            f'<button class="zoom" type="button" {data} aria-label="Powiększ zdjęcie: {e(nm)}">{inner}</button>'
             f'<figcaption><strong>{e(nm)}</strong><span>{years(o)}</span></figcaption></figure>'
             f'{facts(o, fem)}</article>')
 
-def zoom(cap, src, label, cls=""):
-    return (f'<button class="zoom" type="button" data-cap="{e(cap)}" data-src="{e(src)}" aria-label="Powiększ: {e(cap)}">'
-            f'<div class="ph{(" " + cls) if cls else ""}">{label}</div></button>')
+def zoom(cap, src, label, cls="", img=None):
+    inner = (f'<img src="{e(img)}" alt="{e(cap)}" loading="lazy" class="{cls}">' if img
+             else f'<div class="ph{(" " + cls) if cls else ""}">{label}</div>')
+    return (f'<button class="zoom" type="button" data-cap="{e(cap)}" data-src="{e(src)}" aria-label="Powiększ: {e(cap)}">{inner}</button>')
 
-def gallery(items):
-    return '<div class="label">Dokumenty i zdjęcia</div><div class="gallery">' + "".join(
-        f'<figure>{zoom(c, s, l, k)}<figcaption class="cap">{c}<span class="src">{s}</span></figcaption></figure>'
-        for c, s, l, k in items) + '</div>'
+def gallery(items, label="Dokumenty i zdjęcia"):
+    out = []
+    for it in items:
+        if isinstance(it, dict):
+            c, s_, l, k, f = it.get("podpis", ""), it.get("zrodlo", ""), it.get("etykieta", "Zdjęcie"), it.get("ksztalt", ""), it.get("plik")
+        else:
+            (c, s_, l, k), f = it, None
+        out.append(f'<figure>{zoom(c, s_, l, k, f)}<figcaption class="cap">{c}<span class="src">{s_}</span></figcaption></figure>')
+    return f'<div class="label">{label}</div><div class="gallery">' + "".join(out) + '</div>'
+
+def element(el):
+    if "akapit" in el: return f'<p>{e(el["akapit"])}</p>'
+    if "tekst_zastepczy" in el: return f'<p class="placeholder-text">{e(el["tekst_zastepczy"])}</p>'
+    if "zdjecie" in el:
+        z = el["zdjecie"]
+        cls = "inline" + (" wide" if z.get("szeroko") else "") + (" right" if z.get("prawo") else "")
+        return (f'<figure class="{cls}">{zoom(z["podpis"], z.get("zrodlo", ""), z.get("etykieta", "Miejsce na zdjęcie"), "", z.get("plik"))}'
+                f'<figcaption class="cap">{e(z["podpis"])}<span class="src">{e(z.get("zrodlo", ""))}</span></figcaption></figure>')
+    if "galeria" in el: return gallery(el["galeria"], el.get("etykieta", "Dokumenty i zdjęcia"))
+    return ""
+
+def custom_story(h):
+    return f'<article class="story"><h3>{e(h["tytul"])}</h3>' + "".join(element(x) for x in h["elementy"]) + '</article>'
 
 def story(o, right):
     nm = full(o)
@@ -134,21 +162,51 @@ def couple_page(p):
             nxt.append(f'<a href="{rp}.html"><span class="label">Rodzice: {e(full(o))}</span><strong>{e(couple_name(PARY[rp]))}</strong></a>')
         else:
             nxt.append(f'<span class="none"><span class="label">Rodzice: {e(full(o))}</span>{e(o["ojciec"])} i {e(o["matka"])} · strona wkrótce</span>')
-    for k in p.get("dzieci", []):
+    for k in [k for k in p.get("dzieci", []) if k.get("strona")]:
         nxt.append(f'<a class="down" href="{url(k["strona"])}"><span class="label">Ich dziecko: {e(k["imie"])}</span>'
                    f'<strong>{e(couple_name(PARY[k["strona"]]))}</strong></a>')
     kid_cards = []
     for k in p.get("dzieci", []):
+        if not k.get("strona"):
+            kid_cards.append(f'<div class="kid"><div class="ph">{PERSON_SVG}Miejsce na zdjęcie</div>'
+                             f'<strong>{e(k["imie"])} {e(k.get("nazwisko", "[nazwisko]"))}</strong><span class="yr">* [data i miejsce] · † [data]</span>'
+                             f'<span class="note">[Krótka notatka: małżonek, zawód, gdzie mieszkało.]</span></div>')
+            continue
         kid_cards.append(f'<a class="kid" href="{url(k["strona"])}"><div class="ph">{PERSON_SVG}Miejsce na zdjęcie</div>'
                          f'<strong>{e(k["imie"])}</strong><span class="yr">* [data] · † [data]</span>'
                          f'<span class="go">Strona rodziny dziecka →</span></a>')
-    for n in range(max(0, 3 - len(kid_cards))):
+    for n in range(0 if p.get("dzieci_komplet") else max(0, 3 - len(kid_cards))):
         kid_cards.append(f'<div class="kid"><div class="ph">{PERSON_SVG}Miejsce na zdjęcie</div>'
                          f'<strong>[Imię i nazwisko dziecka]</strong><span class="yr">* [data i miejsce] · † [data]</span>'
                          f'<span class="note">[Krótka notatka: małżonek, zawód, gdzie mieszkało.]</span></div>')
     kids_html = (f'<section class="chapter" id="dzieci"><h2>Dzieci</h2>'
                  f'<div class="kids">{"".join(kid_cards)}</div>'
                  f'<p class="placeholder-text kidsnote">[Tu wypiszesz wszystkie dzieci tej pary, od najstarszego. Karty można dodawać i usuwać.]</p></section>')
+    def shared_default():
+        return f'''<article class="story"><h3>Wspólna historia</h3>
+      <p class="placeholder-text">[Jak i gdzie się poznali. Tekst zastępczy, do podmiany.]</p>
+      <div class="twocol">
+        <figure class="inline">{zoom("[Zdjęcie ślubne, miejsce, data]", "[Źródło]", "Miejsce na zdjęcie<br>ślubne")}<figcaption class="cap">[Zdjęcie ślubne, miejsce, data]<span class="src">Źródło: [album]</span></figcaption></figure>
+        <figure class="inline">{zoom("Akt małżeństwa", "Sygn. [___], nr [___/rrrr]", "Skan aktu<br>małżeństwa")}<figcaption class="cap">Akt małżeństwa<span class="src">Sygn. [___], nr [___/rrrr]</span></figcaption></figure>
+      </div>
+      <p class="placeholder-text">[Dalsze lata: gdzie zamieszkali, praca, dzieci, ważne wydarzenia.]</p>
+      {gallery([("[Podpis zdjęcia]", "[rok]", "Zdjęcie", ""), ("[Podpis zdjęcia]", "[rok]", "Zdjęcie", ""), ("Akt zgonu", "Sygn. [___]", "Skan aktu<br>zgonu", "doc")])}
+    </article>'''
+    tresc = p.get("tresc") or [
+        {"tytul": ch1, "lata": "[lata]", "historie": [{"szablon": "ona"}, {"szablon": "on"}]},
+        {"tytul": ch2, "lata": "[lata]", "historie": [{"szablon": "wspolna"}]},
+    ]
+    chap = []
+    for c in tresc:
+        parts = []
+        for h in c["historie"]:
+            sz = h.get("szablon")
+            if sz == "ona": parts.append(story(p["ona"], True))
+            elif sz == "on": parts.append(story(p["on"], False))
+            elif sz == "wspolna": parts.append(shared_default())
+            else: parts.append(custom_story(h))
+        chap.append(f'<section class="chapter"><h2>{e(c["tytul"])}</h2><div class="years">{e(c.get("lata", "[lata]"))}</div>{"".join(parts)}</section>')
+    chapters_html = "".join(chap)
     body = f'''
 <div class="wrap page">
   {"" if pid == HOME else f'<div class="crumbs"><a href="{home()}">Strona główna</a> › {e(GEN[str(gen)])} › {e(title)}</div>'}
@@ -158,22 +216,7 @@ def couple_page(p):
     <p class="sub">{e(p.get("podtytul", "[Krótki podtytuł]"))}</p>
   </header>
   <section class="pair" aria-label="{e(title)}">{person(p["ona"], True)}{person(p["on"], False)}</section>
-  <section class="chapter">
-    <h2>{e(ch1)}</h2><div class="years">[lata]</div>
-    {story(p["ona"], True)}{story(p["on"], False)}
-  </section>
-  <section class="chapter">
-    <h2>{e(ch2)}</h2><div class="years">[lata]</div>
-    <article class="story"><h3>Wspólna historia</h3>
-      <p class="placeholder-text">[Jak i gdzie się poznali. Tekst zastępczy, do podmiany.]</p>
-      <div class="twocol">
-        <figure class="inline">{zoom("[Zdjęcie ślubne, miejsce, data]", "[Źródło]", "Miejsce na zdjęcie<br>ślubne")}<figcaption class="cap">[Zdjęcie ślubne, miejsce, data]<span class="src">Źródło: [album]</span></figcaption></figure>
-        <figure class="inline">{zoom("Akt małżeństwa", "Sygn. [___], nr [___/rrrr]", "Skan aktu<br>małżeństwa")}<figcaption class="cap">Akt małżeństwa<span class="src">Sygn. [___], nr [___/rrrr]</span></figcaption></figure>
-      </div>
-      <p class="placeholder-text">[Dalsze lata: gdzie zamieszkali, praca, dzieci, ważne wydarzenia.]</p>
-      {gallery([("[Podpis zdjęcia]", "[rok]", "Zdjęcie", ""), ("[Podpis zdjęcia]", "[rok]", "Zdjęcie", ""), ("Akt zgonu", "Sygn. [___]", "Skan aktu<br>zgonu", "doc")])}
-    </article>
-  </section>
+  {chapters_html}
   {kids_html}
   <section class="chapter"><h2>Dalej w drzewie</h2><div class="next">{"".join(nxt)}</div></section>
   <footer><span>{e(SITE)}</span><a href="{home()}">Strona główna</a></footer>
