@@ -1117,7 +1117,7 @@
         "zm": "1909",
         "ojciec": "Stanisław Bonisławski",
         "matka": "Marta z d. Rewna",
-        "ur_data": "23/26.06.1834",
+        "ur_data": "23 lub 26 czerwca 1834",
         "ur_miejsce": "Płaucza Mała, dom nr 10",
         "zm_miejsce": "Płaucza Mała, dom nr 124",
         "fakty": [
@@ -1130,7 +1130,8 @@
             "rolnik"
           ]
         ],
-        "zm_data": "1909"
+        "zm_data": "1909",
+        "rodzice": "stanislaw-i-marta"
       },
       "dzieci": [
         {
@@ -2700,6 +2701,160 @@
           ]
         }
       ]
+    },
+    {
+      "id": "stanislaw-i-marta",
+      "pokolenie": 4,
+      "ona": {
+        "imie": "Marta",
+        "nazwisko": "Rewna",
+        "ur": "",
+        "zm": "przed 1874",
+        "ojciec": "Łukasz Rewny",
+        "matka": "Maria Rzeźnik",
+        "fakty": [
+          [
+            "Ślub",
+            "Stanisław Bonisławski (Bolesławski)"
+          ],
+          [
+            "Zmarła",
+            "przed 1874"
+          ]
+        ]
+      },
+      "on": {
+        "imie": "Stanisław",
+        "nazwisko": "Bonisławski (Bolesławski)",
+        "ur": "ok. 1805",
+        "zm": "1874",
+        "ur_data": "około 1805",
+        "ur_miejsce": "dom nr 10",
+        "zm_data": "1 maja 1874",
+        "zm_miejsce": "dom nr 10",
+        "ojciec": "Tomasz Bolesławski",
+        "matka": "Maria Zapotoczna",
+        "rodzice": "tomasz-i-maria",
+        "fakty": [
+          [
+            "Zawód",
+            "rolnik"
+          ],
+          [
+            "Przyczyna śmierci",
+            "starość"
+          ],
+          [
+            "Ślub",
+            "Marta Rewna"
+          ]
+        ]
+      },
+      "dzieci": [
+        {
+          "imie": "Franciszek Bonisławski",
+          "strona": "franciszek-i-klara"
+        }
+      ],
+      "lista_dzieci": [
+        {
+          "imie": "Franciszek",
+          "opis": "ur. 23 lub 26 czerwca 1834, dom nr 10",
+          "strona": "franciszek-i-klara"
+        },
+        {
+          "imie": "Helena",
+          "opis": "ur. 1836, dom nr 10, Kozłów (chrzest w obrządku greckokatolickim). Matka: Marta z domu Rewny; ojciec zapisany jako „Eustachius”. Odczyt niepewny, prawdopodobnie Stanisław (hipoteza, wymaga potwierdzenia)"
+        },
+        {
+          "imie": "Michał",
+          "opis": "ur. 24 sierpnia 1843, dom nr 10, Płaucza Mała. Chrzestni: Jakub Rewny (rolnik), Marianna Łuczycha"
+        }
+      ],
+      "tresc": []
+    },
+    {
+      "id": "tomasz-i-maria",
+      "pokolenie": 5,
+      "ona": {
+        "imie": "Maria",
+        "nazwisko": "Zapotoczna",
+        "ur": "",
+        "zm": "",
+        "uwaga": "Ślub z Tomaszem prawdopodobnie około 1803 lub 1804 roku, po śmierci Marianny Konopackiej. Data szacunkowa, brak bezpośredniego aktu.",
+        "fakty": [
+          [
+            "Ślub",
+            "Tomasz Bolesławski, prawdopodobnie około 1803–1804 (data szacunkowa)"
+          ]
+        ]
+      },
+      "on": {
+        "imie": "Tomasz",
+        "nazwisko": "Bolesławski",
+        "ur": "ok. 1773",
+        "zm": "",
+        "ur_data": "około 1773 (wyliczone z wieku 20 lat przy ślubie w 1793)",
+        "ur_miejsce": "Płaucza Mała",
+        "fakty": [
+          [
+            "Ślub I",
+            "Marianna Konopacka, córka Stanisława Konopackiego, ur. około 1774. Ślub w 1793 roku, świadkowie: Łukasz Pichur i Jan Barabasz. Marianna zmarła między 1802 a około 1804 rokiem"
+          ],
+          [
+            "Ślub II",
+            "Maria Zapotoczna, prawdopodobnie około 1803–1804 (data szacunkowa, brak bezpośredniego aktu)"
+          ]
+        ]
+      },
+      "dzieci": [
+        {
+          "imie": "Stanisław Bonisławski",
+          "strona": "stanislaw-i-marta"
+        }
+      ],
+      "lista_dzieci": [
+        {
+          "grupa": "Dzieci Tomasza i Marianny Konopackiej"
+        },
+        {
+          "imie": "Kazimierz",
+          "opis": "ur. 2 marca 1794, dom nr 10"
+        },
+        {
+          "imie": "Anna",
+          "opis": "ur. około 1795; mężowie: 1822 Jan Manastyrski; 1823 Jan Cecula (wdowa, lat 28); 1826 Gabriel Bukało. Córka Anny, dziecko nieślubne urodzone przed małżeństwem: Agata, ur. 30 stycznia 1822, dom nr 10, Płaucza Mała"
+        },
+        {
+          "imie": "Stefan",
+          "opis": "ur. 2 stycznia 1798, dom nr 8"
+        },
+        {
+          "imie": "Ewa",
+          "opis": "ur. 20 grudnia 1799, dom nr 8"
+        },
+        {
+          "imie": "Katarzyna",
+          "opis": "ur. 25 listopada 1801, dom nr 8; w 1821 wyszła za Łukasza Lechkiego"
+        },
+        {
+          "imie": "Marianna",
+          "opis": "ur. 29 czerwca 1802, dom nr 8"
+        },
+        {
+          "grupa": "Dzieci Tomasza i Marii Zapotocznej"
+        },
+        {
+          "imie": "Stanisław",
+          "opis": "ur. około 1805, dom nr 10",
+          "strona": "stanislaw-i-marta"
+        },
+        {
+          "imie": "Agnieszka",
+          "opis": "ur. 10 stycznia 1807, dom nr 10; w 1827 wyszła za Jana Szafrana (syn Grzegorza i Marianny Szefowej), lat 24, panna; świadkowie: Stefan Marć(?), Józef Pichur; akt nr 882"
+        }
+      ],
+      "tresc": []
     }
   ],
   "podtytul": "Bonisławscy • Murzyńscy • Nowalscy • Adamczyk"
