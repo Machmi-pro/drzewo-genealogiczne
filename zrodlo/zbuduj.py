@@ -91,6 +91,7 @@ def facts(o, fem):
     return ('<dl class="facts">'
             + row("Urodzona" if fem else "Urodzony", "*", o["ur"], "ur")
             + row("Zmarła" if fem else "Zmarł", "†", o["zm"], "zm")
+            + "".join(f'<dt>{e(a)}</dt><dd>{e(b)}</dd>' for a, b in o.get("fakty", []))
             + parent("Ojciec", o["ojciec"], o.get("rodzice"))
             + parent("Matka", o["matka"], o.get("rodzice"))
             + '</dl>'
@@ -138,6 +139,9 @@ def element(el):
         return (f'<blockquote class="trans"><div class="label">{e(t.get("naglowek", "Transkrypcja"))}</div>'
                 + "".join(f'<div class="tl">{e(l)}</div>' for l in t["linie"])
                 + (f'<p class="tnote">{e(t["uwaga"])}</p>' if t.get("uwaga") else "") + '</blockquote>')
+    if "przypis" in el:
+        z = el["przypis"]
+        return f'<p class="srcnote">{e(z["etykieta"])} {srcline(z["tekst"], z.get("url"))}</p>'
     if "akapit" in el: return f'<p>{e(el["akapit"])}</p>'
     if "tekst_zastepczy" in el: return f'<p class="placeholder-text">{e(el["tekst_zastepczy"])}</p>'
     if "zdjecie" in el:

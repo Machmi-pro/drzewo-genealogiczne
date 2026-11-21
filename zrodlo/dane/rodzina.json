@@ -294,11 +294,34 @@
       "ona": {
         "imie": "Stanisława",
         "nazwisko": "Adamczyk",
-        "ur": "1883",
-        "zm": "",
+        "ur": "1885",
+        "zm": "1961",
         "ojciec": "Stanisław Józef Adamczyk",
         "matka": "Marianna z d. Żukowska",
-        "rodzice": "stanislaw-i-marianna"
+        "rodzice": "stanislaw-i-marianna",
+        "ur_data": "7/19 kwietnia 1885",
+        "ur_miejsce": "Lutkówka",
+        "zm_data": "6.08.1961",
+        "zm_miejsce": "Łódź",
+        "fakty": [
+          [
+            "Ślub",
+            "1916, z Wawrzyńcem Nowalskim"
+          ],
+          [
+            "Zawód",
+            "robotnica w fabryce"
+          ],
+          [
+            "Mieszkała",
+            "wieś Marianka, następnie Łódź, ul. Abramowskiego"
+          ]
+        ],
+        "portret": {
+          "plik": "zdjecia/stanislawa-adamczyk-portret.jpg",
+          "podpis": "Stanisława Adamczyk. Koloryzacja zdjęcia",
+          "zrodlo": "Zbiory rodzinne. Koloryzacja cyfrowa, oryginał czarno-biały"
+        }
       },
       "on": {
         "imie": "Wawrzyniec",
@@ -313,6 +336,44 @@
         {
           "imie": "Zofia Nowalska (babcia)",
           "strona": "zofia-i-bronislaw"
+        }
+      ],
+      "tresc": [
+        {
+          "tytul": "Przed I wojną światową",
+          "historie": [
+            {
+              "tytul": "Stanisława Adamczyk",
+              "elementy": [
+                {
+                  "akapit": "Troje z rodzeństwa Adamczyków, Wacław, Stanisława i Jan, było zaangażowanych w działalność PPS Frakcji Rewolucyjnej w Łodzi. Do tej samej działalności wciągnął Stanisławę brat Wacław. W 1909 roku sąd wojenny skazał ją na dwa i pół roku więzienia."
+                },
+                {
+                  "przypis": {
+                    "etykieta": "Źródło:",
+                    "tekst": "Rok Rewolucji w Łodzi, Kronika Miasta Łodzi nr 2/2025, s. 62",
+                    "url": "https://uml.lodz.pl/files/public/user_upload2/2025/06/Rok_Rewolucji_w_Lodzi_-_Kronika_Miasta_Lodzi_nr_2_2025__104_.pdf"
+                  }
+                }
+              ]
+            },
+            {
+              "szablon": "on"
+            }
+          ]
+        },
+        {
+          "tytul": "Wspólne życie",
+          "historie": [
+            {
+              "tytul": "Wspólna historia",
+              "elementy": [
+                {
+                  "akapit": "Stanisława i Wawrzyniec Nowalski zawarli ślub w 1916 roku."
+                }
+              ]
+            }
+          ]
         }
       ]
     },

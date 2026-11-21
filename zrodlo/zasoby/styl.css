@@ -112,6 +112,9 @@ dialog button.close{font-family:var(--mono);font-size:.78rem;background:none;bor
 
 .factnote{margin:0;font-size:.8rem;color:var(--muted);font-style:italic;line-height:1.45}
 
+.srcnote{margin:0;font-family:var(--mono);font-size:.74rem;color:var(--muted);line-height:1.5}
+.srcnote a{color:var(--link)}
+
 /* Transkrypcja listu */
 .twocol .inline{max-width:none}
 .trans{margin:0;padding:1rem 1.25rem;border-left:3px solid var(--sepia);background:var(--paper);display:flex;flex-direction:column;gap:.15rem;font-family:var(--display);font-size:1.15rem;line-height:1.5;min-width:0}
