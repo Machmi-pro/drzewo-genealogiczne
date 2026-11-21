@@ -49,7 +49,9 @@ for lvl in range(1, 10): expand(lvl)
 
 def full(o): return f'{o["imie"]} {o["nazwisko"]}'
 def couple_name(p): return f'{p["ona"]["imie"]} i {p["on"]["imie"]}'
-def years(o): return f'{o["ur"] or "?"}–{o["zm"] or "?"}'
+def years(o):
+    if not o["ur"] and not o["zm"]: return ""
+    return f'{o["ur"] or "?"}–{o["zm"] or "?"}'
 
 # --- menu (hamburger + wysuwana szuflada z kaflami, od najmłodszego pokolenia) ---
 def home(): return "index.html"
@@ -81,9 +83,10 @@ def nav(current):
 # --- strona pary --------------------------------------------------------------
 def facts(o, fem):
     def row(label, sym, y, key):
+        if o.get("puste_pomin") and not (o.get(key + "_data") or y): return ""
         d = o.get(key + "_data") or (y if y else '[data]')
         m = o.get(key + "_miejsce")
-        if m is None: m = '[miejscowość]'
+        if m is None: m = "" if o.get("puste_pomin") else '[miejscowość]'
         return f'<dt>{label}</dt><dd><span class="sym">{sym}</span>{e(d)}{", " + e(m) if m else ""}</dd>'
     def parent(label, name, pid):
         if pid in PARY:
@@ -106,8 +109,10 @@ def person(o, fem):
         inner = (f'<div class="portrait"><img src="{e(pt["plik"])}" alt="{e(cap)}"></div>')
         data = f'data-cap="{e(cap)}" data-src="{e(pt.get("zrodlo", ""))}"'
     else:
-        inner = f'<div class="portrait"><div class="ph">{PERSON_SVG}Miejsce na zdjęcie<br>portret 3:4</div></div>'
-        data = f'data-cap="{e(nm)}, [rok zdjęcia]" data-src="[Źródło: album rodzinny]"'
+        # strony bez portretu: bez ramki na zdjęcie profilowe
+        return (f'<article class="person"><figure class="noportrait">'
+                f'<figcaption><strong>{e(nm)}</strong><span>{years(o)}</span></figcaption></figure>'
+                f'{facts(o, fem)}</article>')
     return (f'<article class="person"><figure>'
             f'<button class="zoom" type="button" {data} aria-label="Powiększ zdjęcie: {e(nm)}">{inner}</button>'
             f'<figcaption><strong>{e(nm)}</strong><span>{years(o)}</span></figcaption></figure>'
@@ -191,7 +196,7 @@ def couple_page(p):
             else:
                 nm = e(k["imie"])
                 if k.get("strona"): nm = f'<a href="{url(k["strona"])}">{nm}</a>'
-                parts.append(f'<li><strong>{nm}</strong> <span>{e(k["opis"])}</span></li>')
+                parts.append(f'<li><strong>{nm}</strong>' + (f' <span>{e(k["opis"])}</span>' if k.get("opis") else '') + '</li>')
         kids_html = f'<section class="chapter" id="dzieci"><h2>Dzieci</h2><ul class="kidlist">{"".join(parts)}</ul></section>'
     elif p.get("dzieci_lista"):
         items = "".join(f'<li><strong>{e(k["imie"])}</strong> <span>{e(k["opis"])}</span></li>' for k in p["dzieci"])

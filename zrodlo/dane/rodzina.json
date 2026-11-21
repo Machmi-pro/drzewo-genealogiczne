@@ -876,7 +876,25 @@
         "ur": "1872",
         "zm": "1959",
         "ojciec": "Ignacy Drewnicki",
-        "matka": "Maria Didyk"
+        "matka": "Maria Didyk",
+        "puste_pomin": true,
+        "zm_data": "15.10.1959",
+        "zm_miejsce": "Wierzbica Górna",
+        "fakty": [
+          [
+            "Ślub",
+            "Mikołaj Murzyński"
+          ],
+          [
+            "Dom",
+            "Płaucza Mała, nr 129"
+          ],
+          [
+            "Pochowana",
+            "Wierzbica Górna, grób 240, w wieku 87 lat"
+          ]
+        ],
+        "uwaga": "Data i miejsce śmierci według zestawienia grobów na cmentarzu w Wierzbicy Górnej."
       },
       "on": {
         "imie": "Mikołaj",
@@ -884,12 +902,120 @@
         "ur": "",
         "zm": "",
         "ojciec": "Franciszek Murzyński",
-        "matka": "Fewronia z d. Małeczyńska"
+        "matka": "Fewronia z d. Małeczyńska",
+        "puste_pomin": true,
+        "fakty": [
+          [
+            "Określenie",
+            "nobilis agricola"
+          ],
+          [
+            "Ślub",
+            "Justyna Drewnicka"
+          ],
+          [
+            "Dom",
+            "Płaucza Mała, nr 129"
+          ]
+        ]
       },
       "dzieci": [
         {
           "imie": "Maria Murzyńska",
           "strona": "eustachy-i-maria"
+        }
+      ],
+      "tresc": [
+        {
+          "tytul": "Rodzina",
+          "historie": [
+            {
+              "tytul": "Mikołaj i Justyna",
+              "elementy": [
+                {
+                  "akapit": "Mikołaj Murzyński, syn Franciszka i Fewronii, w dokumentach określany jako nobilis agricola, ożenił się z Justyną Drewnicką, córką Ignacego Drewnickiego i Marii Didyk. Mieli siedmioro dzieci, cztery córki i trzech synów, to jest: Marię, Franciszkę, Bartłomieja, Annę, Józefa, Katarzynę i Franciszka."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tytul": "Kościół w Płauczy",
+          "historie": [
+            {
+              "tytul": "Mikołaj Murzyński",
+              "elementy": [
+                {
+                  "akapit": "Kościół w Płauczy wzniesiono w 1905 roku, a poświęcono rok później. Mikołaj był bardzo zaangażowany w jego budowę. Żeby zdobyć pieniądze, zaciągnął pożyczkę pod hipotekę własnego majątku. Obok kościoła zbudowano dzwonnicę z trzema dzwonami, a Mikołaj ufundował dzwon średni."
+                },
+                {
+                  "akapit": "Wcześniej, w 1904 roku, „Słowo Polskie” pisało o Płauczy małej i o budowie tamtejszej kaplicy."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/slowo-polskie-1904-kosciol-w-plauczy.jpg",
+                    "podpis": "Artykuł „Kościół w Płauczy” (zaznaczony na czerwono).",
+                    "zrodlo": "„Kościół w Płauczy”, „Słowo Polskie”, wydanie popołudniowe, nr 14 z 9 stycznia 1904 r., s. 8. Jagiellońska Biblioteka Cyfrowa",
+                    "url": "https://jbc.bj.uj.edu.pl/Content/191707/download?format_id=2",
+                    "szeroko": false
+                  }
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/slowo-polskie-1904-czytelnia-kaplica.jpg",
+                    "podpis": "Fragment o czytelni i budowie kaplicy w Płauczy małej (zaznaczony na czerwono).",
+                    "zrodlo": "„Kościół w Płauczy”, „Słowo Polskie”, wydanie popołudniowe, nr 14 z 9 stycznia 1904 r., s. 8. Jagiellońska Biblioteka Cyfrowa",
+                    "url": "https://jbc.bj.uj.edu.pl/Content/191707/download?format_id=2",
+                    "szeroko": false
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tytul": "Cmentarz w Wierzbicy Górnej",
+          "historie": [
+            {
+              "tytul": "Groby",
+              "elementy": [
+                {
+                  "akapit": "Według zestawienia grobów z cmentarza w Wierzbicy Górnej spoczywają tam: Justyna Murzyńska z d. Drewnicka (1872 – 15.10.1959, grób 240), Józef Murzyński (19/20.06.1906 – 10.10.1960, grób 241), Maria Bonisławska z d. Murzyńska (17.10.1892 – 12.05.1972, grób 243), Franciszek Murzyński (3.02.1913 – 18.05.1966, grób 291), Bartłomiej Murzyński (8.06.1899 – 3.11.1967, grób 292) oraz Tekla Murzyńska (7.06.1901 – 27.09.1976, grób 292)."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lista_dzieci": [
+        {
+          "imie": "Maria",
+          "opis": "ur. 17 października 1892, zm. 12 maja 1972",
+          "strona": "eustachy-i-maria"
+        },
+        {
+          "imie": "Franciszka",
+          "opis": ""
+        },
+        {
+          "imie": "Bartłomiej",
+          "opis": "ur. i ochrzczony 8 czerwca 1899, zm. 3 listopada 1967"
+        },
+        {
+          "imie": "Anna",
+          "opis": ""
+        },
+        {
+          "imie": "Józef",
+          "opis": "ur. 19 czerwca 1906, chrzest 20 czerwca 1906, zm. 10 października 1960"
+        },
+        {
+          "imie": "Katarzyna",
+          "opis": ""
+        },
+        {
+          "imie": "Franciszek",
+          "opis": "ur. 3 lutego 1913, zm. 18 maja 1966"
         }
       ]
     }
