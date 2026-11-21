@@ -22,7 +22,7 @@ SUB = data.get("podtytul", "Historia rodziny")
 
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
-         '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400'
+         '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400'
          '&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap">')
 PERSON_SVG = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">'
               '<circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>')
@@ -74,7 +74,7 @@ def nav(current):
         tiers.append(f'<section><h2 class="gen">{e(GEN[str(g)])}</h2><div class="tiles">{"".join(tiles)}</div></section>')
     return (f'<div class="site"><div class="wrap"><button class="burger" type="button" id="burger" aria-expanded="false" aria-controls="drawer" aria-label="Menu">'
             f'<span class="bars" aria-hidden="true"></span></button>'
-            f'<a class="brand" href="{home()}">{e(SITE)}<small>{e(SUB)}</small></a></div></div>'
+            f'<a class="brand" href="{home()}"><span class="bt">{e(SITE)}</span><small>{e(SUB)}</small></a></div></div>'
             f'<div class="scrim" id="scrim" hidden></div>'
             f'<aside class="drawer" id="drawer" aria-label="Wszystkie strony" hidden>'
             f'<div class="dhead"><strong>Rodzina</strong><button class="dclose" type="button" id="dclose">Zamknij ✕</button></div>'
