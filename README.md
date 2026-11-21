@@ -5,21 +5,25 @@ Każda para ma własną stronę, a menu (hamburger) pokazuje kafle od najmłodsz
 
 ## Struktura
 
+Gotowa strona leży w katalogu głównym `main`, a pliki do jej tworzenia w folderze `zrodlo/`.
+
 | Ścieżka | Do czego służy |
 | --- | --- |
-| `dane/rodzina.json` | Dane wszystkich par (imiona, lata, rodzice, dzieci). Tu dodajesz nowe osoby. |
-| `zasoby/styl.css`, `zasoby/strona.js` | Wygląd i działanie (menu, powiększanie zdjęć). |
-| `zdjecia/` | Zdjęcia. Przy budowaniu kopiowane do `docs/zdjecia/`. |
-| `skany/` | Skany aktów i dokumentów. Kopiowane do `docs/skany/`. |
-| `zbuduj.py` | Generator: z danych i wzoru tworzy wszystkie strony w folderze `docs/`. |
-| `docs/` | **Gotowa strona** (HTML). Tego folderu używa GitHub Pages. Nie edytuj ręcznie, bo zostanie nadpisany. |
+| `index.html` | Strona główna (Zofia i Bronisław). |
+| `*.html` | Strony pozostałych par. Tworzone przez generator, nie edytuj ręcznie. |
+| `styl.css`, `strona.js` | Wygląd i działanie strony. Kopiowane z `zrodlo/zasoby/`. |
+| `zdjecia/` | Zdjęcia. Wrzucasz tu pliki i wstawiasz je na stronach. |
+| `skany/` | Skany aktów i dokumentów. |
+| `zrodlo/dane/rodzina.json` | Dane wszystkich par (imiona, lata, rodzice, dzieci). Tu dodajesz nowe osoby. |
+| `zrodlo/zasoby/` | Oryginały `styl.css` i `strona.js`. Zmian wyglądu szukaj tutaj. |
+| `zrodlo/zbuduj.py` | Generator: z danych i wzoru tworzy strony w katalogu głównym. |
 
 ## Jak zmienić stronę
 
-1. Zmień dane w `dane/rodzina.json` (albo wygląd w `zasoby/`), dodaj zdjęcia do `zdjecia/` lub skany do `skany/`.
-2. Zbuduj stronę lokalnie: `python3 zbuduj.py` (potrzebny tylko Python 3, bez dodatkowych pakietów).
-3. Sprawdź wynik, otwierając `docs/index.html` w przeglądarce.
-4. Zatwierdź i wypchnij razem ze zmianami w `docs/`:
+1. Zmień dane w `zrodlo/dane/rodzina.json` (albo wygląd w `zrodlo/zasoby/`).
+2. Zbuduj stronę lokalnie: `python3 zrodlo/zbuduj.py` (potrzebny tylko Python 3, bez dodatkowych pakietów).
+3. Sprawdź wynik, otwierając `index.html` w przeglądarce.
+4. Zatwierdź i wypchnij:
 
 ```
 git add -A
@@ -31,12 +35,12 @@ GitHub Pages odświeży stronę po około minucie.
 
 ## Ustawienia GitHub Pages
 
-Settings → Pages → Build and deployment → Source: **Deploy from a branch** → Branch: **main**, folder: **/docs** → Save.
+Settings → Pages → Build and deployment → Source: **Deploy from a branch** → Branch: **main**, folder: **/ (root)** → Save.
 Adres strony: `https://<login>.github.io/<nazwa-repozytorium>/`.
 
 ## Jak dodać parę
 
-Dopisz wpis w `dane/rodzina.json` i wskaż `"rodzice"` u dziecka. Menu i linki uzupełnią się same po zbudowaniu.
+Dopisz wpis w `zrodlo/dane/rodzina.json` i wskaż `"rodzice"` u dziecka. Menu i linki uzupełnią się same po zbudowaniu.
 
 ## Uwagi
 
