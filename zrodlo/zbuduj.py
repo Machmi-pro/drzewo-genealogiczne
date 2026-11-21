@@ -179,7 +179,7 @@ def couple_page(p):
                    f'<strong>{e(couple_name(PARY[k["strona"]]))}</strong></a>')
     kid_cards = []
     if p.get("dzieci_lista"):
-        items = "".join(f'<li><strong>{e(k["imie"])}</strong><span>{e(k["opis"])}</span></li>' for k in p["dzieci"])
+        items = "".join(f'<li><strong>{e(k["imie"])}</strong> <span>{e(k["opis"])}</span></li>' for k in p["dzieci"])
         kids_html = f'<section class="chapter" id="dzieci"><h2>Dzieci</h2><ul class="kidlist">{items}</ul></section>'
     for k in ([] if p.get("dzieci_lista") else p.get("dzieci", [])):
         if not k.get("strona"):
