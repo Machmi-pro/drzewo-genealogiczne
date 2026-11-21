@@ -116,10 +116,7 @@ dialog button.close{font-family:var(--mono);font-size:.78rem;background:none;bor
 .portrait img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
 .inline img{width:100%;height:auto;display:block;border:1px solid var(--rule)}
 .inline.wide{max-width:36rem}
-.gallery img{width:100%;aspect-ratio:1;object-fit:cover;display:block;border:1px solid var(--rule)}
-.gallery img.pion,.gallery img.doc{aspect-ratio:3/4}
-.gallery img.poziom{aspect-ratio:4/3}
-.gallery img.kw{aspect-ratio:1}
+.gallery img{width:100%;height:auto;max-height:30rem;object-fit:contain;display:block;border:1px solid var(--rule);background:var(--ph)}
 .gallery .src a{color:var(--link)}
 dialog #lb-img.foto{aspect-ratio:auto;border:0;background:none;padding:0}
 dialog #lb-img img{max-width:100%;max-height:75vh;width:auto;height:auto;display:block;margin:0 auto}
