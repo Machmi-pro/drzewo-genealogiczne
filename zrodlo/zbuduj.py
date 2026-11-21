@@ -70,8 +70,8 @@ def nav(current):
                          f'<span class="yr">{years(p["ona"])} · {years(p["on"])}</span>'
                          f'{f"<span class=side>{s}</span>" if s else ""}</a>')
         tiers.append(f'<section><h2 class="gen">{e(GEN[str(g)])}</h2><div class="tiles">{"".join(tiles)}</div></section>')
-    return (f'<div class="site"><div class="wrap"><button class="burger" type="button" id="burger" aria-expanded="false" aria-controls="drawer">'
-            f'<span class="bars" aria-hidden="true"></span><span class="bl">Menu</span></button>'
+    return (f'<div class="site"><div class="wrap"><button class="burger" type="button" id="burger" aria-expanded="false" aria-controls="drawer" aria-label="Menu">'
+            f'<span class="bars" aria-hidden="true"></span></button>'
             f'<a class="brand" href="{home()}">{e(SITE)}<small>{e(SUB)}</small></a></div></div>'
             f'<div class="scrim" id="scrim" hidden></div>'
             f'<aside class="drawer" id="drawer" aria-label="Wszystkie strony" hidden>'
