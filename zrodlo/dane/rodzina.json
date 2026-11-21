@@ -35,7 +35,14 @@
         "zm": "1996",
         "ojciec": "Eustachy Bonisławski",
         "matka": "Maria z d. Murzyńska",
-        "rodzice": "eustachy-i-maria"
+        "rodzice": "eustachy-i-maria",
+        "ur_data": "21.06.1917",
+        "ur_miejsce": "Płaucza Mała",
+        "portret": {
+          "plik": "zdjecia/bronislaw-portret-przy-samochodzie-koloryzacja.jpg",
+          "podpis": "Bronisław Bonisławski. Koloryzacja zdjęcia, rok nieznany",
+          "zrodlo": "Zbiory rodzinne. Koloryzacja cyfrowa, oryginał czarno-biały"
+        }
       },
       "rozdzialy": [
         "Przed wojną",
@@ -94,7 +101,52 @@
               ]
             },
             {
-              "szablon": "on"
+              "tytul": "Bronisław Bonisławski",
+              "elementy": [
+                {
+                  "akapit": "Bronisław Bonisławski urodził się 21 czerwca 1917 roku w domu nr 124 w Płauczy Małej, jako syn Eustachego i Marii z Murzyńskich. Uczył się w miejscowej szkole, a później pracował jako ślusarz."
+                },
+                {
+                  "galeria": [
+                    {
+                      "plik": "skany/bronislaw-podpis-szkola-polska1926.jpg",
+                      "podpis": "Podpisy uczniów, wśród nich podpis Bronisława Bonisławskiego (lewa kolumna, piąty od góry).",
+                      "zrodlo": "polska1926.pl/podpisy/1187255",
+                      "url": "https://polska1926.pl/podpisy/1187255",
+                      "ksztalt": "doc"
+                    }
+                  ],
+                  "etykieta": "Ze szkoły"
+                },
+                {
+                  "akapit": "W 1938 roku wiadomość o nim trafiła do prasy: kopiąc jamę na ziemniaki, znalazł 101 srebrnych monet z czasów królowej Jadwigi, które przekazano muzeum."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/bronislaw-kronika-1938-skarb-monet.jpg",
+                    "podpis": "Notatka o skarbie z Płauczy Małej, Kronika, s. 348 (za „Wiekiem Nowym”, Lwów, 19 XI 1938).",
+                    "zrodlo": "Biblioteka cyfrowa. [Tytuł czasopisma i adres do uzupełnienia]",
+                    "szeroko": false
+                  }
+                },
+                {
+                  "galeria": [
+                    {
+                      "plik": "zdjecia/bronislaw-portret-koloryzacja.jpg",
+                      "podpis": "Bronisław Bonisławski, portret. Koloryzacja zdjęcia, rok nieznany.",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "kw"
+                    },
+                    {
+                      "plik": "zdjecia/bronislaw-portret-maly.jpg",
+                      "podpis": "Portret mężczyzny. [Kto i kiedy: do potwierdzenia.]",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "pion"
+                    }
+                  ],
+                  "etykieta": "Portrety"
+                }
+              ]
             }
           ]
         },
@@ -114,7 +166,56 @@
               "tytul": "Bronisław Bonisławski",
               "elementy": [
                 {
-                  "tekst_zastepczy": "[Historia Bronisława z czasu wojny. Do uzupełnienia.]"
+                  "akapit": "Podczas kampanii wrześniowej służył w 6. batalionie pancernym i dostał się do niewoli. Był jeńcem Stalagu I A pod numerem 58236. Zachowała się też lista transportowa Stalagu I B oraz adresowana do niego korespondencja jeniecka. Później mieszkał w Łodzi przy ulicy Abramowskiego 34."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/bronislaw-lista-jencow-lambinowice.jpg",
+                    "podpis": "Fragment listy jeńców z wpisem Bronisława Bonisławskiego, nr 58236.",
+                    "zrodlo": "Centralne Muzeum Jeńców Wojennych w Łambinowicach-Opolu",
+                    "szeroko": true
+                  }
+                },
+                {
+                  "galeria": [
+                    {
+                      "plik": "zdjecia/bronislaw-blaszka-stalag-1a-58236.jpg",
+                      "podpis": "Blaszka jeniecka z napisem „Stalag IA 58236”.",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "poziom"
+                    },
+                    {
+                      "plik": "zdjecia/bronislaw-blaszka-kat.jpg",
+                      "podpis": "Blaszka z napisem „Bronisław Bonisławski KAT”.",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "poziom"
+                    },
+                    {
+                      "plik": "zdjecia/bronislaw-blaszka-36-brzezany-1917.jpg",
+                      "podpis": "Blaszka z napisem „36 Brzeżany 1917”.",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "poziom"
+                    },
+                    {
+                      "plik": "zdjecia/bronislaw-orzel-naszywka.jpg",
+                      "podpis": "Haftowany orzeł wojskowy.",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "pion"
+                    },
+                    {
+                      "plik": "zdjecia/bronislaw-guziki-orzel-usa.jpg",
+                      "podpis": "Dwa guziki z orłem Stanów Zjednoczonych.",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "poziom"
+                    },
+                    {
+                      "plik": "zdjecia/bronislaw-przy-wozie-koloryzacja.jpg",
+                      "podpis": "Bronisław Bonisławski. Koloryzacja zdjęcia. [Miejsce i rok do uzupełnienia.]",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "pion"
+                    }
+                  ],
+                  "etykieta": "Pamiątki i zdjęcia"
                 }
               ]
             }

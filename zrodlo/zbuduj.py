@@ -116,14 +116,18 @@ def zoom(cap, src, label, cls="", img=None):
              else f'<div class="ph{(" " + cls) if cls else ""}">{label}</div>')
     return (f'<button class="zoom" type="button" data-cap="{e(cap)}" data-src="{e(src)}" aria-label="Powiększ: {e(cap)}">{inner}</button>')
 
+def srcline(text, url=None):
+    t = e(text)
+    return f'<a href="{e(url)}" target="_blank" rel="noopener">{t}</a>' if url else t
+
 def gallery(items, label="Dokumenty i zdjęcia"):
     out = []
     for it in items:
         if isinstance(it, dict):
-            c, s_, l, k, f = it.get("podpis", ""), it.get("zrodlo", ""), it.get("etykieta", "Zdjęcie"), it.get("ksztalt", ""), it.get("plik")
+            c, s_, l, k, f, u = it.get("podpis", ""), it.get("zrodlo", ""), it.get("etykieta", "Zdjęcie"), it.get("ksztalt", ""), it.get("plik"), it.get("url")
         else:
-            (c, s_, l, k), f = it, None
-        out.append(f'<figure>{zoom(c, s_, l, k, f)}<figcaption class="cap">{c}<span class="src">{s_}</span></figcaption></figure>')
+            (c, s_, l, k), f, u = it, None, None
+        out.append(f'<figure>{zoom(c, s_, l, k, f)}<figcaption class="cap">{c}<span class="src">{srcline(s_, u)}</span></figcaption></figure>')
     return f'<div class="label">{label}</div><div class="gallery">' + "".join(out) + '</div>'
 
 def element(el):
@@ -133,7 +137,7 @@ def element(el):
         z = el["zdjecie"]
         cls = "inline" + (" wide" if z.get("szeroko") else "") + (" right" if z.get("prawo") else "")
         return (f'<figure class="{cls}">{zoom(z["podpis"], z.get("zrodlo", ""), z.get("etykieta", "Miejsce na zdjęcie"), "", z.get("plik"))}'
-                f'<figcaption class="cap">{e(z["podpis"])}<span class="src">{e(z.get("zrodlo", ""))}</span></figcaption></figure>')
+                f'<figcaption class="cap">{e(z["podpis"])}<span class="src">{srcline(z.get("zrodlo", ""), z.get("url"))}</span></figcaption></figure>')
     if "galeria" in el: return gallery(el["galeria"], el.get("etykieta", "Dokumenty i zdjęcia"))
     return ""
 
