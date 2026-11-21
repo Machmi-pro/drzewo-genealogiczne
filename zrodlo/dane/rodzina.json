@@ -23,7 +23,7 @@
         "zm_miejsce": "Łódź",
         "portret": {
           "plik": "zdjecia/zofia-portret-koloryzacja.jpg",
-          "podpis": "Zofia Nowalska. Koloryzacja zdjęcia, rok nieznany",
+          "podpis": "Zofia Nowalska. Koloryzacja zdjęcia",
           "zrodlo": "Zbiory rodzinne. Koloryzacja cyfrowa, oryginał czarno-biały"
         },
         "uwaga": "Data urodzenia według aktu zgonu."
@@ -40,7 +40,7 @@
         "ur_miejsce": "Płaucza Mała",
         "portret": {
           "plik": "zdjecia/bronislaw-portret-przy-samochodzie-koloryzacja.jpg",
-          "podpis": "Bronisław Bonisławski. Koloryzacja zdjęcia z czasu wojny, rok nieznany",
+          "podpis": "Bronisław Bonisławski. Koloryzacja zdjęcia z czasu wojny",
           "zrodlo": "Zbiory rodzinne. Koloryzacja cyfrowa, oryginał czarno-biały"
         },
         "zm_miejsce": "Łódź"
@@ -92,7 +92,7 @@
                   "galeria": [
                     {
                       "plik": "zdjecia/zofia-portret-oryginal.jpg",
-                      "podpis": "Zofia Nowalska, portret. Rok nieznany.",
+                      "podpis": "Zofia Nowalska, portret",
                       "zrodlo": "Zbiory rodzinne. Oryginał czarno-biały",
                       "ksztalt": "pion"
                     }
@@ -175,32 +175,12 @@
                   }
                 },
                 {
-                  "kolumny": [
-                    {
-                      "zdjecie": {
-                        "plik": "skany/bronislaw-list-z-obozu-1942-tekst.jpg",
-                        "podpis": "Strona z tekstem, data 30 VIII 1942.",
-                        "zrodlo": "Zbiory rodzinne"
-                      }
-                    },
-                    {
-                      "transkrypcja": {
-                        "naglowek": "Transkrypcja (30 VIII 1942)",
-                        "linie": [
-                          "Kochana mamko i siostry list od was",
-                          "i paczkę otrzymałem za co [teraz?] Wam",
-                          "bardzo dziękuję [nieczytelne] paczkę dostałem 29/VIII",
-                          "jestem zdrowy czuję się nie źle tylko",
-                          "trochę reumatyzm mi dokucza",
-                          "ale i to z czasem przejdzie [nieczytelne]",
-                          "[Wy?] się nie martwcie ja radę sobie dam [Pozdr.?] i",
-                          "całuję rączki [nieczytelne]",
-                          "Bronek"
-                        ],
-                        "uwaga": "Transkrypcja robocza. Fragmenty w [nawiasach] są niepewne lub nieczytelne."
-                      }
-                    }
-                  ]
+                  "zdjecie": {
+                    "plik": "skany/bronislaw-list-z-obozu-1942-tekst.jpg",
+                    "podpis": "Strona z tekstem, data 30 VIII 1942.",
+                    "zrodlo": "Zbiory rodzinne",
+                    "szeroko": true
+                  }
                 },
                 {
                   "zdjecie": {
@@ -277,19 +257,19 @@
                   "galeria": [
                     {
                       "plik": "zdjecia/zofia-bronislaw-i-ryszard.jpg",
-                      "podpis": "Zofia, Bronisław i ich syn Ryszard. Rok nieznany.",
+                      "podpis": "Zofia, Bronisław i ich syn Ryszard",
                       "zrodlo": "Zbiory rodzinne",
                       "ksztalt": "kw"
                     },
                     {
                       "plik": "zdjecia/irena-komunia-z-rodzicami.jpg",
-                      "podpis": "Komunia Ireny, z rodzicami. Rok nieznany.",
+                      "podpis": "Komunia Ireny, z rodzicami",
                       "zrodlo": "Zbiory rodzinne",
                       "ksztalt": "pion"
                     },
                     {
                       "plik": "zdjecia/bronislaw-portret-maly.jpg",
-                      "podpis": "Bronisław Bonisławski po wojnie. Rok nieznany.",
+                      "podpis": "Bronisław Bonisławski po wojnie",
                       "zrodlo": "Zbiory rodzinne",
                       "ksztalt": "pion"
                     }
