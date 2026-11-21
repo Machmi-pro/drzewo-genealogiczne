@@ -2369,8 +2369,7 @@
         "ur": "",
         "zm": "",
         "ojciec": "Antoni Badełek",
-        "matka": "Marianna",
-        "rodzice": "antoni-badelek-i-marianna"
+        "matka": "Marianna"
       },
       "on": {
         "imie": "Franciszek",
@@ -2378,8 +2377,7 @@
         "ur": "",
         "zm": "",
         "ojciec": "Antoni Adamczyk",
-        "matka": "Urszula",
-        "rodzice": "antoni-adamczyk-i-urszula"
+        "matka": "Urszula"
       },
       "dzieci": [
         {
@@ -2470,8 +2468,7 @@
         "ur": "",
         "zm": "",
         "ojciec": "Dominik Cieńkowski",
-        "matka": "Petronela z d. Kowalczyk",
-        "rodzice": "dominik-cienkowski-i-petronela"
+        "matka": "Petronela z d. Kowalczyk"
       },
       "on": {
         "imie": "Maciej",
@@ -2479,8 +2476,7 @@
         "ur": "",
         "zm": "",
         "ojciec": "Jan Żukowski",
-        "matka": "Marianna",
-        "rodzice": "jan-zukowski-i-marianna"
+        "matka": "Marianna"
       },
       "dzieci": [
         {
@@ -2664,16 +2660,14 @@
         "ur": "",
         "zm": "",
         "ojciec": "Stanisław",
-        "matka": "Elżbieta Dolot",
-        "rodzice": "stanislaw-i-elzbieta"
+        "matka": "Elżbieta Dolot"
       },
       "on": {
         "imie": "Szczepan",
         "nazwisko": "Kowalczyk",
         "ur": "",
         "zm": "",
-        "ojciec": "Stanisław",
-        "rodzice": "stanislaw-ojciec-szczepana"
+        "ojciec": "Stanisław"
       },
       "dzieci": [
         {
@@ -2686,288 +2680,6 @@
           "imie": "Katarzyna",
           "opis": "",
           "strona": "jakub-i-katarzyna"
-        }
-      ],
-      "tresc": [
-        {
-          "tytul": "O danych",
-          "historie": [
-            {
-              "tytul": "Wachlarz przodków",
-              "elementy": [
-                {
-                  "przypis": {
-                    "etykieta": "Źródło",
-                    "tekst": "Wachlarz przodków Zofii Nowalskiej (zrzut z drzewa genealogicznego rodziny). Strona zawiera tylko imiona, nazwiska i lata widoczne na wachlarzu."
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "antoni-adamczyk-i-urszula",
-      "pokolenie": 6,
-      "ona": {
-        "imie": "Urszula",
-        "nazwisko": "",
-        "ur": "",
-        "zm": ""
-      },
-      "on": {
-        "imie": "Antoni",
-        "nazwisko": "Adamczyk",
-        "ur": "",
-        "zm": ""
-      },
-      "dzieci": [
-        {
-          "imie": "Franciszek Adamczyk",
-          "strona": "franciszek-adamczyk-i-ewa"
-        }
-      ],
-      "lista_dzieci": [
-        {
-          "imie": "Franciszek",
-          "opis": "",
-          "strona": "franciszek-adamczyk-i-ewa"
-        }
-      ],
-      "tresc": [
-        {
-          "tytul": "O danych",
-          "historie": [
-            {
-              "tytul": "Wachlarz przodków",
-              "elementy": [
-                {
-                  "przypis": {
-                    "etykieta": "Źródło",
-                    "tekst": "Wachlarz przodków Zofii Nowalskiej (zrzut z drzewa genealogicznego rodziny). Strona zawiera tylko imiona, nazwiska i lata widoczne na wachlarzu."
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "antoni-badelek-i-marianna",
-      "pokolenie": 6,
-      "ona": {
-        "imie": "Marianna",
-        "nazwisko": "",
-        "ur": "",
-        "zm": ""
-      },
-      "on": {
-        "imie": "Antoni",
-        "nazwisko": "Badełek",
-        "ur": "",
-        "zm": ""
-      },
-      "dzieci": [
-        {
-          "imie": "Ewa Badełek",
-          "strona": "franciszek-adamczyk-i-ewa"
-        }
-      ],
-      "lista_dzieci": [
-        {
-          "imie": "Ewa",
-          "opis": "",
-          "strona": "franciszek-adamczyk-i-ewa"
-        }
-      ],
-      "tresc": [
-        {
-          "tytul": "O danych",
-          "historie": [
-            {
-              "tytul": "Wachlarz przodków",
-              "elementy": [
-                {
-                  "przypis": {
-                    "etykieta": "Źródło",
-                    "tekst": "Wachlarz przodków Zofii Nowalskiej (zrzut z drzewa genealogicznego rodziny). Strona zawiera tylko imiona, nazwiska i lata widoczne na wachlarzu."
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "jan-zukowski-i-marianna",
-      "pokolenie": 6,
-      "ona": {
-        "imie": "Marianna",
-        "nazwisko": "",
-        "ur": "",
-        "zm": ""
-      },
-      "on": {
-        "imie": "Jan",
-        "nazwisko": "Żukowski",
-        "ur": "",
-        "zm": ""
-      },
-      "dzieci": [
-        {
-          "imie": "Maciej Żukowski",
-          "strona": "maciej-zukowski-i-agata"
-        }
-      ],
-      "lista_dzieci": [
-        {
-          "imie": "Maciej",
-          "opis": "",
-          "strona": "maciej-zukowski-i-agata"
-        }
-      ],
-      "tresc": [
-        {
-          "tytul": "O danych",
-          "historie": [
-            {
-              "tytul": "Wachlarz przodków",
-              "elementy": [
-                {
-                  "przypis": {
-                    "etykieta": "Źródło",
-                    "tekst": "Wachlarz przodków Zofii Nowalskiej (zrzut z drzewa genealogicznego rodziny). Strona zawiera tylko imiona, nazwiska i lata widoczne na wachlarzu."
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "dominik-cienkowski-i-petronela",
-      "pokolenie": 6,
-      "ona": {
-        "imie": "Petronela",
-        "nazwisko": "Kowalczyk",
-        "ur": "",
-        "zm": ""
-      },
-      "on": {
-        "imie": "Dominik",
-        "nazwisko": "Cieńkowski",
-        "ur": "",
-        "zm": ""
-      },
-      "dzieci": [
-        {
-          "imie": "Agata Cienkowska",
-          "strona": "maciej-zukowski-i-agata"
-        }
-      ],
-      "lista_dzieci": [
-        {
-          "imie": "Agata",
-          "opis": "",
-          "strona": "maciej-zukowski-i-agata"
-        }
-      ],
-      "tresc": [
-        {
-          "tytul": "O danych",
-          "historie": [
-            {
-              "tytul": "Wachlarz przodków",
-              "elementy": [
-                {
-                  "przypis": {
-                    "etykieta": "Źródło",
-                    "tekst": "Wachlarz przodków Zofii Nowalskiej (zrzut z drzewa genealogicznego rodziny). Strona zawiera tylko imiona, nazwiska i lata widoczne na wachlarzu."
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "stanislaw-i-elzbieta",
-      "pokolenie": 6,
-      "ona": {
-        "imie": "Elżbieta",
-        "nazwisko": "Dolot",
-        "ur": "",
-        "zm": ""
-      },
-      "on": {
-        "imie": "Stanisław",
-        "nazwisko": "",
-        "ur": "",
-        "zm": ""
-      },
-      "dzieci": [
-        {
-          "imie": "Franciszka Zarębska",
-          "strona": "szczepan-kowalczyk-i-franciszka"
-        }
-      ],
-      "lista_dzieci": [
-        {
-          "imie": "Franciszka",
-          "opis": "",
-          "strona": "szczepan-kowalczyk-i-franciszka"
-        }
-      ],
-      "tresc": [
-        {
-          "tytul": "O danych",
-          "historie": [
-            {
-              "tytul": "Wachlarz przodków",
-              "elementy": [
-                {
-                  "przypis": {
-                    "etykieta": "Źródło",
-                    "tekst": "Wachlarz przodków Zofii Nowalskiej (zrzut z drzewa genealogicznego rodziny). Strona zawiera tylko imiona, nazwiska i lata widoczne na wachlarzu."
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "stanislaw-ojciec-szczepana",
-      "pokolenie": 6,
-      "ona": {
-        "imie": "",
-        "nazwisko": "",
-        "ur": "",
-        "zm": ""
-      },
-      "on": {
-        "imie": "Stanisław",
-        "nazwisko": "",
-        "ur": "",
-        "zm": ""
-      },
-      "dzieci": [
-        {
-          "imie": "Szczepan Kowalczyk",
-          "strona": "szczepan-kowalczyk-i-franciszka"
-        }
-      ],
-      "lista_dzieci": [
-        {
-          "imie": "Szczepan",
-          "opis": "",
-          "strona": "szczepan-kowalczyk-i-franciszka"
         }
       ],
       "tresc": [
