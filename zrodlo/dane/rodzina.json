@@ -691,6 +691,16 @@
                   "akapit": "Eustachy Bonisławski kierował pocztą i był sekretarzem gminy. W dowodzie osobistym wydanym 19 sierpnia 1939 roku jako zawód wpisano: urzędnik samorządu gminnego."
                 },
                 {
+                  "akapit": "W rodzinie Eustachego nazywano Stanisławem. Tak jest zapisany także w zawiadomieniu szkolnym z 1898 roku."
+                },
+                {
+                  "przypis": {
+                    "etykieta": "Źródło",
+                    "tekst": "polska1926.pl, podpis nr 1187233",
+                    "url": "https://polska1926.pl/podpisy/1187233"
+                  }
+                },
+                {
                   "zdjecie": {
                     "plik": "skany/eustachy-metryka-urodzenia-1884.jpg",
                     "podpis": "Metryka urodzenia Eustachego (Eustachius), Płaucza Mała, dom nr 124, urodzony i ochrzczony 29 grudnia 1884 r. Rodzice: Franciscus Bonisławski i Clara Sarnicka. Liber natorum 1884, s. 9.",
@@ -718,7 +728,7 @@
                 {
                   "zdjecie": {
                     "plik": "skany/zawiadomienie-szkolne-1898.jpg",
-                    "podpis": "Zawiadomienie szkolne z 1 II 1898 r., szkoła w Płauczy Małej, klasa IV, rok szkolny 1897/8. Uczeń: Stanisław Bonisławski, ur. 29 grudnia 1884 w Płauczy Małej. Podpis ojca: Franciszek Bonisławski.",
+                    "podpis": "Zawiadomienie szkolne z 1 II 1898 r., szkoła w Płauczy Małej, klasa IV, rok szkolny 1897/8. Uczeń: Eustachy Bonisławski, zapisany w dokumencie jako Stanisław, ur. 29 grudnia 1884 w Płauczy Małej. Podpis ojca: Franciszek Bonisławski.",
                     "zrodlo": "Zbiory rodzinne",
                     "szeroko": false
                   }
