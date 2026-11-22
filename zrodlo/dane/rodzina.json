@@ -3053,11 +3053,11 @@
         "nazwisko": "Zapotoczna",
         "ur": "",
         "zm": "",
-        "uwaga": "Ślub z Tomaszem prawdopodobnie około 1803 lub 1804 roku, po śmierci Marianny Konopackiej. Data szacunkowa, brak bezpośredniego aktu.",
+        "uwaga": "Ślub z Tomaszem prawdopodobnie po połowie 1803 roku, a przed 1805, po śmierci Marianny Konopackiej, która żyła jeszcze 29 czerwca 1803 roku. Data szacunkowa, brak bezpośredniego aktu.",
         "fakty": [
           [
             "Ślub",
-            "Tomasz Bolesławski, prawdopodobnie około 1803–1804 (data szacunkowa)"
+            "Tomasz Bolesławski, prawdopodobnie po połowie 1803 roku, przed 1805 (data szacunkowa)"
           ]
         ]
       },
@@ -3071,11 +3071,11 @@
         "fakty": [
           [
             "Ślub I",
-            "Marianna Konopacka, córka Stanisława Konopackiego, ur. około 1774. Ślub w 1793 roku, świadkowie: Łukasz Pichur i Jan Barabasz. Marianna zmarła między 1802 a około 1804 rokiem"
+            "Marianna Konopacka, córka Stanisława Konopackiego, ur. około 1774. Ślub w 1793 roku, świadkowie: Łukasz Pichur i Jan Barabasz. Marianna żyła jeszcze 29 czerwca 1803 roku (akt urodzenia córki Marianny), zmarła przed drugim ślubem Tomasza"
           ],
           [
             "Ślub II",
-            "Maria Zapotoczna, prawdopodobnie około 1803–1804 (data szacunkowa, brak bezpośredniego aktu)"
+            "Maria Zapotoczna, prawdopodobnie po połowie 1803 roku, przed 1805 (data szacunkowa, brak bezpośredniego aktu)"
           ]
         ]
       },
@@ -3111,7 +3111,7 @@
         },
         {
           "imie": "Marianna",
-          "opis": "ur. 29 czerwca 1802, dom nr 8"
+          "opis": "ur. 29 czerwca 1803, Płaucza Mała, dom nr 8"
         },
         {
           "grupa": "Dzieci Tomasza i Marii Zapotocznej"
@@ -3126,7 +3126,39 @@
           "opis": "ur. 10 stycznia 1807, dom nr 10; w 1827 wyszła za Jana Szafrana (syn Grzegorza i Marianny Szefowej), lat 24, panna; świadkowie: Stefan Marć(?), Józef Pichur; akt nr 882"
         }
       ],
-      "tresc": []
+      "tresc": [
+        {
+          "tytul": "Dokumenty",
+          "historie": [
+            {
+              "tytul": "Narodziny Marianny, 1803",
+              "elementy": [
+                {
+                  "akapit": "29 czerwca 1803 roku w Płauczy Małej, w domu nr 8, urodziła się Marianna, córka Tomasza Bolesławskiego i Marianny, określonej w akcie jako córka Stanisława Konopackiego. Wpis znajduje się na stronie 256 księgi urodzeń parafii Kozłów, w sekcji roku 1803, w wierszu z datą „Junius 29”. Z wpisu wynika, że Marianna Konopacka żyła jeszcze w czerwcu 1803 roku, a więc drugi ślub Tomasza z Marią Zapotoczną nastąpił po tej dacie."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/kozlow-urodzenia-1803-marianna-boleslawska.jpg",
+                    "podpis": "Księga urodzeń parafii Kozłów, rozkładówka stron 256–257. Wpis z 29 czerwca 1803 roku (Junius 29), dom nr 8: Marianna, córka Thomasa Bolesławskiego i Marianny z domu Konopackiej.",
+                    "zrodlo": "Archiwum Główne Akt Dawnych, zespół 301, sygn. 649, s. 256",
+                    "url": "http://agadd.home.net.pl/metrykalia/301/sygn.%20649/pages/PL_1_301_649_0130.htm",
+                    "szeroko": true
+                  }
+                },
+                {
+                  "transkrypcja": {
+                    "naglowek": "Odczyt wpisu",
+                    "linie": [
+                      "Junius 29, nr domu 8. Marianna nata hodie. Rodzice: Thomas Bolesławski Rustt. i Marianna nata Patre Stanislao Konopacki Rustt. Chrzestni: Joannes Nyrka Rustt. i Agnes Lucia Pichur uxor Rustt., de Płaucza minori. Chrzcił: R. Stephanus Janowicz, kooperator w Płauczy."
+                    ],
+                    "uwaga": "Odczyt z rozkładówki. Niepewne miejsca: nazwisko chrzestnego („Nyrka”), drugie imię chrzestnej („Lucia”) oraz nazwisko i funkcja księdza."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "podtytul": "Bonisławscy • Murzyńscy • Nowalscy • Adamczyk"
