@@ -2076,6 +2076,41 @@
           ]
         },
         {
+          "tytul": "Akt chrztu Józefa",
+          "historie": [
+            {
+              "tytul": "Wpis z 1789 roku",
+              "elementy": [
+                {
+                  "akapit": "Zachował się wpis o chrzcie Józefa Murzyńskiego, syna Jana i Katarzyny, z początku 1789 roku."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/jozef-murzynski-akt-chrztu-1789.jpg",
+                    "podpis": "Księga chrztów, s. 242–243, wpis z 25 stycznia 1789 roku, dom nr 36: Josephus Murzynski, syn Jana Murzyńskiego i Katarzyny, córki Józefa Strońskiego.",
+                    "zrodlo": "Archiwum Główne Akt Dawnych, Szukaj w Archiwach",
+                    "url": "https://www.szukajwarchiwach.gov.pl/en/jednostka/-/jednostka/17820984",
+                    "szeroko": true
+                  }
+                },
+                {
+                  "transkrypcja": {
+                    "naglowek": "Odczyt wpisu",
+                    "linie": [
+                      "Rok 1789, styczeń, wpis z dnia 25, dom nr 36.",
+                      "Imię: Josephus Murzynski. Chłopiec (puer), rodzice w małżeństwie (legitimi), katolicy.",
+                      "Rodzice: Joannes Murzynski, Nobilis (szlachcic); matka: Catharina, Nobilis, córka Józefa Strońskiego (Josephi Stronski filia).",
+                      "Rodzice chrzestni: Petrus Zukowski (?), Nobilis, oraz Marianna Lisowska (?).",
+                      "Chrzcił: ks. Tranquillinus (?) Stała (?), bernardyn (?), kooperator kościoła w Kozłowie (?)."
+                    ],
+                    "uwaga": "Odczyt łaciny z ręcznego pisma jest częściowo niepewny. Znakiem zapytania zaznaczono nazwiska chrzestnych i dane duchownego. Wpis nie podaje osobno daty urodzenia, tylko datę wpisu."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
           "tytul": "Hipoteza: Sebastian Murzyński, żołnierz",
           "historie": [
             {
