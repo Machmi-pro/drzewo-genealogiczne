@@ -447,6 +447,10 @@
         {
           "imie": "Zofia Nowalska",
           "strona": "zofia-i-bronislaw"
+        },
+        {
+          "imie": "Irena Nowalska",
+          "strona": "irena-i-telesfor"
         }
       ],
       "tresc": [
@@ -761,7 +765,8 @@
         },
         {
           "imie": "Irena Ożadowicz z d. Nowalska",
-          "opis": "ur. 4 maja 1924. Żona Telesfora Ożadowicza. Podczas II wojny światowej wywieziona na roboty przymusowe do III Rzeszy, pracowała kolejno w leśnictwie i przemyśle w rejonie Halstenbek i Pinneberg (1942–1945)"
+          "opis": "ur. 4 maja 1924. Żona Telesfora Ożadowicza. Podczas II wojny światowej wywieziona na roboty przymusowe do III Rzeszy, pracowała kolejno w leśnictwie i przemyśle w rejonie Halstenbek i Pinneberg (1942–1945)",
+          "strona": "irena-i-telesfor"
         }
       ]
     },
@@ -1914,6 +1919,98 @@
                     "etykieta": "Źródło",
                     "tekst": "„Nasz kresowy dom nad Hukiem, Smolanką i Łopuszanką”, opracowanie zbiorowe pod redakcją Antoniego Worobca, Zielona Góra 2000, artykuł „Anna Pichurowa” (tekst dostępny na stronie wycinhki.olejow.pl), z wykorzystaniem wspomnień Ludwika Pichura „Moje wspomnienia z Trościańca Wielkiego”",
                     "url": "http://wycinhki.olejow.pl/readarticle.php?article_id=556"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "irena-i-telesfor",
+      "pokolenie": 1.5,
+      "linia": "her",
+      "ona": {
+        "imie": "Irena",
+        "nazwisko": "Nowalska",
+        "ur": "1924",
+        "zm": "2017",
+        "ur_data": "4 maja 1924",
+        "zm_data": "18 grudnia 2017",
+        "rodzice": "wawrzyniec-i-stanislawa",
+        "ojciec": "Wawrzyniec Nowalski",
+        "matka": "Stanisława z d. Adamczyk",
+        "fakty": [
+          [
+            "Ślub",
+            "Telesfor Ożadowicz"
+          ]
+        ]
+      },
+      "on": {
+        "imie": "Telesfor",
+        "nazwisko": "Ożadowicz",
+        "ur": "1924",
+        "zm": "2010",
+        "fakty": [
+          [
+            "Ślub",
+            "Irena Nowalska"
+          ]
+        ]
+      },
+      "dzieci": [],
+      "tresc": [
+        {
+          "tytul": "Irena i Telesfor",
+          "historie": [
+            {
+              "tytul": "Praca przymusowa w czasie II wojny światowej",
+              "elementy": [
+                {
+                  "akapit": "Zachowały się dokumenty i wpisy w bazach, według których Irena Nowalska, urodzona 4 maja 1924 roku, w czasie II wojny światowej została wywieziona na roboty przymusowe do III Rzeszy. Pracowała w rejonie Halstenbek (Halstenbeck) i Pinneberg w Niemczech. Poszczególne źródła podają różne daty tej pracy i zapisano je poniżej bez uzgadniania."
+                },
+                {
+                  "akapit": "Karta płacowa na nazwisko „Nowalska, Irene”, z datą urodzenia 4.5.24, zawiera tygodniowe rozliczenia płac od 9/7 do 31/12. Rok na karcie nie jest podany. U dołu karty widać słabo czytelny napis, prawdopodobnie z nazwą Halstenbek."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/irena-karta-placowa-halstenbek.jpg",
+                    "podpis": "Karta płacowa „Nowalska, Irene”, geb. 4.5.24, tygodnie od 9/7 do 31/12 (rok nie jest podany).",
+                    "zrodlo": "Zbiory rodzinne",
+                    "szeroko": true
+                  }
+                },
+                {
+                  "akapit": "Na liście oznaczonej ITS 008, z nagłówkiem „Russen” i dopiskiem „Betr. Krankenkasse H. Wuppermann, Pinneberg”, pod pozycją 81 wpisano: Nowalska, Irena, ur. 4.5.24, zatrudniona od 30.10.42 do 8.5.43."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/irena-lista-its-008-poz-81.jpg",
+                    "podpis": "Lista ITS 008, strona 3, pozycja 81: Nowalska, Irena, 4.5.24, 30.10.42–8.5.43.",
+                    "zrodlo": "Zbiory rodzinne",
+                    "szeroko": true
+                  }
+                },
+                {
+                  "akapit": "Na liście oznaczonej ITS 051, pod pozycją 371, wpisano: Nowalska Irena, narodowość „polish”, data urodzenia 4.5.1924, w kolumnie miejsca pobytu „Reinfeld”."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/irena-lista-its-051-poz-371.jpg",
+                    "podpis": "Lista ITS 051, pozycja 371: Nowalska Irena, polish, 4.5.1924, Reinfeld.",
+                    "zrodlo": "Zbiory rodzinne",
+                    "szeroko": true
+                  }
+                },
+                {
+                  "akapit": "W bazie osób represjonowanych, według źródła AAN (zespół Fundacja Polsko-Niemieckie Pojednanie w Warszawie, nr zespołu 2680, nr 219616), są trzy wpisy o robocie przymusowej z adnotacją „przeżył”: Halstenbek w Niemczech, praca w leśnictwie, rok 1942; Pinneberg, rok 1943; Halstenbeck (Pinneberg), praca w przemyśle, pracodawca leśnictwo, lata 1943–1945. Według źródła Urzędu do Spraw Kombatantów i Osób Represjonowanych (P0423010708) praca trwała od 1 marca 1942 do 1 kwietnia 1945 roku, z adnotacją „III Rzesza – deportacja do pracy przymusowej”."
+                },
+                {
+                  "przypis": {
+                    "etykieta": "Źródła",
+                    "tekst": "Lista ITS 008, poz. 81; lista ITS 051, poz. 371; karta płacowa „Nowalska, Irene”; baza osób represjonowanych: AAN, zespół Fundacja Polsko-Niemieckie Pojednanie w Warszawie [nr zespołu 2680], 219616; Urząd do Spraw Kombatantów i Osób Represjonowanych, P0423010708"
                   }
                 }
               ]
