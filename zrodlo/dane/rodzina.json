@@ -611,6 +611,27 @@
               ]
             }
           ]
+        },
+        {
+          "tytul": "Praca",
+          "na_koncu": true,
+          "historie": [
+            {
+              "tytul": "Fabryka Richtera",
+              "elementy": [
+                {
+                  "akapit": "Fabryka na rogu ul. Radwańskiej i ul. Stefanowskiego to dawna własność Zygmunta Richtera. Obiekt został uruchomiony w 1879 r. Funkcjonował jako przędzalnia i wykańczalnia wełny. Fabryka przez lata zmieniała właścicieli. Po śmierci Richtera w 1921 r. zakład prowadził jego syn Alfred; rodzina sprzedała fabrykę i willę spółce Eitingona w 1927 r. W okresie drugiej wojny światowej Niemcy urządzili w niej zarząd komisaryczny. Po zakończeniu działań wojennych zakład upaństwowiono i należał do Zakładów Przemysłu Bawełnianego nr 4, później ZPB „Polino”. W 2010 r. cały pofabryczny kompleks (jedenaście budynków) został wpisany do rejestru zabytków."
+                },
+                {
+                  "przypis": {
+                    "etykieta": "Źródło",
+                    "tekst": "zabytkilodzi.pl, opis zabytku nr 58",
+                    "url": "https://zabytkilodzi.pl/zabytek/58/opis"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ],
       "lista_dzieci": [

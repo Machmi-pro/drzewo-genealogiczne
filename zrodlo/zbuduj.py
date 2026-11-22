@@ -230,6 +230,7 @@ def couple_page(p):
     tresc = p.get("tresc") or []
     chap = []
     chap_after = []
+    chap_end = []
     for c in tresc:
         parts = []
         for h in c["historie"]:
@@ -238,9 +239,10 @@ def couple_page(p):
             elif sz == "on": parts.append(story(p["on"], False))
             elif sz == "wspolna": parts.append(shared_default())
             else: parts.append(custom_story(h))
-        (chap_after if c.get("po_dzieciach") else chap).append(f'<section class="chapter"><h2>{e(c["tytul"])}</h2>{f'<div class="years">{e(c["lata"])}</div>' if c.get("lata") else ""}{"".join(parts)}</section>')
+        (chap_end if c.get("na_koncu") else chap_after if c.get("po_dzieciach") else chap).append(f'<section class="chapter"><h2>{e(c["tytul"])}</h2>{f'<div class="years">{e(c["lata"])}</div>' if c.get("lata") else ""}{"".join(parts)}</section>')
     chapters_html = "".join(chap)
     after_html = "".join(chap_after)
+    end_html = "".join(chap_end)
     body = f'''
 <div class="wrap page">
   {"" if pid == HOME else f'<div class="crumbs"><a href="{home()}">Strona główna</a> › {e(GEN[str(gen)])} › {e(title)}</div>'}
@@ -254,6 +256,7 @@ def couple_page(p):
   {kids_html}
   {after_html}
   <section class="chapter"><h2>Dalej w drzewie</h2><div class="next">{"".join(nxt)}</div></section>
+  {end_html}
   <footer><span>{e(SITE)}</span><a href="{home()}">Strona główna</a></footer>
 </div>
 <dialog id="lightbox" aria-label="Powiększenie"><div class="ph" id="lb-img"></div>
