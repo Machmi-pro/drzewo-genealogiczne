@@ -1860,6 +1860,33 @@
           "tytul": "Anna i Ludwik",
           "historie": [
             {
+              "tytul": "Andzia Bonisławska w „Głosie Brzeżańskim”",
+              "elementy": [
+                {
+                  "akapit": "W numerze 7 „Głosu Brzeżańskiego” (rok 1935 wynika z oznaczenia pliku i z treści numeru), w rubryce „Płaucza Mała” na stronie 3, opisano uroczystość imienin Marszałka Józefa Piłsudskiego, zorganizowaną staraniem miejscowego komitetu i odbytą 17 marca. Rozpoczęła się o godzinie 9.30 mszą świętą, odprawioną przez miejscowego proboszcza ks. A. Kolbusza, z udziałem około 800 osób. Po mszy przeszła przez wieś defilada koło Domu Ludowego, w której szły m.in. poczty sztandarowe i oddziały strzeleckie, a także, jak zapisano, „pochód dziewcząt polskich pod dowództwem Andzi Bonisławskiej, absolwentki sem. nauczycielskiego”. Po defiladzie odbył się poranek w sali Domu Ludowego, z przemówieniami, występem chóru dzieci z Płauczy Wielkiej, pieśniami legionowymi, deklamacjami dzieci szkolnych z Płauczy Małej i orkiestrą M. Barbaruka. Uroczystość zakończono o godzinie 14.30."
+                },
+                {
+                  "akapit": "W gazecie występuje zapis „Andzia Bonisławska”. Według ustaleń rodziny chodzi o Annę Bonisławską."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/glos-brzezanski-1935-nr7-s3-plaucza-mala.jpg",
+                    "podpis": "„Głos Brzeżański”, nr 7, s. 3. Rubryka „Płaucza Mała” z opisem obchodów imienin Marszałka Piłsudskiego (dalszy ciąg w górnym prawym rogu). Zaznaczone fragmenty dotyczą Płauczy Małej.",
+                    "zrodlo": "„Głos Brzeżański” nr 7, 1935, s. 3",
+                    "url": "https://jbc.bj.uj.edu.pl/Content/958153/NDIGCZAS097516_1935_007.pdf",
+                    "szeroko": true
+                  }
+                },
+                {
+                  "przypis": {
+                    "etykieta": "Źródło",
+                    "tekst": "„Głos Brzeżański”, nr 7, 1935, s. 3, Jagiellońska Biblioteka Cyfrowa",
+                    "url": "https://jbc.bj.uj.edu.pl/Content/958153/NDIGCZAS097516_1935_007.pdf"
+                  }
+                }
+              ]
+            },
+            {
               "tytul": "Anna Pichurowa, nauczycielka",
               "elementy": [
                 {
