@@ -580,6 +580,25 @@
                     "zrodlo": "Zbiory rodzinne",
                     "szeroko": true
                   }
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/wawrzyniec-zaswiadczenie-pracy-1957.jpg",
+                    "podpis": "Zaświadczenie pracy z 7 października 1957 roku, wydane Wawrzyńcowi Nowalskiemu przez Zakłady Przemysłu Bawełnianego im. St. Dubois w Łodzi.",
+                    "zrodlo": "Zbiory rodzinne",
+                    "szeroko": true
+                  }
+                },
+                {
+                  "transkrypcja": {
+                    "naglowek": "Odczyt zaświadczenia",
+                    "linie": [
+                      "Zakłady Przemysłu Bawełnianego im. St. Dubois (pieczątka zakładu pracy). Łódź, dn. 7.10.1957 r.",
+                      "Zaświadcza się, że Ob. Nowalski Wawrzyniec, zamieszkały w Łodzi przy ul. Abramowskiego 34, był zatrudniony w Z.P.B. im. St. Dubois na stanowisku tkacza od 1.8.1927 r. do 16.12.1939 r.",
+                      "Rubryka wynagrodzenia jest przekreślona. Zaświadczenie wydaje się w celu przedłożenia (dalszy tekst, prawdopodobnie nazwa instytucji, nieczytelny)."
+                    ],
+                    "uwaga": "Pismo ręczne jest częściowo trudne do odczytania. Niepewne miejsca: stanowisko (odczyt „tkacz”), cel wydania zaświadczenia i podpis."
+                  }
                 }
               ]
             }
