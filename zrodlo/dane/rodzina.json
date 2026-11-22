@@ -910,6 +910,71 @@
               ]
             }
           ]
+        },
+        {
+          "tytul": "Praca",
+          "na_koncu": true,
+          "historie": [
+            {
+              "tytul": "Poczta i gmina w Płauczy Małej",
+              "elementy": [
+                {
+                  "akapit": "15 marca 1926 roku w Płauczy Małej otwarto agencję pocztową. Odtąd obsługiwała ona również okoliczne wsie, w tym Płauczę Wielką i Glinną, które wcześniej należały do okręgu poczty w Zborowie."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/dziennik-urzedowy-1926-nr4-s15-poczta-plaucza-mala.jpg",
+                    "podpis": "„Dziennik Urzędowy”, nr 4, 1926, s. 15: „Komunikaty pocztowe” (zaznaczone na czerwono). Agencja pocztowa w Płauczy Małej od 15 marca 1926 roku.",
+                    "zrodlo": "Jagiellońska Biblioteka Cyfrowa, „Dziennik Urzędowy”, nr 4, 1926",
+                    "url": "https://jbc.bj.uj.edu.pl/Content/77954/PDF/NDIGCZAS003511_1926_004.pdf",
+                    "szeroko": false
+                  }
+                },
+                {
+                  "akapit": "W latach 30. Płaucza Mała stała się siedzibą gminy zbiorowej. Dla jej kancelarii przewidziano miejsce w nowo zbudowanym Domu Ludowym, który służył również mieszkańcom jako miejsce spotkań i uroczystości."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/glos-brzezanski-1934-nr5-s2-gmina-plaucza-mala.jpg",
+                    "podpis": "„Głos Brzeżański”, nr 5, 1934, s. 2 (zaznaczone na czerwono): o projektowanej gminie zbiorowej Płaucza Mała z siedzibą w Płauczy Małej i kancelarii w nowo wzniesionym domu ludowym.",
+                    "zrodlo": "Jagiellońska Biblioteka Cyfrowa, „Głos Brzeżański”, nr 5, 1934",
+                    "url": "https://jbc.bj.uj.edu.pl/Content/958139/NDIGCZAS097516_1934_005.pdf",
+                    "szeroko": false
+                  }
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/glos-brzezanski-1936-nr9-s2-gmina-plaucza-mala.jpg",
+                    "podpis": "„Głos Brzeżański”, nr 9, 1936, s. 2, „Gmina Płaucza Mała” (zaznaczone na czerwono): uroczystość 3 Maja, pochód do Domu Ludowego.",
+                    "zrodlo": "Jagiellońska Biblioteka Cyfrowa, „Głos Brzeżański”, nr 9, 1936",
+                    "url": "https://jbc.bj.uj.edu.pl/Content/958177/NDIGCZAS097516_1936_009.pdf",
+                    "szeroko": false
+                  }
+                },
+                {
+                  "przypis": {
+                    "etykieta": "Źródło",
+                    "tekst": "„Dziennik Urzędowy”, nr 4, 1926, s. 15",
+                    "url": "https://jbc.bj.uj.edu.pl/Content/77954/PDF/NDIGCZAS003511_1926_004.pdf"
+                  }
+                },
+                {
+                  "przypis": {
+                    "etykieta": "Źródło",
+                    "tekst": "„Głos Brzeżański”, nr 5, 1934, s. 2",
+                    "url": "https://jbc.bj.uj.edu.pl/Content/958139/NDIGCZAS097516_1934_005.pdf"
+                  }
+                },
+                {
+                  "przypis": {
+                    "etykieta": "Źródło",
+                    "tekst": "„Głos Brzeżański”, nr 9, 1936, s. 2",
+                    "url": "https://jbc.bj.uj.edu.pl/Content/958177/NDIGCZAS097516_1936_009.pdf"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
