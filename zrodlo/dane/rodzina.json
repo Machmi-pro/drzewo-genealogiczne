@@ -2082,13 +2082,13 @@
               "tytul": "Wpis z 1789 roku",
               "elementy": [
                 {
-                  "akapit": "Zachował się wpis o chrzcie Józefa Murzyńskiego, syna Jana i Katarzyny, z początku 1789 roku."
+                  "akapit": "Zachował się wpis o chrzcie Józefa Murzyńskiego, syna Jana i Katarzyny, z księgi urodzeń parafii rzymskokatolickiej w Kozłowie, z początku 1789 roku."
                 },
                 {
                   "zdjecie": {
                     "plik": "skany/jozef-murzynski-akt-chrztu-1789.jpg",
-                    "podpis": "Księga chrztów, s. 242–243, wpis z 25 stycznia 1789 roku, dom nr 36: Josephus Murzynski, syn Jana Murzyńskiego i Katarzyny, córki Józefa Strońskiego.",
-                    "zrodlo": "Archiwum Główne Akt Dawnych, Szukaj w Archiwach",
+                    "podpis": "Księga metrykalna urodzeń parafii rzymskokatolickiej w Kozłowie, s. 242–243. Wpis Józefa Murzyńskiego na prawej stronie (s. 243), w pierwszym wierszu pod rokiem 1789: 25 stycznia, dom nr 36. Rodzice: Jan Murzyński i Katarzyna, córka Józefa Strońskiego.",
+                    "zrodlo": "Archiwum Główne Akt Dawnych, zespół 301, sygn. 649, s. 243, Szukaj w Archiwach",
                     "url": "https://www.szukajwarchiwach.gov.pl/en/jednostka/-/jednostka/17820984",
                     "szeroko": true
                   }
@@ -2097,7 +2097,7 @@
                   "transkrypcja": {
                     "naglowek": "Odczyt wpisu",
                     "linie": [
-                      "Rok 1789, styczeń, wpis z dnia 25, dom nr 36.",
+                      "Księga urodzeń parafii rzymskokatolickiej w Kozłowie, s. 243. Rok 1789, styczeń, wpis z dnia 25, dom nr 36.",
                       "Imię: Josephus Murzynski. Chłopiec (puer), rodzice w małżeństwie (legitimi), katolicy.",
                       "Rodzice: Joannes Murzynski, Nobilis (szlachcic); matka: Catharina, Nobilis, córka Józefa Strońskiego (Josephi Stronski filia).",
                       "Rodzice chrzestni: Petrus Zukowski (?), Nobilis, oraz Marianna Lisowska (?).",
