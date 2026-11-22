@@ -78,7 +78,7 @@ def nav(current):
             ac = ' aria-current="page"' if pid == current else ""
             href = home() if pid == HOME else f"{pid}.html"
             tiles.append(f'<a class="{cls}" href="{href}"{ac}><span class="nm">{e(full(p["ona"]))}<br>i {e(full(p["on"]))}</span>'
-                         f'<span class="yr">{years(p["ona"])} · {years(p["on"])}</span>'
+                         f'<span class="yr">{" · ".join(y for y in (years(p["ona"]), years(p["on"])) if y)}</span>'
                          f'{f"<span class=side>{s}</span>" if s else ""}</a>')
         tiers.append(f'<section><h2 class="gen">{e(GEN[str(g)])}</h2><div class="tiles">{"".join(tiles)}</div></section>')
     return (f'<div class="site"><div class="wrap"><button class="burger" type="button" id="burger" aria-expanded="false" aria-controls="drawer" aria-label="Menu">'

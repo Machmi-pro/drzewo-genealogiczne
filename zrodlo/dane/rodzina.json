@@ -836,6 +836,10 @@
       },
       "dzieci": [
         {
+          "imie": "Anna Bonisławska",
+          "strona": "anna-i-ludwik"
+        },
+        {
           "imie": "Bronisław Bonisławski",
           "strona": "zofia-i-bronislaw"
         },
@@ -847,7 +851,8 @@
       "lista_dzieci": [
         {
           "imie": "Anna",
-          "opis": "ur. 1 sierpnia 1915, zm. 19 stycznia 1996; mąż: Ludwik Pichur"
+          "opis": "ur. 1 sierpnia 1915, zm. 19 stycznia 1996; mąż: Ludwik Pichur",
+          "strona": "anna-i-ludwik"
         },
         {
           "imie": "Bronisław",
@@ -1803,6 +1808,80 @@
                     "podpis": "Poświadczenie Urzędu Parafialnego obrządku łacińskiego w Płauczy Małej k. Zborowa, powiat Brzeżany, z 6 IV 1945 r. (u góry dopisek „Dla użytku kościelnego”): Gliceria Bonisławska, wdowa po Danielu, córka Piotra Baraban i Zofii Rad, urodzona w Płauczy Małej, woj. Tarnopol, wyznania rzymskokatolickiego, narodowości polskiej. Wiek zapisany jako 66 lat: ktoś specjalnie ją postarzył, a potem to poprawiono. Podpis księdza nieczytelny. Pieczęć parafii w Płauczy Małej.",
                     "zrodlo": "Zbiory rodzinne",
                     "szeroko": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anna-i-ludwik",
+      "pokolenie": 1.5,
+      "linia": "his",
+      "ona": {
+        "imie": "Anna",
+        "nazwisko": "Bonisławska",
+        "ur": "1915",
+        "zm": "1996",
+        "ur_data": "1 sierpnia 1915",
+        "zm_data": "19 stycznia 1996",
+        "ur_miejsce": "Płaucza Mała",
+        "rodzice": "eustachy-i-maria",
+        "ojciec": "Eustachy Bonisławski",
+        "matka": "Maria z d. Murzyńska",
+        "fakty": [
+          [
+            "Zawód",
+            "nauczycielka"
+          ],
+          [
+            "Ślub",
+            "Ludwik Pichur"
+          ]
+        ]
+      },
+      "on": {
+        "imie": "Ludwik",
+        "nazwisko": "Pichur",
+        "ur": "",
+        "zm": "",
+        "fakty": [
+          [
+            "Ślub",
+            "Anna Bonisławska"
+          ]
+        ]
+      },
+      "dzieci": [],
+      "tresc": [
+        {
+          "tytul": "Anna i Ludwik",
+          "historie": [
+            {
+              "tytul": "Anna Pichurowa, nauczycielka",
+              "elementy": [
+                {
+                  "akapit": "Poniższe streszczenie opiera się na relacji z książki zbiorowej oraz na wspomnieniach Ludwika Pichura, cytowanych w tej relacji."
+                },
+                {
+                  "akapit": "Anna Pichurowa zapisała się w świadomości mieszkańców Trościańca Wielkiego jako nauczycielka kochająca i rozumiejąca dzieci oraz jako prawy człowiek. Pracę w tamtejszej szkole rozpoczęła we wrześniu 1939 roku, w okresie sowieckiej okupacji. Ludwik Pichur, samorządowiec, od 1935 roku pracował w Olejowie jako sekretarz gminy zbiorowej, a później w Założcach. We wspomnieniach napisał, że z końcem września 1939 roku jego żona Anna została zatrudniona w szkole w Trościańcu Wielkim. Zamieszkali wtedy u Andrzeja Dzika w pobliżu plebanii."
+                },
+                {
+                  "akapit": "Nauczyciele musieli jeździć do Założc na dokształcanie i wstępować do związku zawodowego nauczycieli, a każdy przyjmowany składał życiorys. Gdy przyszła kolej na Annę, pytano ją, czy chodzi do kościoła i czy wierzy w Boga. Odpowiedziała, że od 25 lat jest wierzącą i praktykującą katoliczką. Jeden z inspektorów oświaty wnosił o nieprzyjęcie jej do związku i usunięcie ze szkoły, ale inny z obecnych zawnioskował o jej przyjęcie i ta decyzja zapadła. Według relacji koleżanki i koledzy gratulowali jej odwagi."
+                },
+                {
+                  "akapit": "W relacji opisano też proces ucznia Jana Hawryluka z Harbuzowa, który uciekł z górniczej szkoły zawodowej w Donbasie. Rejonowy Sąd Ludowy z Założc rozpatrywał jego sprawę na sesji wyjazdowej w Domu Ludowym w Trościańcu Wielkim. Ponieważ oskarżony był niepełnoletni, funkcję obrońcy-pedagoga powierzono Annie Pichur. Pojechała do Harbuzowa, rozmawiała z matką chłopca i sąsiadami, odwiedziła tamtejszą szkołę, a przed sądem przedstawiła jego sytuację rodzinną i materialną. Gdy prokurator ostro zaatakował matkę chłopca, Anna publicznie zwróciła mu uwagę na jego zachowanie. Sąd skazał chłopca na 10 lat ciężkich robót. W zamieszaniu po ogłoszeniu wyroku udało mu się wydostać z sali i zbiec."
+                },
+                {
+                  "akapit": "Relacja kończy się wzmianką o wydarzeniach z 24 czerwca 1941 roku: niemieckie oddziały stoczyły bój na szosie założeckiej, a władze rejonu się rozpierzchły. W tekście występuje zapis „Anna Pichur” i „Anna Pichurowa”, a w jednym miejscu „Hanna Pichur”."
+                },
+                {
+                  "przypis": {
+                    "etykieta": "Źródło",
+                    "tekst": "„Nasz kresowy dom nad Hukiem, Smolanką i Łopuszanką”, opracowanie zbiorowe pod redakcją Antoniego Worobca, Zielona Góra 2000, artykuł „Anna Pichurowa” (tekst dostępny na stronie wycinhki.olejow.pl), z wykorzystaniem wspomnień Ludwika Pichura „Moje wspomnienia z Trościańca Wielkiego”",
+                    "url": "http://wycinhki.olejow.pl/readarticle.php?article_id=556"
                   }
                 }
               ]
