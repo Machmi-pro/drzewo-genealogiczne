@@ -630,6 +630,21 @@
                   }
                 }
               ]
+            },
+            {
+              "tytul": "Fabryka Eitingonów",
+              "elementy": [
+                {
+                  "akapit": "Fabryka Eitingonów przy ul. Sienkiewicza 82/84 w Łodzi powstała na bazie zakładów Winklera, Gärtnera i Bormanna, przejętych przez braci Nauma i Borysa Eitingonów w 1919 roku; utworzyli spółkę firmową, a w 1922 r. spółkę akcyjną. Początkowo firma produkowała wyroby trykotowe (pończochy i rękawiczki) w budynku przy ul. Sienkiewicza 80/84. W latach 1923–1927 nastąpiła rozbudowa zakładów. Uruchomiono przędzalnię bawełny, tkalnię, farbiarnię i wykończalnię. Nowe oddziały znajdowały się między innymi przy ul. Dowborczyków 30/32. Zakłady Eitingona stały się po kryzysie lat 1929–1933 jednym z największych przedsiębiorstw włókienniczych w Łodzi. Firma Eitingona miała liczne powiązania finansowe z kapitałem amerykańskim, głównie przez osobę właściciela posiadającego duże udziały w koncernach w USA. Przedsiębiorstwo eksportowało swoje wyroby do Stanów Zjednoczonych, na rynki zachodnie oraz na Bliski Wschód. W latach 1939–1945 firma pozostawała pod niemieckim zarządem komisarycznym. Po 1945 została upaństwowiona, a jej majątek stał się częścią Państwowych Zakładów Przemysłu Bawełnianego nr 4."
+                },
+                {
+                  "przypis": {
+                    "etykieta": "Źródło",
+                    "tekst": "Szukaj w Archiwach, opis zespołu archiwalnego firmy Eitingona",
+                    "url": "https://www.szukajwarchiwach.gov.pl/en/zespol/-/zespol/72688"
+                  }
+                }
+              ]
             }
           ]
         }
