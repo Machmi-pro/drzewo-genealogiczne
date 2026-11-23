@@ -31,7 +31,13 @@
           "podpis": "Zofia Nowalska. Koloryzacja zdjęcia",
           "zrodlo": "Zbiory rodzinne. Koloryzacja cyfrowa, oryginał czarno-biały"
         },
-        "uwaga": "Data urodzenia według aktu zgonu."
+        "uwaga": "Data urodzenia według aktu zgonu.",
+        "fakty": [
+          [
+            "Wiek",
+            "87 lat"
+          ]
+        ]
       },
       "on": {
         "imie": "Bronisław",
@@ -397,6 +403,10 @@
           [
             "Mieszkała",
             "wieś Marianka, następnie Łódź, ul. Abramowskiego"
+          ],
+          [
+            "Wiek",
+            "76 lat"
           ]
         ],
         "portret": {
@@ -793,6 +803,10 @@
           [
             "Mieszkała",
             "Płaucza Mała, Wierzbica Górna 46"
+          ],
+          [
+            "Wiek",
+            "79 lat"
           ]
         ],
         "uwaga": "Ojciec, Mikołaj Murzyński, określony jako nobilis.",
@@ -1297,6 +1311,10 @@
           [
             "Ślub II",
             "Stanisław Józef Adamczyk, 1875, Lutkówka"
+          ],
+          [
+            "Wiek",
+            "46 lat"
           ]
         ]
       },
@@ -1324,6 +1342,10 @@
           [
             "Mieszkał",
             "Lutkówka / Marianka, powiat błoński"
+          ],
+          [
+            "Wiek",
+            "65 lat"
           ]
         ]
       },
@@ -1744,6 +1766,10 @@
           [
             "Ślub",
             "Ludwik Pichur"
+          ],
+          [
+            "Wiek",
+            "80 lat"
           ]
         ]
       },
@@ -1756,6 +1782,10 @@
           [
             "Ślub",
             "Anna Bonisławska"
+          ],
+          [
+            "Wiek",
+            "91 lat"
           ]
         ],
         "ojciec": "Władysław Pichur (1863–1941)",
@@ -2053,6 +2083,10 @@
           [
             "Ślub",
             "Władysław Cisowski"
+          ],
+          [
+            "Wiek",
+            "85 lat"
           ]
         ],
         "portret": {
@@ -2072,6 +2106,10 @@
           [
             "Ślub",
             "Maria Bonisławska"
+          ],
+          [
+            "Wiek",
+            "84 lata"
           ]
         ]
       },
@@ -2132,6 +2170,10 @@
           [
             "Ślub",
             "Telesfor Ożadowicz"
+          ],
+          [
+            "Wiek",
+            "93 lata"
           ]
         ],
         "portret": {
