@@ -407,10 +407,6 @@
             "robotnica w fabryce u Richterów (według wspomnień wnuka, „Kalejdoskop” 2/2013, s. 47)"
           ],
           [
-            "Mieszkała",
-            "wieś Marianka, następnie Łódź, ul. Abramowskiego"
-          ],
-          [
             "Wiek",
             "76 lat"
           ]
@@ -447,10 +443,6 @@
           [
             "Zawód",
             "robotnik, policjant (Policja Państwowa), ławnik; tkacz - pracował przy krosnach u Eitingonów (według wspomnień wnuka, „Kalejdoskop” 2/2013, s. 47)"
-          ],
-          [
-            "Mieszkał",
-            "Łódź, ul. Abramowskiego 34"
           ],
           [
             "Wiek",
@@ -497,6 +489,14 @@
               "elementy": [
                 {
                   "akapit": "W 1905 roku Wawrzyniec Nowalski poślubił Mariannę Zielińską (ślub w Łodzi, w parafii św. Krzyża). Marianna, urodzona około 1883 roku w Sójkach w powiecie kutnowskim, pracowała jako tkaczka. Mieli dwóch synów, Stanisława i Zygmunta. Marianna zmarła 19 lub 20 marca 1913 roku w Łodzi."
+                }
+              ]
+            },
+            {
+              "tytul": "Miejsce zamieszkania",
+              "elementy": [
+                {
+                  "akapit": "Stanisława mieszkała we wsi Marianka, a następnie w Łodzi przy ulicy Abramowskiego."
                 }
               ]
             }
@@ -811,10 +811,6 @@
             "Eustachy Bonisławski"
           ],
           [
-            "Mieszkała",
-            "Płaucza Mała, Wierzbica Górna 46"
-          ],
-          [
             "Wiek",
             "79 lat"
           ]
@@ -850,10 +846,6 @@
           [
             "Zawód",
             "kierował pocztą i był sekretarzem gminy"
-          ],
-          [
-            "Mieszkał",
-            "Płaucza Mała 124"
           ],
           [
             "Wiek",
@@ -992,6 +984,14 @@
                     "zrodlo": "Zbiory rodzinne",
                     "szeroko": false
                   }
+                }
+              ]
+            },
+            {
+              "tytul": "Miejsce zamieszkania",
+              "elementy": [
+                {
+                  "akapit": "Maria mieszkała w Płauczy Małej, a później w Wierzbicy Górnej pod numerem 46."
                 }
               ]
             }
@@ -1358,10 +1358,6 @@
             "Florentyna Stefankiewicz, 1.01.1895, Mszczonów. Florentyna miała wówczas 21 lat, urodzona w Rudzie, zamieszkała w Grudzinach, córka zmarłego Grzegorza Stefankiewicza i żyjącej Teodozji z domu Nowak"
           ],
           [
-            "Mieszkał",
-            "Lutkówka / Marianka, powiat błoński"
-          ],
-          [
             "Wiek",
             "65 lat"
           ]
@@ -1417,6 +1413,14 @@
               "elementy": [
                 {
                   "akapit": "Uwaga rodziny: dzieci Stanisława Józefa konsekwentnie podawały w Łodzi jako swoje strony rodzinne „Piekary”. To realna wieś, do 1954 roku siedziba osobnej gminy (dziś gmina Mszczonów), około 5 km od Lutkówki. Rodzina mieszkała więc w Mariance, administracyjnie w gminie Piekary, a do chrztu jeżdżono do kościoła parafialnego w Lutkówce."
+                }
+              ]
+            },
+            {
+              "tytul": "Miejsce zamieszkania",
+              "elementy": [
+                {
+                  "akapit": "Stanisław Józef mieszkał w Lutkówce i Mariance w powiecie błońskim."
                 }
               ]
             }
@@ -1738,10 +1742,6 @@
           [
             "Zawód",
             "rolnik"
-          ],
-          [
-            "Mieszkał",
-            "Płaucza Mała, dom nr 22"
           ],
           [
             "Wiek",
@@ -2863,10 +2863,6 @@
           [
             "Ślub",
             "Katarzyna Kowalczyk, 4.02.1844, Kutno. Świadkowie: Franciszek Lawendowski i Jędrzej Kubicki"
-          ],
-          [
-            "Mieszkał",
-            "Sójki, parafia Kutno"
           ]
         ]
       },
@@ -2933,10 +2929,6 @@
           [
             "Ślub III",
             "Magdalena Dziedziczak, wdowa po Bartłomieju Dziedziczaku, córka Józefa i Barbary, 8.02.1846, Kutno"
-          ],
-          [
-            "Mieszkał",
-            "Sójki, parafia Kutno (przez całe życie, jak wynika z aktów)"
           ]
         ]
       },
@@ -3011,10 +3003,6 @@
           [
             "Zawód",
             "włościanin (chłop posiadający ziemię)"
-          ],
-          [
-            "Mieszkał",
-            "najpierw Wieszczyce (parafia Strzelce), od około 1817–1818 Sójki (parafia Kutno), gdzie mieszkał do końca"
           ]
         ]
       },
@@ -3047,7 +3035,21 @@
           "opis": "ur. około 1818; zm. 13 kwietnia 1824, w wieku 6 lat, Sójki, dom nr 4"
         }
       ],
-      "tresc": []
+      "tresc": [
+        {
+          "tytul": "Miejsce zamieszkania",
+          "historie": [
+            {
+              "tytul": "Miejsce zamieszkania",
+              "elementy": [
+                {
+                  "akapit": "Wojciech mieszkał najpierw w Wieszczycach w parafii Strzelce, a od około 1817–1818 roku w Sójkach w parafii Kutno, gdzie mieszkał do końca życia."
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "andrzej-adamczyk-i-wiktoria",
@@ -3093,10 +3095,6 @@
             "gospodarz (posiadacz własnego gospodarstwa)"
           ],
           [
-            "Mieszkał",
-            "Władysławów, parafia Mszczonów"
-          ],
-          [
             "Wiek",
             "67 lat"
           ]
@@ -3115,7 +3113,21 @@
           "strona": "stanislaw-i-marianna"
         }
       ],
-      "tresc": []
+      "tresc": [
+        {
+          "tytul": "Miejsce zamieszkania",
+          "historie": [
+            {
+              "tytul": "Miejsce zamieszkania",
+              "elementy": [
+                {
+                  "akapit": "Andrzej mieszkał we Władysławowie, w parafii Mszczonów."
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "andrzej-zukowski-i-scholastyka",
@@ -3127,7 +3139,8 @@
         "zm": "",
         "ojciec": "Mateusz Rojewski",
         "matka": "Katarzyna",
-        "rodzice": "mateusz-rojewski-i-katarzyna"
+        "rodzice": "mateusz-rojewski-i-katarzyna",
+        "fakty": []
       },
       "on": {
         "imie": "Andrzej",
@@ -3136,7 +3149,8 @@
         "zm": "",
         "ojciec": "Maciej Żukowski",
         "matka": "Agata Cienkowska",
-        "rodzice": "maciej-zukowski-i-agata"
+        "rodzice": "maciej-zukowski-i-agata",
+        "fakty": []
       },
       "dzieci": [
         {
@@ -3163,7 +3177,8 @@
         "zm": "",
         "ojciec": "Maciej Antosiak",
         "matka": "Helena",
-        "rodzice": "maciej-antosiak-i-helena"
+        "rodzice": "maciej-antosiak-i-helena",
+        "fakty": []
       },
       "on": {
         "imie": "Mikołaj",
@@ -3172,7 +3187,8 @@
         "zm": "",
         "ojciec": "Mateusz Pietrasik",
         "matka": "Tekla",
-        "rodzice": "mateusz-pietrasik-i-tekla"
+        "rodzice": "mateusz-pietrasik-i-tekla",
+        "fakty": []
       },
       "dzieci": [
         {
@@ -3223,10 +3239,6 @@
             "komornik (bezrolny, wynajmujący kąt u gospodarza) / gospodarz"
           ],
           [
-            "Mieszkał",
-            "gmina Wiskicka, powiat sochaczewski"
-          ],
-          [
             "Zmarł",
             "przed 1839 rokiem"
           ],
@@ -3265,7 +3277,21 @@
           "strona": "andrzej-adamczyk-i-wiktoria"
         }
       ],
-      "tresc": []
+      "tresc": [
+        {
+          "tytul": "Miejsce zamieszkania",
+          "historie": [
+            {
+              "tytul": "Miejsce zamieszkania",
+              "elementy": [
+                {
+                  "akapit": "Franciszek mieszkał w gminie Wiskicka w powiecie sochaczewskim."
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "jan-kolodziejczyk-i-franciszka",
@@ -3318,7 +3344,8 @@
         "ur": "",
         "zm": "",
         "ojciec": "Dominik Cieńkowski",
-        "matka": "Petronela z d. Kowalczyk"
+        "matka": "Petronela z d. Kowalczyk",
+        "fakty": []
       },
       "on": {
         "imie": "Maciej",
@@ -3326,7 +3353,8 @@
         "ur": "",
         "zm": "",
         "ojciec": "Jan Żukowski",
-        "matka": "Marianna"
+        "matka": "Marianna",
+        "fakty": []
       },
       "dzieci": [
         {
@@ -3350,13 +3378,15 @@
         "imie": "Katarzyna",
         "nazwisko": "",
         "ur": "",
-        "zm": ""
+        "zm": "",
+        "fakty": []
       },
       "on": {
         "imie": "Mateusz",
         "nazwisko": "Rojewski",
         "ur": "",
-        "zm": ""
+        "zm": "",
+        "fakty": []
       },
       "dzieci": [
         {
@@ -3380,13 +3410,15 @@
         "imie": "Tekla",
         "nazwisko": "",
         "ur": "",
-        "zm": ""
+        "zm": "",
+        "fakty": []
       },
       "on": {
         "imie": "Mateusz",
         "nazwisko": "Pietrasik",
         "ur": "",
-        "zm": ""
+        "zm": "",
+        "fakty": []
       },
       "dzieci": [
         {
@@ -3410,13 +3442,15 @@
         "imie": "Helena",
         "nazwisko": "",
         "ur": "",
-        "zm": ""
+        "zm": "",
+        "fakty": []
       },
       "on": {
         "imie": "Maciej",
         "nazwisko": "Antosiak",
         "ur": "",
-        "zm": ""
+        "zm": "",
+        "fakty": []
       },
       "dzieci": [
         {
@@ -3442,14 +3476,16 @@
         "ur": "",
         "zm": "",
         "ojciec": "Stanisław",
-        "matka": "Elżbieta Dolot"
+        "matka": "Elżbieta Dolot",
+        "fakty": []
       },
       "on": {
         "imie": "Szczepan",
         "nazwisko": "Kowalczyk",
         "ur": "",
         "zm": "",
-        "ojciec": "Stanisław"
+        "ojciec": "Stanisław",
+        "fakty": []
       },
       "dzieci": [
         {

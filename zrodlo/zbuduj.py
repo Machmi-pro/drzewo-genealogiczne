@@ -110,12 +110,13 @@ def facts(o, fem):
         out = [r for r in rows if pred(r[0].strip())]
         for r in out: rows.remove(r)
         return "".join(f'<dt>{e(x)}</dt><dd>{e(y)}</dd>' for x, y in out)
+    r_przyc = pick(lambda k: k == "Przyczyna śmierci")
     r_wiek = pick(lambda k: k == "Wiek")
     r_zaw = pick(lambda k: k == "Zawód")
     r_slub = pick(lambda k: k.startswith("Ślub"))
     rest = "".join(f'<dt>{e(x)}</dt><dd>{e(y)}</dd>' for x, y in rows)
     return ('<dl class="facts">'
-            + r_ur + r_zm + r_wiek + r_zaw + r_slub
+            + r_ur + r_zm + r_przyc + r_wiek + r_zaw + r_slub
             + parent("Ojciec", o.get("ojciec"), o.get("rodzice"))
             + parent("Matka", o.get("matka"), o.get("rodzice"))
             + rest
