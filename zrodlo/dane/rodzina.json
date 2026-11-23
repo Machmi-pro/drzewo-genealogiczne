@@ -1004,6 +1004,23 @@
                     "zrodlo": "Zbiory rodzinne",
                     "szeroko": false
                   }
+                },
+                {
+                  "galeria": [
+                    {
+                      "plik": "zdjecia/eustachy-i-maria-zdjecie-rodzinne-2.jpg",
+                      "podpis": "Zdjęcie rodzinne",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "poziom"
+                    },
+                    {
+                      "plik": "zdjecia/eustachy-i-maria-zdjecie-rodzinne-3.jpg",
+                      "podpis": "Zdjęcie rodzinne",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "pion"
+                    }
+                  ],
+                  "etykieta": "Zdjęcia"
                 }
               ]
             }
