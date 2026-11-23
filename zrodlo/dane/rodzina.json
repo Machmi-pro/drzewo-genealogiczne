@@ -54,7 +54,13 @@
           "podpis": "Bronisław Bonisławski. Koloryzacja zdjęcia z czasu wojny",
           "zrodlo": "Zbiory rodzinne. Koloryzacja cyfrowa, oryginał czarno-biały"
         },
-        "zm_miejsce": "Łódź"
+        "zm_miejsce": "Łódź",
+        "fakty": [
+          [
+            "Wiek",
+            "79 lat"
+          ]
+        ]
       },
       "rozdzialy": [
         "Przed wojną",
@@ -445,6 +451,10 @@
           [
             "Mieszkał",
             "Łódź, ul. Abramowskiego 34"
+          ],
+          [
+            "Wiek",
+            "90 lat"
           ]
         ],
         "portret": {
@@ -844,6 +854,10 @@
           [
             "Mieszkał",
             "Płaucza Mała 124"
+          ],
+          [
+            "Wiek",
+            "56 lat"
           ]
         ],
         "uwaga": "Data urodzenia według metryki urodzenia (zgodnie z dowodem osobistym i zawiadomieniem szkolnym).",
@@ -1159,6 +1173,10 @@
           [
             "Pochowany",
             "Łódź, cmentarz św. Anny na Zarzewiu (grób rodzinny Bonisławskich i Nowalskich)"
+          ],
+          [
+            "Wiek",
+            "62 lata"
           ]
         ],
         "rodzice": "jakub-i-katarzyna"
@@ -1422,6 +1440,10 @@
           [
             "Ślub",
             "Franciszek Bonisławski"
+          ],
+          [
+            "Wiek",
+            "65 lat"
           ]
         ],
         "zm_data": "1909",
@@ -1445,6 +1467,10 @@
           [
             "Zawód",
             "rolnik"
+          ],
+          [
+            "Wiek",
+            "75 lat"
           ]
         ],
         "zm_data": "1909",
@@ -1544,6 +1570,10 @@
           [
             "Pochowana",
             "Wierzbica Górna, w wieku 87 lat"
+          ],
+          [
+            "Wiek",
+            "87 lat"
           ]
         ],
         "uwaga": "Data i miejsce śmierci według zestawienia grobów na cmentarzu w Wierzbicy Górnej.",
@@ -1712,6 +1742,10 @@
           [
             "Mieszkał",
             "Płaucza Mała, dom nr 22"
+          ],
+          [
+            "Wiek",
+            "73 lata"
           ]
         ]
       },
@@ -1914,6 +1948,10 @@
           [
             "Ślub",
             "Wojciech Dereń"
+          ],
+          [
+            "Wiek",
+            "74 lata"
           ]
         ]
       },
@@ -1926,6 +1964,10 @@
           [
             "Ślub",
             "Jadwiga Bonisławska"
+          ],
+          [
+            "Wiek",
+            "72 lata"
           ]
         ]
       },
@@ -2191,6 +2233,10 @@
           [
             "Ślub",
             "Irena Nowalska"
+          ],
+          [
+            "Wiek",
+            "86 lat"
           ]
         ]
       },
@@ -3049,6 +3095,10 @@
           [
             "Mieszkał",
             "Władysławów, parafia Mszczonów"
+          ],
+          [
+            "Wiek",
+            "67 lat"
           ]
         ]
       },
@@ -3461,6 +3511,10 @@
           [
             "Ślub",
             "Marta Rewna"
+          ],
+          [
+            "Wiek",
+            "około 69 lat"
           ]
         ]
       },
