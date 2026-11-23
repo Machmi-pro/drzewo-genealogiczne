@@ -851,6 +851,10 @@
         {
           "imie": "Agnieszka Bonisławska",
           "strona": "agnieszka-i-michal"
+        },
+        {
+          "imie": "Maria Bonisławska",
+          "strona": "maria-i-wladyslaw"
         }
       ],
       "lista_dzieci": [
@@ -875,7 +879,8 @@
         },
         {
           "imie": "Maria",
-          "opis": "ur. 6 lipca 1925, zm. 27 maja 2011; mąż: Władysław Cisowski"
+          "opis": "ur. 6 lipca 1925, zm. 27 maja 2011; mąż: Władysław Cisowski",
+          "strona": "maria-i-wladyslaw"
         }
       ],
       "tresc": [
@@ -2057,6 +2062,85 @@
                     "etykieta": "Źródła",
                     "tekst": "Lista ITS 008, poz. 81; lista ITS 051, poz. 371; karta płacowa „Nowalska, Irene”; baza osób represjonowanych: AAN, zespół Fundacja Polsko-Niemieckie Pojednanie w Warszawie [nr zespołu 2680], 219616; Urząd do Spraw Kombatantów i Osób Represjonowanych, P0423010708"
                   }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maria-i-wladyslaw",
+      "pokolenie": 1.5,
+      "linia": "his",
+      "ona": {
+        "imie": "Maria",
+        "nazwisko": "Bonisławska",
+        "ur": "1925",
+        "zm": "2011",
+        "ur_data": "6 lipca 1925",
+        "zm_data": "27 maja 2011",
+        "rodzice": "eustachy-i-maria",
+        "ojciec": "Eustachy Bonisławski",
+        "matka": "Maria z d. Murzyńska",
+        "fakty": [
+          [
+            "Ślub",
+            "Władysław Cisowski"
+          ]
+        ],
+        "portret": {
+          "plik": "zdjecia/maria-bonislawska-portret.jpg",
+          "podpis": "Maria Bonisławska, portret",
+          "zrodlo": "Zbiory rodzinne"
+        }
+      },
+      "on": {
+        "imie": "Władysław",
+        "nazwisko": "Cisowski",
+        "ur": "1918",
+        "zm": "2002",
+        "ur_data": "23 maja 1918",
+        "zm_data": "22 czerwca 2002",
+        "fakty": [
+          [
+            "Ślub",
+            "Maria Bonisławska"
+          ]
+        ]
+      },
+      "dzieci": [],
+      "lista_dzieci": [
+        {
+          "imie": "Krysia",
+          "opis": ""
+        },
+        {
+          "imie": "Ala (Halina)",
+          "opis": ""
+        },
+        {
+          "imie": "Edzio",
+          "opis": ""
+        }
+      ],
+      "tresc": [
+        {
+          "tytul": "Maria i Władysław",
+          "historie": [
+            {
+              "tytul": "Zdjęcia rodzinne",
+              "elementy": [
+                {
+                  "galeria": [
+                    {
+                      "plik": "zdjecia/maria-i-wladyslaw-zdjecie-rodzinne.jpg",
+                      "podpis": "Zdjęcie rodzinne. Na zdjęciu: Maria, żona Eustachego, Marysia, Władysław oraz ich dzieci Krysia, Ala (Halina) i Edzio.",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "poziom"
+                    }
+                  ],
+                  "etykieta": "Zdjęcia"
                 }
               ]
             }
