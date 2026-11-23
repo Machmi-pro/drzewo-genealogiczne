@@ -1850,14 +1850,16 @@
       "on": {
         "imie": "Ludwik",
         "nazwisko": "Pichur",
-        "ur": "",
-        "zm": "",
+        "ur": "1911",
+        "zm": "2003",
         "fakty": [
           [
             "Ślub",
             "Anna Bonisławska"
           ]
-        ]
+        ],
+        "ojciec": "Władysław (1863–1941)",
+        "matka": "Anna z d. Żuk (1871–1942)"
       },
       "dzieci": [],
       "tresc": [
