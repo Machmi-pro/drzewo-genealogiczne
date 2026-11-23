@@ -1926,8 +1926,44 @@
                   }
                 }
               ]
+            },
+            {
+              "tytul": "Zdjęcia rodzinne",
+              "elementy": [
+                {
+                  "galeria": [
+                    {
+                      "plik": "zdjecia/anna-ludwik-zdjecie-rodzinne-1.jpg",
+                      "podpis": "Zdjęcie rodzinne",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "pion"
+                    },
+                    {
+                      "plik": "zdjecia/anna-ludwik-zdjecie-rodzinne-2.jpg",
+                      "podpis": "Zdjęcie rodzinne. Zdjęcie przetworzone cyfrowo",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "pion"
+                    }
+                  ],
+                  "etykieta": "Zdjęcia"
+                }
+              ]
             }
           ]
+        }
+      ],
+      "lista_dzieci": [
+        {
+          "imie": "Ryszarda",
+          "opis": "ur. 18 grudnia 1938, zm. 19 marca 1939"
+        },
+        {
+          "imie": "Danuta",
+          "opis": ""
+        },
+        {
+          "imie": "Stanisław",
+          "opis": "ur. 10 kwietnia 1946, zm. 31 lipca 2015"
         }
       ]
     },
