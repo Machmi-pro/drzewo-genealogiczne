@@ -855,6 +855,10 @@
         {
           "imie": "Maria Bonisławska",
           "strona": "maria-i-wladyslaw"
+        },
+        {
+          "imie": "Jadwiga Bonisławska",
+          "strona": "jadwiga-i-wojciech"
         }
       ],
       "lista_dzieci": [
@@ -870,7 +874,8 @@
         },
         {
           "imie": "Jadwiga",
-          "opis": "ur. 15 maja 1921, zm. 1995; mąż: Wojciech Dereń"
+          "opis": "ur. 15 maja 1921, zm. 1995; mąż: Wojciech Dereń",
+          "strona": "jadwiga-i-wojciech"
         },
         {
           "imie": "Agnieszka",
@@ -2147,6 +2152,47 @@
           ]
         }
       ]
+    },
+    {
+      "id": "jadwiga-i-wojciech",
+      "pokolenie": 1.5,
+      "linia": "his",
+      "ona": {
+        "imie": "Jadwiga",
+        "nazwisko": "Bonisławska",
+        "ur": "1921",
+        "zm": "1995",
+        "ur_data": "15 maja 1921",
+        "rodzice": "eustachy-i-maria",
+        "ojciec": "Eustachy Bonisławski",
+        "matka": "Maria z d. Murzyńska",
+        "fakty": [
+          [
+            "Ślub",
+            "Wojciech Dereń"
+          ]
+        ]
+      },
+      "on": {
+        "imie": "Wojciech",
+        "nazwisko": "Dereń",
+        "ur": "1919",
+        "zm": "1991",
+        "fakty": [
+          [
+            "Ślub",
+            "Jadwiga Bonisławska"
+          ]
+        ]
+      },
+      "dzieci": [],
+      "lista_dzieci": [
+        {
+          "imie": "Krzysztof Wojciech",
+          "opis": "1952–2006"
+        }
+      ],
+      "tresc": []
     },
     {
       "id": "ignacy-i-maria",
