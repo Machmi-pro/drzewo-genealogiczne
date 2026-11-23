@@ -105,11 +105,20 @@ def facts(o, fem):
     r_ur = row("Urodzona" if fem else "Urodzony", "*", o.get("ur"), "ur")
     r_zm = row("Zmarła" if fem else "Zmarł", "†", o.get("zm"), "zm")
     dup = ({"urodzona", "urodzony"} if r_ur else set()) | ({"zmarła", "zmarł"} if r_zm else set())
+    rows = [(x, y) for x, y in o.get("fakty", []) if x.strip().lower() not in dup]
+    def pick(pred):
+        out = [r for r in rows if pred(r[0].strip())]
+        for r in out: rows.remove(r)
+        return "".join(f'<dt>{e(x)}</dt><dd>{e(y)}</dd>' for x, y in out)
+    r_wiek = pick(lambda k: k == "Wiek")
+    r_zaw = pick(lambda k: k == "Zawód")
+    r_slub = pick(lambda k: k.startswith("Ślub"))
+    rest = "".join(f'<dt>{e(x)}</dt><dd>{e(y)}</dd>' for x, y in rows)
     return ('<dl class="facts">'
-            + r_ur + r_zm
-            + "".join(f'<dt>{e(a)}</dt><dd>{e(b)}</dd>' for a, b in o.get("fakty", []) if a.strip().lower() not in dup)
+            + r_ur + r_zm + r_wiek + r_zaw + r_slub
             + parent("Ojciec", o.get("ojciec"), o.get("rodzice"))
             + parent("Matka", o.get("matka"), o.get("rodzice"))
+            + rest
             + '</dl>'
             + (f'<p class="factnote">{e(o["uwaga"])}</p>' if o.get("uwaga") else ''))
 
