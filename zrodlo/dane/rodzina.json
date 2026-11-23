@@ -1722,133 +1722,6 @@
       ]
     },
     {
-      "id": "agnieszka-i-michal",
-      "pokolenie": 1.5,
-      "linia": "his",
-      "ona": {
-        "imie": "Agnieszka",
-        "nazwisko": "Bonisławska",
-        "ur": "1923",
-        "zm": "2017",
-        "ur_data": "22.01.1923",
-        "zm_data": "3.07.2017",
-        "rodzice": "eustachy-i-maria",
-        "ojciec": "Eustachy Bonisławski",
-        "matka": "Maria z d. Murzyńska",
-        "fakty": [
-          [
-            "Ślub",
-            "Michał Bonisławski"
-          ],
-          [
-            "Wiek",
-            "94 lata"
-          ]
-        ],
-        "ur_miejsce": "Płaucza Mała",
-        "zm_miejsce": "Wierzbica Górna",
-        "portret": {
-          "plik": "zdjecia/agnieszka-bonislawska-portret.jpg",
-          "podpis": "Agnieszka Bonisławska. Koloryzacja zdjęcia",
-          "zrodlo": "Zbiory rodzinne. Koloryzacja cyfrowa"
-        }
-      },
-      "on": {
-        "imie": "Michał",
-        "nazwisko": "Bonisławski",
-        "ur": "1912",
-        "zm": "1998",
-        "fakty": [
-          [
-            "Ślub",
-            "Agnieszka Bonisławska"
-          ],
-          [
-            "Wiek",
-            "85 lat"
-          ]
-        ],
-        "uwaga": "Michał nosił to samo nazwisko co żona, ale pochodził z innej linii przodków.",
-        "ur_data": "17.09.1912",
-        "zm_data": "28.08.1998",
-        "ur_miejsce": "Płaucza Mała",
-        "zm_miejsce": "Wierzbica Górna",
-        "ojciec": "Daniel Bonisławski",
-        "matka": "Gliceria z d. Baraban"
-      },
-      "dzieci": [],
-      "tresc": [
-        {
-          "tytul": "Agnieszka i Michał",
-          "historie": [
-            {
-              "tytul": "Agnieszka Bonisławska",
-              "elementy": [
-                {
-                  "akapit": "Zachowało się świadectwo ukończenia niepełnej szkoły średniej, wydane Agnieszce Bonisławskiej w czerwcu 1941 roku."
-                },
-                {
-                  "zdjecie": {
-                    "plik": "skany/agnieszka-bonislawska-swiadectwo-1941.jpg",
-                    "podpis": "Zaświadczenie Ludowego Komisariatu Oświaty URSR dla Agnieszki Bonisławskiej, córki Eustachego, ur. 1923, nr 4, czerwiec 1941 r.",
-                    "zrodlo": "Zbiory rodzinne",
-                    "szeroko": false
-                  }
-                },
-                {
-                  "transkrypcja": {
-                    "naglowek": "Odczyt zaświadczenia",
-                    "linie": [
-                      "URSR, Ludowy Komisariat Oświaty. Zaświadczenie nr 4.",
-                      "Wydano Agnieszce Eustachówna Bonisławskiej, ur. w roku 1923 (ostatnia cyfra niepewna), uczennicy Prościanieckiej niepełnej szkoły średniej we wsi Prościaniec Wielki (odczyt niepewny), rejonu załoźieckiego, obwodu tarnopolskiego.",
-                      "Ukończyła pełny kurs szkoły. Sprawowanie: bardzo dobre.",
-                      "Bardzo dobre: język ukraiński, literatura ukraińska (wpis słabo widoczny), język rosyjski, literatura rosyjska, język polski, literatura polska, algebra, geometria, przyrodoznawstwo, konstytucja ZSRS i URSR, kreślenie, kultura fizyczna.",
-                      "Dobre: historia, geografia, fizyka, chemia, język obcy (niemiecki).",
-                      "Rubryki arytmetyki, rysunków i śpiewu są puste.",
-                      "Czerwca 1941 r. Podpisy: dyrektor szkoły (nieczytelny) i nauczyciele (nazwiska niepewne). Pieczęć okrągła, napis w alfabecie ukraińskim, z nazwą obwodu tarnopolskiego i rejonu załoźieckiego."
-                    ],
-                    "uwaga": "Pismo ręczne jest częściowo trudne do odczytania, a skan ma załamania. Miejsca niepewne zaznaczono w opisie."
-                  }
-                }
-              ]
-            },
-            {
-              "tytul": "Rodzina",
-              "elementy": [
-                {
-                  "akapit": "Agnieszka i Michał Bonisławscy urodzili się w Płauczy Małej, a zmarli w Wierzbicy Górnej. Agnieszka żyła 94 lata, a Michał 85. Nie mieli dzieci."
-                },
-                {
-                  "zdjecie": {
-                    "plik": "zdjecia/agnieszka-i-michal-bonislawscy.jpg",
-                    "podpis": "Agnieszka i Michał Bonisławscy. Koloryzacja zdjęcia",
-                    "zrodlo": "Zbiory rodzinne. Koloryzacja cyfrowa",
-                    "szeroko": false
-                  }
-                }
-              ]
-            },
-            {
-              "tytul": "Matka Michała",
-              "elementy": [
-                {
-                  "akapit": "Ojcem Michała był Daniel Bonisławski, a matką Gliceria z domu Baraban. Gliceria, wdowa po Danielu, córka Piotra Baraban i Zofii Rad, była Ukrainką. Zaświadczenie parafialne z Płauczy Małej z 6 kwietnia 1945 roku wpisuje ją jako osobę wyznania rzymskokatolickiego i narodowości polskiej. Dzięki temu dokumentowi mogła po wojnie wyjechać z Ukrainy."
-                },
-                {
-                  "zdjecie": {
-                    "plik": "skany/gliceria-bonislawska-poswiadczenie-1945.jpg",
-                    "podpis": "Poświadczenie Urzędu Parafialnego obrządku łacińskiego w Płauczy Małej k. Zborowa, powiat Brzeżany, z 6 IV 1945 r. (u góry dopisek „Dla użytku kościelnego”): Gliceria Bonisławska, wdowa po Danielu, córka Piotra Baraban i Zofii Rad, urodzona w Płauczy Małej, woj. Tarnopol, wyznania rzymskokatolickiego, narodowości polskiej. Wiek zapisany jako 66 lat: ktoś specjalnie ją postarzył, a potem to poprawiono. Podpis księdza nieczytelny. Pieczęć parafii w Płauczy Małej.",
-                    "zrodlo": "Zbiory rodzinne",
-                    "szeroko": true
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "anna-i-ludwik",
       "pokolenie": 1.5,
       "linia": "his",
@@ -1995,6 +1868,253 @@
       ]
     },
     {
+      "id": "jadwiga-i-wojciech",
+      "pokolenie": 1.5,
+      "linia": "his",
+      "ona": {
+        "imie": "Jadwiga",
+        "nazwisko": "Bonisławska",
+        "ur": "1921",
+        "zm": "1995",
+        "ur_data": "15 maja 1921",
+        "rodzice": "eustachy-i-maria",
+        "ojciec": "Eustachy Bonisławski",
+        "matka": "Maria z d. Murzyńska",
+        "fakty": [
+          [
+            "Ślub",
+            "Wojciech Dereń"
+          ]
+        ]
+      },
+      "on": {
+        "imie": "Wojciech",
+        "nazwisko": "Dereń",
+        "ur": "1919",
+        "zm": "1991",
+        "fakty": [
+          [
+            "Ślub",
+            "Jadwiga Bonisławska"
+          ]
+        ]
+      },
+      "dzieci": [],
+      "lista_dzieci": [
+        {
+          "imie": "Krzysztof Wojciech",
+          "opis": "1952–2006"
+        }
+      ],
+      "tresc": []
+    },
+    {
+      "id": "agnieszka-i-michal",
+      "pokolenie": 1.5,
+      "linia": "his",
+      "ona": {
+        "imie": "Agnieszka",
+        "nazwisko": "Bonisławska",
+        "ur": "1923",
+        "zm": "2017",
+        "ur_data": "22.01.1923",
+        "zm_data": "3.07.2017",
+        "rodzice": "eustachy-i-maria",
+        "ojciec": "Eustachy Bonisławski",
+        "matka": "Maria z d. Murzyńska",
+        "fakty": [
+          [
+            "Ślub",
+            "Michał Bonisławski"
+          ],
+          [
+            "Wiek",
+            "94 lata"
+          ]
+        ],
+        "ur_miejsce": "Płaucza Mała",
+        "zm_miejsce": "Wierzbica Górna",
+        "portret": {
+          "plik": "zdjecia/agnieszka-bonislawska-portret.jpg",
+          "podpis": "Agnieszka Bonisławska. Koloryzacja zdjęcia",
+          "zrodlo": "Zbiory rodzinne. Koloryzacja cyfrowa"
+        }
+      },
+      "on": {
+        "imie": "Michał",
+        "nazwisko": "Bonisławski",
+        "ur": "1912",
+        "zm": "1998",
+        "fakty": [
+          [
+            "Ślub",
+            "Agnieszka Bonisławska"
+          ],
+          [
+            "Wiek",
+            "85 lat"
+          ]
+        ],
+        "uwaga": "Michał nosił to samo nazwisko co żona, ale pochodził z innej linii przodków.",
+        "ur_data": "17.09.1912",
+        "zm_data": "28.08.1998",
+        "ur_miejsce": "Płaucza Mała",
+        "zm_miejsce": "Wierzbica Górna",
+        "ojciec": "Daniel Bonisławski",
+        "matka": "Gliceria z d. Baraban"
+      },
+      "dzieci": [],
+      "tresc": [
+        {
+          "tytul": "Agnieszka i Michał",
+          "historie": [
+            {
+              "tytul": "Agnieszka Bonisławska",
+              "elementy": [
+                {
+                  "akapit": "Zachowało się świadectwo ukończenia niepełnej szkoły średniej, wydane Agnieszce Bonisławskiej w czerwcu 1941 roku."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/agnieszka-bonislawska-swiadectwo-1941.jpg",
+                    "podpis": "Zaświadczenie Ludowego Komisariatu Oświaty URSR dla Agnieszki Bonisławskiej, córki Eustachego, ur. 1923, nr 4, czerwiec 1941 r.",
+                    "zrodlo": "Zbiory rodzinne",
+                    "szeroko": false
+                  }
+                },
+                {
+                  "transkrypcja": {
+                    "naglowek": "Odczyt zaświadczenia",
+                    "linie": [
+                      "URSR, Ludowy Komisariat Oświaty. Zaświadczenie nr 4.",
+                      "Wydano Agnieszce Eustachówna Bonisławskiej, ur. w roku 1923 (ostatnia cyfra niepewna), uczennicy Prościanieckiej niepełnej szkoły średniej we wsi Prościaniec Wielki (odczyt niepewny), rejonu załoźieckiego, obwodu tarnopolskiego.",
+                      "Ukończyła pełny kurs szkoły. Sprawowanie: bardzo dobre.",
+                      "Bardzo dobre: język ukraiński, literatura ukraińska (wpis słabo widoczny), język rosyjski, literatura rosyjska, język polski, literatura polska, algebra, geometria, przyrodoznawstwo, konstytucja ZSRS i URSR, kreślenie, kultura fizyczna.",
+                      "Dobre: historia, geografia, fizyka, chemia, język obcy (niemiecki).",
+                      "Rubryki arytmetyki, rysunków i śpiewu są puste.",
+                      "Czerwca 1941 r. Podpisy: dyrektor szkoły (nieczytelny) i nauczyciele (nazwiska niepewne). Pieczęć okrągła, napis w alfabecie ukraińskim, z nazwą obwodu tarnopolskiego i rejonu załoźieckiego."
+                    ],
+                    "uwaga": "Pismo ręczne jest częściowo trudne do odczytania, a skan ma załamania. Miejsca niepewne zaznaczono w opisie."
+                  }
+                }
+              ]
+            },
+            {
+              "tytul": "Rodzina",
+              "elementy": [
+                {
+                  "akapit": "Agnieszka i Michał Bonisławscy urodzili się w Płauczy Małej, a zmarli w Wierzbicy Górnej. Agnieszka żyła 94 lata, a Michał 85. Nie mieli dzieci."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "zdjecia/agnieszka-i-michal-bonislawscy.jpg",
+                    "podpis": "Agnieszka i Michał Bonisławscy. Koloryzacja zdjęcia",
+                    "zrodlo": "Zbiory rodzinne. Koloryzacja cyfrowa",
+                    "szeroko": false
+                  }
+                }
+              ]
+            },
+            {
+              "tytul": "Matka Michała",
+              "elementy": [
+                {
+                  "akapit": "Ojcem Michała był Daniel Bonisławski, a matką Gliceria z domu Baraban. Gliceria, wdowa po Danielu, córka Piotra Baraban i Zofii Rad, była Ukrainką. Zaświadczenie parafialne z Płauczy Małej z 6 kwietnia 1945 roku wpisuje ją jako osobę wyznania rzymskokatolickiego i narodowości polskiej. Dzięki temu dokumentowi mogła po wojnie wyjechać z Ukrainy."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/gliceria-bonislawska-poswiadczenie-1945.jpg",
+                    "podpis": "Poświadczenie Urzędu Parafialnego obrządku łacińskiego w Płauczy Małej k. Zborowa, powiat Brzeżany, z 6 IV 1945 r. (u góry dopisek „Dla użytku kościelnego”): Gliceria Bonisławska, wdowa po Danielu, córka Piotra Baraban i Zofii Rad, urodzona w Płauczy Małej, woj. Tarnopol, wyznania rzymskokatolickiego, narodowości polskiej. Wiek zapisany jako 66 lat: ktoś specjalnie ją postarzył, a potem to poprawiono. Podpis księdza nieczytelny. Pieczęć parafii w Płauczy Małej.",
+                    "zrodlo": "Zbiory rodzinne",
+                    "szeroko": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maria-i-wladyslaw",
+      "pokolenie": 1.5,
+      "linia": "his",
+      "ona": {
+        "imie": "Maria",
+        "nazwisko": "Bonisławska",
+        "ur": "1925",
+        "zm": "2011",
+        "ur_data": "6 lipca 1925",
+        "zm_data": "27 maja 2011",
+        "rodzice": "eustachy-i-maria",
+        "ojciec": "Eustachy Bonisławski",
+        "matka": "Maria z d. Murzyńska",
+        "fakty": [
+          [
+            "Ślub",
+            "Władysław Cisowski"
+          ]
+        ],
+        "portret": {
+          "plik": "zdjecia/maria-bonislawska-portret.jpg",
+          "podpis": "Maria Bonisławska, portret",
+          "zrodlo": "Zbiory rodzinne"
+        }
+      },
+      "on": {
+        "imie": "Władysław",
+        "nazwisko": "Cisowski",
+        "ur": "1918",
+        "zm": "2002",
+        "ur_data": "23 maja 1918",
+        "zm_data": "22 czerwca 2002",
+        "fakty": [
+          [
+            "Ślub",
+            "Maria Bonisławska"
+          ]
+        ]
+      },
+      "dzieci": [],
+      "lista_dzieci": [
+        {
+          "imie": "Krysia",
+          "opis": ""
+        },
+        {
+          "imie": "Ala (Halina)",
+          "opis": ""
+        },
+        {
+          "imie": "Edzio",
+          "opis": ""
+        }
+      ],
+      "tresc": [
+        {
+          "tytul": "Maria i Władysław",
+          "historie": [
+            {
+              "tytul": "Zdjęcia rodzinne",
+              "elementy": [
+                {
+                  "galeria": [
+                    {
+                      "plik": "zdjecia/maria-i-wladyslaw-zdjecie-rodzinne.jpg",
+                      "podpis": "Zdjęcie rodzinne. Na zdjęciu: Maria, żona Eustachego i matka Marii, Maria, Władysław oraz ich dzieci Krysia, Ala (Halina) i Edzio.",
+                      "zrodlo": "Zbiory rodzinne",
+                      "ksztalt": "poziom"
+                    }
+                  ],
+                  "etykieta": "Zdjęcia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "irena-i-telesfor",
       "pokolenie": 1.5,
       "linia": "her",
@@ -2090,126 +2210,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "maria-i-wladyslaw",
-      "pokolenie": 1.5,
-      "linia": "his",
-      "ona": {
-        "imie": "Maria",
-        "nazwisko": "Bonisławska",
-        "ur": "1925",
-        "zm": "2011",
-        "ur_data": "6 lipca 1925",
-        "zm_data": "27 maja 2011",
-        "rodzice": "eustachy-i-maria",
-        "ojciec": "Eustachy Bonisławski",
-        "matka": "Maria z d. Murzyńska",
-        "fakty": [
-          [
-            "Ślub",
-            "Władysław Cisowski"
-          ]
-        ],
-        "portret": {
-          "plik": "zdjecia/maria-bonislawska-portret.jpg",
-          "podpis": "Maria Bonisławska, portret",
-          "zrodlo": "Zbiory rodzinne"
-        }
-      },
-      "on": {
-        "imie": "Władysław",
-        "nazwisko": "Cisowski",
-        "ur": "1918",
-        "zm": "2002",
-        "ur_data": "23 maja 1918",
-        "zm_data": "22 czerwca 2002",
-        "fakty": [
-          [
-            "Ślub",
-            "Maria Bonisławska"
-          ]
-        ]
-      },
-      "dzieci": [],
-      "lista_dzieci": [
-        {
-          "imie": "Krysia",
-          "opis": ""
-        },
-        {
-          "imie": "Ala (Halina)",
-          "opis": ""
-        },
-        {
-          "imie": "Edzio",
-          "opis": ""
-        }
-      ],
-      "tresc": [
-        {
-          "tytul": "Maria i Władysław",
-          "historie": [
-            {
-              "tytul": "Zdjęcia rodzinne",
-              "elementy": [
-                {
-                  "galeria": [
-                    {
-                      "plik": "zdjecia/maria-i-wladyslaw-zdjecie-rodzinne.jpg",
-                      "podpis": "Zdjęcie rodzinne. Na zdjęciu: Maria, żona Eustachego i matka Marii, Maria, Władysław oraz ich dzieci Krysia, Ala (Halina) i Edzio.",
-                      "zrodlo": "Zbiory rodzinne",
-                      "ksztalt": "poziom"
-                    }
-                  ],
-                  "etykieta": "Zdjęcia"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "jadwiga-i-wojciech",
-      "pokolenie": 1.5,
-      "linia": "his",
-      "ona": {
-        "imie": "Jadwiga",
-        "nazwisko": "Bonisławska",
-        "ur": "1921",
-        "zm": "1995",
-        "ur_data": "15 maja 1921",
-        "rodzice": "eustachy-i-maria",
-        "ojciec": "Eustachy Bonisławski",
-        "matka": "Maria z d. Murzyńska",
-        "fakty": [
-          [
-            "Ślub",
-            "Wojciech Dereń"
-          ]
-        ]
-      },
-      "on": {
-        "imie": "Wojciech",
-        "nazwisko": "Dereń",
-        "ur": "1919",
-        "zm": "1991",
-        "fakty": [
-          [
-            "Ślub",
-            "Jadwiga Bonisławska"
-          ]
-        ]
-      },
-      "dzieci": [],
-      "lista_dzieci": [
-        {
-          "imie": "Krzysztof Wojciech",
-          "opis": "1952–2006"
-        }
-      ],
-      "tresc": []
     },
     {
       "id": "ignacy-i-maria",
