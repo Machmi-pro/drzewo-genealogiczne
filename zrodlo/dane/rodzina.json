@@ -60,7 +60,8 @@
             "Wiek",
             "79 lat"
           ]
-        ]
+        ],
+        "zm_data": "19.10.1996"
       },
       "rozdzialy": [
         "Przed wojną",
@@ -373,7 +374,7 @@
                   "etykieta": "Zdjęcia"
                 },
                 {
-                  "akapit": "Bronisław zmarł w 1996 roku w Łodzi. Zofia zmarła 29 listopada 2007 roku w Łodzi."
+                  "akapit": "Bronisław zmarł 19 października 1996 roku w Łodzi. Zofia zmarła 29 listopada 2007 roku w Łodzi."
                 }
               ]
             }
@@ -889,7 +890,7 @@
         },
         {
           "imie": "Bronisław",
-          "opis": "ur. 21 czerwca 1917, zm. 1996; żona: Zofia Nowalska",
+          "opis": "ur. 21 czerwca 1917, zm. 19 października 1996; żona: Zofia Nowalska",
           "strona": "zofia-i-bronislaw"
         },
         {
