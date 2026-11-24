@@ -1449,9 +1449,13 @@
           [
             "Wiek",
             "około 65 lat"
+          ],
+          [
+            "Pochowana",
+            "10 maja 1909"
           ]
         ],
-        "zm_data": "1909 (akt 4)",
+        "zm_data": "8 maja 1909 (akt 4)",
         "rodzice": "michal-i-franciszka"
       },
       "on": {
@@ -1476,9 +1480,13 @@
           [
             "Wiek",
             "75 lat"
+          ],
+          [
+            "Pochowany",
+            "24 listopada 1909"
           ]
         ],
-        "zm_data": "1909 (akt 8)",
+        "zm_data": "23 listopada 1909 (akt 8)",
         "rodzice": "stanislaw-i-marta"
       },
       "dzieci": [
@@ -1537,6 +1545,25 @@
             {
               "tytul": "Akta parafialne",
               "elementy": [
+                {
+                  "zdjecie": {
+                    "plik": "skany/budylow-zgony-1909-sarnicka-bonislawski.jpg",
+                    "podpis": "Liber mortuorum, 1909, strony 562–563. Wpisy zgonu Klary Bonisławskiej (poz. 4, dom nr 124) i Franciszka Bonisławskiego (poz. 8, dom nr 124).",
+                    "zrodlo": "Archiwum Główne Akt Dawnych, zespół 301, sygn. 1831",
+                    "url": "http://agadd2.home.net.pl/metrykalia/301/sygn.%201831/pages/1_301_0_0_1831_0311.htm",
+                    "szeroko": true
+                  }
+                },
+                {
+                  "transkrypcja": {
+                    "naglowek": "Odczyt wpisów",
+                    "linie": [
+                      "Pagus „Płaucza parva”, Tomo VII, pag. 46–47. Poz. 4: zmarła 8 maja, pochowana 10 maja 1909, nr domu 124. Klara Bonisławska, żona pozostawionego męża Franciszka, z domu Sarnicka, córka Michała Sarnickiego, rolnika. Wiek: 64½ roku. Przyczyna: marasmus senilis (odczyt niepewny).",
+                      "Poz. 8: zmarł 23 listopada, pochowany 24 listopada 1909, nr domu 124. Franciszek Bonisławski, wdowiec po Klarze Sarnickiej, rolnik. Wiek: 75 lat. Przyczyna: marasmus senilis."
+                    ],
+                    "uwaga": "Odczyt z rozkładówki. Niepewne miejsca: przyczyna śmierci przy poz. 4, dopiski o kapłanie i słowa przy przyczynie."
+                  }
+                },
                 {
                   "przypis": {
                     "etykieta": "Źródło",
