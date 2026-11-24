@@ -3561,9 +3561,9 @@
       "on": {
         "imie": "Stanisław",
         "nazwisko": "Bonisławski (Bolesławski)",
-        "ur": "ok. 1805",
+        "ur": "ok. 1809",
         "zm": "1879",
-        "ur_data": "około 1805",
+        "ur_data": "około 1809 (wyliczone z wieku 70 lat w akcie zgonu)",
         "ur_miejsce": "dom nr 10",
         "zm_data": "2 maja 1879 (akt 7)",
         "zm_miejsce": "dom nr 10",
@@ -3585,7 +3585,7 @@
           ],
           [
             "Wiek",
-            "70 lat (według aktu zgonu)"
+            "70 lat"
           ],
           [
             "Pochowany",
@@ -3663,11 +3663,11 @@
         "nazwisko": "Zapotoczna",
         "ur": "",
         "zm": "",
-        "uwaga": "Ślub z Tomaszem prawdopodobnie po połowie 1803 roku, a przed 1805, po śmierci Marianny Konopackiej, która żyła jeszcze 29 czerwca 1803 roku. Data szacunkowa, brak bezpośredniego aktu.",
+        "uwaga": "Ślub z Tomaszem prawdopodobnie po połowie 1803 roku, a przed styczniem 1807, po śmierci Marianny Konopackiej, która żyła jeszcze 29 czerwca 1803 roku. Data szacunkowa, brak bezpośredniego aktu.",
         "fakty": [
           [
             "Ślub",
-            "Tomasz Bolesławski, prawdopodobnie po połowie 1803 roku, przed 1805 (data szacunkowa)"
+            "Tomasz Bolesławski, prawdopodobnie po połowie 1803 roku, przed styczniem 1807 (data szacunkowa)"
           ]
         ]
       },
@@ -3685,7 +3685,7 @@
           ],
           [
             "Ślub II",
-            "Maria Zapotoczna, prawdopodobnie po połowie 1803 roku, przed 1805 (data szacunkowa, brak bezpośredniego aktu)"
+            "Maria Zapotoczna, prawdopodobnie po połowie 1803 roku, przed styczniem 1807 (data szacunkowa, brak bezpośredniego aktu)"
           ]
         ]
       },
@@ -3727,13 +3727,13 @@
           "grupa": "Dzieci Tomasza i Marii Zapotocznej"
         },
         {
-          "imie": "Stanisław",
-          "opis": "ur. około 1805, dom nr 10",
-          "strona": "stanislaw-i-marta"
-        },
-        {
           "imie": "Agnieszka",
           "opis": "ur. 10 stycznia 1807, dom nr 10; w 1827 wyszła za Jana Szafrana (syn Grzegorza i Marianny Szefowej), lat 24, panna; świadkowie: Stefan Marć(?), Józef Pichur; akt nr 882"
+        },
+        {
+          "imie": "Stanisław",
+          "opis": "ur. około 1809, dom nr 10",
+          "strona": "stanislaw-i-marta"
         }
       ],
       "tresc": [
