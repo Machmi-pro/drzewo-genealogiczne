@@ -3544,7 +3544,7 @@
         "imie": "Marta",
         "nazwisko": "Rewna",
         "ur": "",
-        "zm": "przed 1874",
+        "zm": "przed 1879",
         "ojciec": "Łukasz Rewny",
         "matka": "Maria Rzeźnik",
         "fakty": [
@@ -3554,7 +3554,7 @@
           ],
           [
             "Zmarła",
-            "przed 1874"
+            "przed 1879"
           ]
         ]
       },
@@ -3562,10 +3562,10 @@
         "imie": "Stanisław",
         "nazwisko": "Bonisławski (Bolesławski)",
         "ur": "ok. 1805",
-        "zm": "1874",
+        "zm": "1879",
         "ur_data": "około 1805",
         "ur_miejsce": "dom nr 10",
-        "zm_data": "1 maja 1874",
+        "zm_data": "2 maja 1879 (akt 7)",
         "zm_miejsce": "dom nr 10",
         "ojciec": "Tomasz Bolesławski",
         "matka": "Maria Zapotoczna",
@@ -3585,7 +3585,11 @@
           ],
           [
             "Wiek",
-            "około 69 lat"
+            "70 lat (według aktu zgonu)"
+          ],
+          [
+            "Pochowany",
+            "4 maja 1879"
           ]
         ]
       },
@@ -3610,7 +3614,46 @@
           "opis": "ur. 24 sierpnia 1843, dom nr 10, Płaucza Mała. Chrzestni: Jakub Rewny (rolnik), Marianna Łuczycha"
         }
       ],
-      "tresc": []
+      "tresc": [
+        {
+          "tytul": "Dokumenty",
+          "historie": [
+            {
+              "tytul": "Akt zgonu Stanisława Bonisławskiego, 1879",
+              "elementy": [
+                {
+                  "akapit": "Stanisław Bonisławski zmarł 2 maja 1879 roku w Płauczy Małej, w domu nr 10, a pochowano go 4 maja. Według aktu miał 70 lat, a przyczyną zgonu była starość. Akt opisuje go jako wdowca po Marcie Rewnej, córce Łukasza."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/budylow-zgony-1879-stanislaw-bonislawski.jpg",
+                    "podpis": "Liber mortuorum, 1879, strony 165–166. Wpis zgonu Stanisława Bonisławskiego (poz. 7, dom nr 10).",
+                    "zrodlo": "Archiwum Główne Akt Dawnych, zespół 301, sygn. 1610",
+                    "url": "http://agadd.home.net.pl/metrykalia/301/sygn.%201610/pages/PL_1_301_1610_0089.htm",
+                    "szeroko": true
+                  }
+                },
+                {
+                  "transkrypcja": {
+                    "naglowek": "Odczyt wpisu",
+                    "linie": [
+                      "Pagus „Płaucza mała”, Tomo XII, pag. 20. Poz. 7: zmarł 2 maja, pochowany 4 maja 1879, nr domu 10. Stanislaus Bonislawski, viduus post p.d. Marthan Renny Lucae agricola, czyli wdowiec po śp. Marcie Renny, (córce) Łukasza, rolnika. Wiek: 70 lat. Przyczyna: senectus (starość)."
+                    ],
+                    "uwaga": "Odczyt z rozkładówki. Niepewne miejsca: zapis „Renny” oraz forma „Lucae agricola”."
+                  }
+                },
+                {
+                  "przypis": {
+                    "etykieta": "Źródło",
+                    "tekst": "Akt zgonu nr 7, 1879, Archiwum Główne Akt Dawnych, zespół 301, sygn. 1610",
+                    "url": "http://agadd.home.net.pl/metrykalia/301/sygn.%201610/pages/PL_1_301_1610_0089.htm"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "tomasz-i-maria",
