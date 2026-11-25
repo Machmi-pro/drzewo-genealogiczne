@@ -53,6 +53,11 @@ def expand(level):
             if parent in PARY and parent not in side:
                 walk(parent, s if level == 1 else side[pid])
 for lvl in range(1, 10): expand(lvl)
+# rodzeństwo spoza drzewa (klucz „po”: wstaw kafel zaraz po wskazanej parze)
+for p in data["pary"]:
+    if p.get("po") and p["id"] not in side:
+        side[p["id"]] = side.get(p["po"])
+        order.insert(order.index(p["po"]) + 1, p["id"])
 
 def full(o): return f'{o["imie"]} {o["nazwisko"]}'
 def couple_name(p):

@@ -1123,6 +1123,195 @@
       ]
     },
     {
+      "id": "michal-i-paracewa",
+      "pokolenie": 2,
+      "ona": {
+        "imie": "Paracewa",
+        "nazwisko": "",
+        "fakty": [
+          [
+            "Ślub",
+            "Michał Bonisławski"
+          ]
+        ],
+        "uwaga": "Imię według artykułu w Folha de Irati (2021)."
+      },
+      "on": {
+        "imie": "Michał",
+        "nazwisko": "Bonisławski",
+        "ur": "1879",
+        "ur_data": "24 lipca 1879 (akt 8)",
+        "ur_miejsce": "Płaucza Mała, dom nr 124",
+        "ojciec": "Franciszek Bonisławski",
+        "matka": "Klara z d. Sarnicka",
+        "rodzice": "franciszek-i-klara",
+        "fakty": [
+          [
+            "Zawód",
+            "rolnik, a także inspektor weterynaryjno-skarbowy nadzorujący ubój zwierząt (według artykułu)"
+          ],
+          [
+            "Ślub",
+            "Paracewa"
+          ],
+          [
+            "Emigracja",
+            "1929, do Brazylii, Irati w stanie Paraná (według artykułu)"
+          ]
+        ]
+      },
+      "dzieci": [],
+      "lista_dzieci": [
+        {
+          "imie": "Stanisław (Stacho, port. Estanislau)",
+          "opis": "ur. 1911, Płaucza Mała; zm. 2005, Irati (Brazylia), w wieku 94 lat; budowniczy; żona: Felicja z d. Ruski (Felícia Ruski Bronislavski), ślub 1941 (wg listu); ośmioro dzieci (wg artykułu), w 1947 roku trzech synów: Nelson, Mario i Julek (wg listu)"
+        },
+        {
+          "imie": "Jan (Janek, port. João)",
+          "opis": "malarz; w 1947 roku miał żonę i czworo dzieci (wg listu)"
+        },
+        {
+          "imie": "Apolonia (Polonia, port. Apolônia)",
+          "opis": "w 1947 roku z mężem i dwojgiem dzieci: Heleną i Jankiem (wg listu)"
+        }
+      ],
+      "tresc": [
+        {
+          "tytul": "Michał i Paracewa",
+          "historie": [
+            {
+              "tytul": "Płaucza Mała i wyjazd do Brazylii",
+              "elementy": [
+                {
+                  "akapit": "Michał Bonisławski urodził się 24 lipca 1879 roku w Płauczy Małej, w domu nr 124 (akt 8). Według artykułu w brazylijskiej gazecie Folha de Irati, jego żoną była Paracewa, a dziećmi Stanisław (Stacho), João (Jan) i Apolônia (Apolonia). Rodzina wyjechała do Brazylii w 1929 roku i osiedliła się w Irati w stanie Paraná."
+                },
+                {
+                  "akapit": "W księdze indeksu emigrantów, na stronie 85 (litery Bon–Boj), wpisano „Bonisławski Michał, Płaucza mała”, a pod nim „Stanisław dtto”."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/emigracja-lwow-ksiega-s85-bon-boj.jpg",
+                    "podpis": "Księga indeksu emigrantów, strona 85 (Bon–Boj). Wpisy: Bonisławski Michał, Płaucza mała; Stanisław dtto.",
+                    "zrodlo": "Emigracja – Lwów, skany, 1-1227, skan 0088 (zrodlacyfrowe.pl)",
+                    "url": "https://zrodlacyfrowe.pl/emigracja-lwow-skany/1-1227/0088-1897526.jpg",
+                    "szeroko": false
+                  }
+                },
+                {
+                  "przypis": {
+                    "etykieta": "Źródło",
+                    "tekst": "Emigracja – Lwów, skany, 1-1227, skan 0088, zrodlacyfrowe.pl",
+                    "url": "https://zrodlacyfrowe.pl/emigracja-lwow-skany/1-1227/0088-1897526.jpg"
+                  }
+                }
+              ]
+            },
+            {
+              "tytul": "List Stanisława z Irati, 15 grudnia 1947",
+              "elementy": [
+                {
+                  "akapit": "Zachował się list Stanisława, syna Michała, wysłany z Irati w Brazylii 15 grudnia 1947 roku do Bronisława Bonisławskiego i jego rodziny. Autor pisze o rodzicach, Janku, Polonii z rodziną i o własnej rodzinie, i prosi o wiadomości o wojnie, niewoli i nowej Polsce."
+                },
+                {
+                  "galeria": [
+                    {
+                      "plik": "skany/list-stanislawa-1947-str-1.jpg",
+                      "podpis": "List Stanisława z Irati, 15 grudnia 1947, strona 1.",
+                      "zrodlo": "Zbiory rodzinne",
+                      "etykieta": "List, str. 1",
+                      "ksztalt": "pion"
+                    },
+                    {
+                      "plik": "skany/list-stanislawa-1947-str-2.jpg",
+                      "podpis": "List Stanisława z Irati, 15 grudnia 1947, strona 2.",
+                      "zrodlo": "Zbiory rodzinne",
+                      "etykieta": "List, str. 2",
+                      "ksztalt": "pion"
+                    }
+                  ]
+                },
+                {
+                  "transkrypcja": {
+                    "naglowek": "Odczyt listu",
+                    "linie": [
+                      "Irati dnia 15/XII 1947.",
+                      "Drogi Braciszku i Rodzino",
+                      "List od ciebie otrzymałem z bardzo wielką radością, że przeżyłeś tą wojnę piekielną,",
+                      "walczyłeś nad Wisłą, poświęcałeś swe życie sto krotnie okrutniej, jak niegdyś Wanda poświęciła się bez niemców o Polskę, walczyliście tem polem krzyżowym w śród gradu kul lotniczych i kanonów w Warszawie o Polskę, i tak niemiec zrozpruszył [?] Warszawę,",
+                      "dostałeś się do niewoli, i tak Braciszku jesteś szczęśliwy, że przeżyłeś te męczenia, te krzyżowania hitlerowskie.",
+                      "Wróciłeś się do Polski, wysłałeś [?] przesłać tatusia, radować się z pulną [?] „lecz” nie możesz się pomodlić na Mogile jego,",
+                      "Ale przyjdzie ta chwila, że z tą wielką sławą zapłyniemy [?] w to miejsce rodzinne i gniazdo ojców naszych, tak jak niemiec zapłacił swą w czasną [?] krwią, tak i każdy w rug [?] zapłaci.",
+                      "Droga Rodzino, teraz wam do naszej życzymy [?] w szyjny [?]. Jesteśmy z zdrowiu i powodzeniu dobrze. Tatuś mój jest staruszek i od czasu wojny 14 roku bolą go nogi i plecy, mamusia jeszcze jest silniejsza. Siostra Polonia z szwagrem też się z zdrowia mają, dwoje dzieci: jedną dziewczynkę nazywa się Helena,",
+                      "i jednego chłopaka na imię mu Janek. Brat mój Janek jest malarzem, żona jego jest chorowita, już zrobiła dwie operacje, dzieci mają czworo.",
+                      "Ja ożeniłem się 41 roku, żona moja nazywa się Felicia, mamy już 3 synów: najstarszy nazywa się Nelson, drugi Mario, a trzeci Julek.",
+                      "Teraz was proszę bardzo, odpisz prędko, opisz mi Braciu o całej wojnie i niewoli, i o nowej Polsce [fragment zamazany, odczyt niepewny], i o naszych powodzeniach [?].",
+                      "[fragment zamazany] pozdrawiamy Was wszystkich. Daj wam Boże jak najprędzej doczekać się lepszych czasów. Całujemy,",
+                      "Stanisław, Felicia, Nelson, Mario i Julek.",
+                      "Irati, rua Vicente Machado N° 386, Paraná, Brasil"
+                    ],
+                    "uwaga": "Pisownia oryginału zachowana w przybliżeniu. [?] oznacza odczyt niepewny; dolna część strony 2 jest zamazana."
+                  }
+                }
+              ]
+            },
+            {
+              "tytul": "Artykuł o Stanisławie w Folha de Irati, 2021",
+              "elementy": [
+                {
+                  "akapit": "Gazeta Folha de Irati opublikowała 5 lutego 2021 roku biografię „Estanislau, o imigrante construtor de templos”, czyli „Estanislau, imigrant budowniczy świątyń”, w ramach obchodów 150-lecia polskiej imigracji w Paranie (organizacja Braspol). Poniżej tłumaczenie artykułu z portugalskiego."
+                },
+                {
+                  "zdjecie": {
+                    "plik": "skany/folha-de-irati-2021-02-05-estanislau.jpg",
+                    "podpis": "Folha de Irati, 5 lutego 2021, dodatek Cidades, s. 4: „Estanislau, o imigrante construtor de templos”. Zdjęcia z archiwum rodziny Bronislavski.",
+                    "zrodlo": "Folha de Irati, autorzy: Julio Marcos Bronislavski i Leticia H. Pabis",
+                    "szeroko": true
+                  }
+                },
+                {
+                  "akapit": "Estanislau (potocznie znany jako Stacho) Bronislavski urodził się w 1911 roku we wsi Plaucza Mala, w powiecie Brzeżany w Polsce, i przybył do Brazylii w 1929 roku wraz z rodzicami, Miguelem i Paracewą, oraz rodzeństwem, João i Apolônią. Ojciec Stacha, Miguel, oprócz tego, że był rolnikiem, był także inspektorem weterynaryjno-skarbowym i nadzorował ubój zwierząt."
+                },
+                {
+                  "akapit": "Z bólem wspominając I wojnę światową i konflikty z sąsiednimi państwami, chcieli tylko pokoju, aby pracować i żyć swoją wiarą. Dlatego Miguel, zaniepokojony przyszłością rodziny, postanowił sprzedać wszystko i wyemigrować do Brazylii. Podróż do Rio de Janeiro trwała 21 dni, na parowcu Swiatowid, wśród burz i choroby morskiej. Następnie popłynęli do portu Paranaguá w stanie Paraná, a stamtąd dojechali do Kurytyby i dalej do miejsca przeznaczenia, Irati."
+                },
+                {
+                  "akapit": "Irati było małą osadą, miejscem prostym, spokojnym, przyjemnym, otoczonym wzgórzami i okazałymi sosnami, z ulicami z ubitej ziemi, niektórymi o stromym spadku. Zawiadowca stacji cierpliwie dał się zrozumieć i wskazał im duży barak dla imigrantów przy Rua Dezenove de Dezembro, na końcu podjazdu Rua 15 de Julho. Zamieszkali tam tymczasowo, do czasu przeprowadzki do małego domu."
+                },
+                {
+                  "akapit": "Wkrótce szukali pracy, a prace rolne wydawały się pierwszą możliwością. Trzeba było chodzić, czasem nawet 10 km, by dotrzeć na miejsce pracy, w słońcu lub w deszczu. Dzielili plantację z właścicielem ziemi, sadząc fasolę i ziemniaki, uprawiając ziemię z troską, bo z niej czerpali utrzymanie, w pocie czoła, dziękując Bogu za wolność i pokój osiągnięte w nowej ziemi."
+                },
+                {
+                  "akapit": "W poszukiwaniu nowych wyzwań Estanislau poszedł pracować w kamieniołomie Fortesa (Cezário Fortes) i łamiąc kamienie, młody człowiek odkrył swój nowy zawód. Z czasem nabył kamieniołom i wykonał pierwszy bruk w Irati, na Rua Munhoz da Rocha. Obserwując mistrzów budowlanych i kamieniarzy, wypracował własną technikę, od kamienia po cegłę, i zaczął budować domy murowane. Stał się znany z dbałości o szczegóły, uczciwości i niezwykłej energii."
+                },
+                {
+                  "akapit": "Wtedy Stacho został wezwany do wzniesienia kościoła św. Michała (Igreja de São Miguel) w Irati. Piękna praca szybko zyskała rozgłos, a w 1950 roku otrzymał od ks. Pinocy zaproszenie do Prudentópolis, aby zbudować w stylu gotyckim Sanktuarium Matki Bożej Łaskawej (Nossa Senhora das Graças), uwidaczniając swoją wiarę w kamiennych fundamentach kościoła."
+                },
+                {
+                  "akapit": "Studiował korespondencyjnie techniki architektury i budownictwa i poprzez tynki oraz cegły wytyczył swoją drogę. Zbudował szpital dla sióstr ukraińskich, część seminarium dla księży ukraińskich i kino dla Domingosa Luiza, po czym pod koniec 1957 roku wrócił do Irati."
+                },
+                {
+                  "akapit": "Jako kompetentny fachowiec zaczął być cenionym przez inżynierów, z którymi pracował, do tego stopnia, że proszono go o opinię przy planach i projektach. Zbudował wiele domów oraz budynek obok kościoła Nossa Senhora da Luz. Jego ostatnią pracą była budowa Szpitala Ortopedycznego dla dr. Jorge Elmora Juniora, z którym bardzo się zaprzyjaźnił."
+                },
+                {
+                  "akapit": "Estanislau był żonaty z Felícią Ruski Bronislavski, z którą miał ośmioro dzieci. Dał im swój sposób życia, przykład, poczucie moralności, dobra i zła, sprawiedliwości i niesprawiedliwości. Zaszczepił w nich także miłość do dalekiej ziemi, religię katolicką, polską gastronomię i tradycje wielkanocne i bożonarodzeniowe, w tym kolędy (polskie pieśni bożonarodzeniowe)."
+                },
+                {
+                  "akapit": "Gdy skończył 90 lat, został uhonorowany muzyką śpiewaną po polsku przez Genovevę Zavilinski podczas mszy w kościele św. Michała oraz typowym polskim obiadem w chacrze (gospodarstwie) rodziny. Estanislau zmarł w wieku 94 lat, w 2005 roku, w Irati, a z inicjatywy radnego Hamiltona Kominskiego jego imię nadano ulicy w mieście Irati."
+                },
+                {
+                  "przypis": {
+                    "etykieta": "Źródło",
+                    "tekst": "Julio Marcos Bronislavski, Leticia H. Pabis, „Estanislau, o imigrante construtor de templos”, Folha de Irati, 5 lutego 2021, dodatek Cidades, s. 4"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "po": "eustachy-i-maria"
+    },
+    {
       "id": "piotr-i-marianna",
       "pokolenie": 3,
       "ona": {
@@ -1491,6 +1680,10 @@
       },
       "dzieci": [
         {
+          "imie": "Michał Bonisławski",
+          "strona": "michal-i-paracewa"
+        },
+        {
           "imie": "Eustachy Bonisławski",
           "strona": "eustachy-i-maria"
         }
@@ -1522,7 +1715,8 @@
         },
         {
           "imie": "Michał",
-          "opis": "ur. 24 lipca 1879, Płaucza Mała, dom nr 124 (akt 8)"
+          "opis": "ur. 24 lipca 1879, Płaucza Mała, dom nr 124 (akt 8)",
+          "strona": "michal-i-paracewa"
         },
         {
           "imie": "Zofia",
