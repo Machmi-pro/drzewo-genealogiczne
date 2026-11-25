@@ -8,7 +8,8 @@
     "1.5": "Rodzeństwo Zofii i Bronisława",
     "5": "Pokolenie 5",
     "6": "Pokolenie 6",
-    "7": "Pokolenie 7"
+    "7": "Pokolenie 7",
+    "2.5": "Rodzeństwo pokolenia 2"
   },
   "pary": [
     {
@@ -1124,7 +1125,7 @@
     },
     {
       "id": "michal-i-paracewa",
-      "pokolenie": 2,
+      "pokolenie": 2.5,
       "ona": {
         "imie": "Paracewa",
         "nazwisko": "",
@@ -1309,7 +1310,7 @@
           ]
         }
       ],
-      "po": "eustachy-i-maria"
+      "linia": "his"
     },
     {
       "id": "piotr-i-marianna",
