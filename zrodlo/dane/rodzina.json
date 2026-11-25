@@ -1663,70 +1663,6 @@
           ]
         },
         {
-          "tytul": "Dzieci Mikołaja i Justyny",
-          "historie": [
-            {
-              "tytul": "Maria i Eustachy Bonisławscy",
-              "elementy": [
-                {
-                  "akapit": "Maria poślubiła Eustachego Bonisławskiego, w rodzinie nazywanego też Stanisławem. Zamieszkali po północnej stronie sąsiedniego domu. Mąż Marii kierował pocztą i był sekretarzem gminy. Mieli pięcioro dzieci: Annę, Bronisława, Jadwigę, Agnieszkę i Marię. Więcej na stronie Marii i Eustachego."
-                }
-              ]
-            },
-            {
-              "tytul": "Franciszka Haupt i jej dzieci",
-              "elementy": [
-                {
-                  "akapit": "Franciszka, zwana Franią, poślubiła kowala Edwarda Haupta. Mieszkali w Płauczy, przy uliczce Małaczyńskich. Mieli troje dzieci: Karolinę, Helenę i Mieczysława. Karolina, zwana Karolcią, wyszła za Franciszka Sarnickiego i mieszkała w Płauczy. Według wspomnień Helena została zamordowana przez banderowców, a Mieczysława wywieziono na roboty do Niemiec."
-                }
-              ]
-            },
-            {
-              "tytul": "Bartłomiej i Tekla",
-              "elementy": [
-                {
-                  "akapit": "Bartłomiej, zwany Bartkiem, poślubił Teklę z Nietrebskich. Zamieszkali po południowej stronie sąsiedniego domu. Podczas I wojny światowej Bartłomiej służył w armii austriackiej, brał także udział w wojnie polsko-ukraińskiej. Mieli dwoje dzieci: Marię i Stanisława."
-                }
-              ]
-            },
-            {
-              "tytul": "Anna Starościak i jej rodzina",
-              "elementy": [
-                {
-                  "akapit": "Anna, zwana Hanią, poślubiła Jana Starościaka i zamieszkała na kolonii w Glinnej. Mieli trzech synów: Mariana, Tadeusza i Zbigniewa."
-                }
-              ]
-            },
-            {
-              "tytul": "Józef Murzyński i rodzina Anny z Łuków",
-              "elementy": [
-                {
-                  "akapit": "Józef, urodzony w 1906 roku, poślubił Annę z Łuków. Po śmierci Mikołaja zamieszkała z nimi Justyna, wdowa po nim. Józef i Anna mieli dwoje dzieci, w tym córkę Rysię, urodzoną 11 września 1939 roku. Anna zmarła w 1940 roku. Józef ożenił się ponownie z Wiktorią z Jasińskich. Z tego małżeństwa urodzili się Danuta i Tadeusz."
-                },
-                {
-                  "akapit": "Anna urodziła się w 1912 roku jako córka Maksyma Łukowa i Józefy z Dobrowolskich. Józefa wyjechała do Argentyny wraz z kuzynem Julianem Dobrowolskim. Tam, u krewnego, poznała Maksyma. Po pewnym czasie wróciła do Płauczy, gdzie wzięli ślub. Wybudowali dom na Tomaszówce i mieli dwoje dzieci: Michała oraz młodszą od niego Annę. Józefa zmarła młodo. Maksym wkrótce potem poślubił Nastię, którą we wspomnieniach oceniono jako niedobrą macochę."
-                }
-              ]
-            },
-            {
-              "tytul": "Katarzyna Feldman i jej dzieci",
-              "elementy": [
-                {
-                  "akapit": "Katarzyna, zwana Kasią, poślubiła kowala o nazwisku Feldman, mieszkającego w Glinnej. Mieli troje dzieci: Stanisławę, Władysława i Kazimierza."
-                }
-              ]
-            },
-            {
-              "tytul": "Franciszek Murzyński",
-              "elementy": [
-                {
-                  "akapit": "Franciszek uczył się przez kilka lat w gimnazjum. Następnie służył w wojsku, gdzie osiągnął stopień plutonowego. Po zakończeniu służby pracował w policji. W 1939 roku był zastępcą komendanta w Bóbrce."
-                }
-              ]
-            }
-          ]
-        },
-        {
           "tytul": "Kościół w Płauczy",
           "historie": [
             {
@@ -1777,32 +1713,32 @@
       "lista_dzieci": [
         {
           "imie": "Maria",
-          "opis": "ur. 17 października 1892, zm. 12 maja 1972; mąż: Eustachy Bonisławski",
+          "opis": "ur. 17 października 1892, zm. 12 maja 1972; mąż: Eustachy Bonisławski, w rodzinie nazywany też Stanisławem. Zamieszkali po północnej stronie sąsiedniego domu. Eustachy kierował pocztą i był sekretarzem gminy. Mieli pięcioro dzieci: Annę, Bronisława, Jadwigę, Agnieszkę i Marię.",
           "strona": "eustachy-i-maria"
         },
         {
           "imie": "Franciszka",
-          "opis": "zwana Franią; mąż: Edward Haupt, kowal"
+          "opis": "zwana Franią; mąż: Edward Haupt, kowal. Mieszkali w Płauczy, przy uliczce Małaczyńskich. Mieli troje dzieci: Karolinę, Helenę i Mieczysława. Karolina, zwana Karolcią, wyszła za Franciszka Sarnickiego i mieszkała w Płauczy. Według wspomnień Helena została zamordowana przez banderowców, a Mieczysława wywieziono na roboty do Niemiec."
         },
         {
           "imie": "Bartłomiej",
-          "opis": "ur. i ochrzczony 8 czerwca 1899, zm. 3 listopada 1967; zwany Bartkiem; żona: Tekla z Nietrebskich"
+          "opis": "ur. i ochrzczony 8 czerwca 1899, zm. 3 listopada 1967; zwany Bartkiem; żona: Tekla z Nietrebskich. Zamieszkali po południowej stronie sąsiedniego domu. Podczas I wojny światowej Bartłomiej służył w armii austriackiej, brał także udział w wojnie polsko-ukraińskiej. Mieli dwoje dzieci: Marię i Stanisława."
         },
         {
           "imie": "Anna",
-          "opis": "zwana Hanią; mąż: Jan Starościak"
+          "opis": "zwana Hanią; mąż: Jan Starościak. Zamieszkali na kolonii w Glinnej. Mieli trzech synów: Mariana, Tadeusza i Zbigniewa."
         },
         {
           "imie": "Józef",
-          "opis": "ur. 19 czerwca 1906, chrzest 20 czerwca 1906, zm. 10 października 1960; żony: Anna z Łuków, następnie Wiktoria z Jasińskich"
+          "opis": "ur. 19 czerwca 1906, chrzest 20 czerwca 1906, zm. 10 października 1960; poślubił Annę z Łuków. Po śmierci Mikołaja zamieszkała z nimi Justyna, wdowa po nim. Józef i Anna mieli dwoje dzieci, w tym córkę Rysię, urodzoną 11 września 1939 roku. Anna zmarła w 1940 roku. Józef ożenił się ponownie z Wiktorią z Jasińskich. Z tego małżeństwa urodzili się Danuta i Tadeusz. Anna urodziła się w 1912 roku jako córka Maksyma Łukowa i Józefy z Dobrowolskich. Józefa wyjechała do Argentyny wraz z kuzynem Julianem Dobrowolskim. Tam, u krewnego, poznała Maksyma. Po pewnym czasie wróciła do Płauczy, gdzie wzięli ślub. Wybudowali dom na Tomaszówce i mieli dwoje dzieci: Michała oraz młodszą od niego Annę. Józefa zmarła młodo. Maksym wkrótce potem poślubił Nastię, którą we wspomnieniach oceniono jako niedobrą macochę."
         },
         {
           "imie": "Katarzyna",
-          "opis": "zwana Kasią; mąż: Feldman, kowal"
+          "opis": "zwana Kasią; mąż: Feldman, kowal, mieszkający w Glinnej. Mieli troje dzieci: Stanisławę, Władysława i Kazimierza."
         },
         {
           "imie": "Franciszek",
-          "opis": "ur. 3 lutego 1913, zm. 18 maja 1966; plutonowy, policjant"
+          "opis": "ur. 3 lutego 1913, zm. 18 maja 1966. Uczył się przez kilka lat w gimnazjum. Następnie służył w wojsku, gdzie osiągnął stopień plutonowego. Po zakończeniu służby pracował w policji. W 1939 roku był zastępcą komendanta w Bóbrce."
         }
       ]
     },
@@ -2537,28 +2473,14 @@
         },
         {
           "imie": "Maria",
-          "opis": "wyszła za Drewnickiego i zamieszkała w Płauczy; syn Piotr"
+          "opis": "córka (wspomnienia rodzinne); wyszła za mężczyznę o nazwisku Drewnicki i zamieszkała w Płauczy. Ich syn Piotr został zmobilizowany w 1939 roku, a po wojnie mieszkał w Koszalińskiem."
         },
         {
           "imie": "córka (imię nieznane)",
-          "opis": "wyszła za Turkiewicza, zamieszkała prawdopodobnie w okolicach Lwowa"
+          "opis": "córka (wspomnienia rodzinne); wyszła za Turkiewicza i zamieszkała prawdopodobnie w okolicach Lwowa. Jej syn po wyjeździe na zachód osiadł w Kluczborku."
         }
       ],
-      "tresc": [
-        {
-          "tytul": "Rodzina",
-          "historie": [
-            {
-              "tytul": "Franciszek Murzyński i jego dzieci",
-              "elementy": [
-                {
-                  "akapit": "Według wspomnień rodzinnych wśród dzieci Franciszka byli syn Mikołaj oraz dwie córki. Jedna z córek, Maria, poślubiła mężczyznę o nazwisku Drewnicki i zamieszkała w Płauczy. Ich syn Piotr został zmobilizowany w 1939 roku, a po wojnie mieszkał w Koszalińskiem. Druga córka wyszła za Turkiewicza i zamieszkała prawdopodobnie w okolicach Lwowa. Jej syn po wyjeździe na zachód osiadł w Kluczborku."
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "tresc": []
     },
     {
       "id": "tomasz-i-antonina",
