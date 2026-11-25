@@ -1159,7 +1159,8 @@
             "Emigracja",
             "1929, do Brazylii, Irati w stanie Paraná (według artykułu)"
           ]
-        ]
+        ],
+        "uwaga": "Dom nr 10 był domem Bonisławskich, w którym urodził się Franciszek. Dom nr 124, wcześniej dom Klary Sarnickiej, przeszedł potem w ręce Bonisławskich i w nim zmarli Franciszek i Klara. Rodzina miała więc dwa domy: nr 10 i nr 124."
       },
       "dzieci": [],
       "lista_dzieci": [
@@ -1184,7 +1185,7 @@
               "tytul": "Akt urodzenia Michała Bonisławskiego, 1879",
               "elementy": [
                 {
-                  "akapit": "Michał Bonisławski urodził się 24 lipca 1879 roku w Płauczy Małej, w domu nr 124, i został ochrzczony tego samego dnia. Akt nosi numer 8. Jako rodziców podano Franciszka Bonisławskiego, rolnika, syna Stanisława i Marty z d. Rewna, oraz Klarę, córkę Michała Sarnickiego i Franciszki Pichur, rolników. Rodzicami chrzestnymi byli Grzegorz Lisowski, rolnik, oraz Katarzyna Szafran, żona Demetriusza (Dymitra), rolnika."
+                  "akapit": "Michał Bonisławski urodził się 24 lipca 1879 roku w Płauczy Małej, w domu nr 124, i został ochrzczony tego samego dnia. Akt nosi numer 8. Jako rodziców podano Franciszka Bonisławskiego, rolnika, syna Stanisława i Marty z d. Rewna, oraz Klarę, córkę Michała Sarnickiego i Franciszki Pichur, rolników. Rodzicami chrzestnymi byli Grzegorz Lisowski, rolnik, oraz Katarzyna Szafran, żona Demetriusza (Dymitra), rolnika. W rubryce numeru domu zapisano 10 i 124: dom nr 10 był domem Bonisławskich, w którym urodził się Franciszek. Dom nr 124, wcześniej dom Klary Sarnickiej, przeszedł potem w ręce Bonisławskich i w nim zmarli Franciszek i Klara. Rodzina miała więc dwa domy: nr 10 i nr 124."
                 },
                 {
                   "zdjecie": {
@@ -1713,7 +1714,8 @@
           ]
         ],
         "zm_data": "23 listopada 1909 (akt 8)",
-        "rodzice": "stanislaw-i-marta"
+        "rodzice": "stanislaw-i-marta",
+        "uwaga": "Dom nr 10 był domem Bonisławskich, w którym urodził się Franciszek. Dom nr 124, wcześniej dom Klary Sarnickiej, przeszedł potem w ręce Bonisławskich i w nim zmarli Franciszek i Klara. Rodzina miała więc dwa domy: nr 10 i nr 124."
       },
       "dzieci": [
         {
